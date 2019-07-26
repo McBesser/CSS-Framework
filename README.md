@@ -55,6 +55,28 @@ An example to insert the CSS framework in the HTML head:
 <link rel="stylesheet" media="(min-width: 1200px)" href="/css/border/border-meta-bp-1200.css" />
 ```
 
+## File Schema
+file name (folder name)
+```*name*.css```
+file for insert with media attribute
+```*-meta-*.css```
+file contains breakpoint
+```
+*bp-0*.css
+*bp-576*.css
+*bp-768*.css
+*bp-992*.css
+*bp-1200*.css
+```
+
+## CSS Schema
+first part always name / short-name or breakpoint with name / short-name
+eg.
+```
+.container
+.bp-576-container
+```
+
 **legend:**
 - d = display
 - bp = breakpoint
