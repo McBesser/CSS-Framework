@@ -55,15 +55,15 @@ An example to insert the CSS framework in the HTML head:
 <link rel="stylesheet" media="(min-width: 1200px)" href="/css/border/border-meta-bp-1200.css" />
 ```
 
-legend:
-d = display
-bp = breakpoint
-br = border
-m = margin
-mx = margin horizontal (left and right)
-my = margin vertical (top and bottom)
-p = padding (eg. spacing padding) or percent (eg. border-radius)
-px = padding horizontal (left and right)
-py = padding vertical (top and bottom)
-...
+**legend:**
+- d = display
+- bp = breakpoint
+- br = border
+- m = margin
+- mx = margin horizontal (left and right)
+- my = margin vertical (top and bottom)
+- p = padding (eg. spacing padding) or percent (eg. border-radius)
+- px = padding horizontal (left and right)
+- py = padding vertical (top and bottom)
+- ...
 
