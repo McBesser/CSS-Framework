@@ -2,7 +2,7 @@
 
 An example to insert the CSS framework in the HTML head:
 
-`
+```
 <link rel="stylesheet" media="all" href="/css/preset/preset.css" />
 
 <link rel="stylesheet" media="all" href="/css/container/container.css" />
@@ -53,4 +53,4 @@ An example to insert the CSS framework in the HTML head:
 <link rel="stylesheet" media="(min-width: 768px)" href="/css/border/border-meta-bp-768.css" />
 <link rel="stylesheet" media="(min-width: 992px)" href="/css/border/border-meta-bp-992.css" />
 <link rel="stylesheet" media="(min-width: 1200px)" href="/css/border/border-meta-bp-1200.css" />
-`
+```
