@@ -60,9 +60,13 @@ An example to insert the CSS framework in the HTML head:
 
 ## File Schema
 file name (folder name)
+
 ```*name*.css```
+
 file for insert with media attribute
+
 ```*-meta-*.css```
+
 file contains breakpoint
 ```
 *bp-0*.css
