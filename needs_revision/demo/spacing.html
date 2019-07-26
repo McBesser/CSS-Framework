@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="de">
+   <head>
+      <title>Spacing</title>
+      <meta charset="utf-8">
+      <meta name="referrer" content="origin">
+      <meta name="format-detection" content="telephone=no">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">      
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, minimal-ui">
+      
+      <script type="text/javascript" src="third/jquery-3.3.1.min.js"></script>
+      <link type="text/css" rel="stylesheet" href="third/jquery-ui.min.css">
+      <script type="text/javascript" src="third/jquery-ui.min.js"></script>
+      <script type="text/javascript" src="spacing.js"></script>
+		
+      <link type="text/css" rel="stylesheet" href="../css/grid/grid.css">
+      <link type="text/css" rel="stylesheet" href="../css/grid/grid-bp-576.css" media="min-width: 576px">
+      <link type="text/css" rel="stylesheet" href="../css/grid/grid-bp-768.css" media="min-width: 768px">
+      <link type="text/css" rel="stylesheet" href="../css/grid/grid-bp-992.css" media="min-width: 992px">
+      <link type="text/css" rel="stylesheet" href="../css/grid/grid-bp-1200.css" media="min-width: 1200px">
+      
+      <link type="text/css" rel="stylesheet" href="../css/spacing/spacing.css">      
+      <link type="text/css" rel="stylesheet" href="../css/spacing/spacing-bp-576.css" media="min-width: 576px">      
+      <link type="text/css" rel="stylesheet" href="../css/spacing/spacing-bp-768.css" media="min-width: 768px">      
+      <link type="text/css" rel="stylesheet" href="../css/spacing/spacing-bp-992.css" media="min-width: 992px">      
+      <link type="text/css" rel="stylesheet" href="../css/spacing/spacing-bp-1200.css" media="min-width: 1200px"> 
+      
+      <link type="text/css" rel="stylesheet" href="../css/sticky/sticky.css">      
+      <link type="text/css" rel="stylesheet" href="../css/sticky/sticky-bp-576.css" media="min-width: 576px">      
+      <link type="text/css" rel="stylesheet" href="../css/sticky/sticky-bp-768.css" media="min-width: 768px">      
+      <link type="text/css" rel="stylesheet" href="../css/sticky/sticky-bp-992.css" media="min-width: 992px">      
+      <link type="text/css" rel="stylesheet" href="../css/sticky/sticky-bp-1200.css" media="min-width: 1200px">      
+      
+      <script>
+      
+      </script>
+      <style>
+         *
+            {
+               box-sizing: border-box;
+               /* box-sizing: margin-box; */
+            }
+         body
+            {
+               margin: 0rem;
+               padding: 0rem;
+               padding-left: 10rem;
+               padding-bottom: 5rem;
+            }
+         #grid
+            {
+               background-color: rgb(255,255,255);
+            }
+         #grid > div
+            {
+               background-color: rgba(63, 127, 255, 1);
+               padding: 10px;
+               min-height: 50px;
+               vertical-align: middle;
+               text-align: center;
+            }
+         .bp-container
+            {
+               margin: auto;
+               width: 1200px;
+            }
+         .demo-container-800x600
+            {
+               width: 800px;
+               height: 600px;
+            }
+         .demo-container-600x600
+            {
+               width: 600px;
+               height: 600px;
+            }
+         .demo-container-400x400
+            {
+               width: 400px;
+               height: 400px;
+            }
+         .demo-container-200x200
+            {
+               width: 200px;
+               height: 200px;
+            }
+         .demo-container-400xauto
+            {
+               width: 400px;
+               height: auto;
+            }
+         .demo-container-200xauto
+            {
+               width: 200px;
+               height: auto;
+            }
+         .demo-container-800x600 #spacing,
+         .demo-container-600x600 #spacing,
+         .demo-container-400x400 #spacing,
+         .demo-container-200x200 #spacing
+            {
+               height: 100%;
+            }
+         .demo-container-400xauto #spacing,
+         .demo-container-200xauto #spacing
+            {
+               height: auto;
+            }
+         .code-wrapper.code-on
+            {
+               display: block;
+            }
+         .code-wrapper.code-off
+            {
+               display: none;
+            }
+         .code-wrapper
+            {
+               position: fixed;
+               bottom: 0rem;
+               left: 0rem;
+               right: 0rem;
+               height: 4rem;
+               background-color: #cccccc;
+            }
+         .code-wrapper code
+            {
+               display: block;
+               width: 100%;
+               height: 100%;
+            }
+         .textarea 
+            {
+                -moz-appearance: textfield-multiline;
+                -webkit-appearance: textarea;
+                /* border: 1px solid gray; */ background-color: transparent;
+                font: medium -moz-fixed;
+                font: -webkit-small-control;
+                height: 28px;
+                overflow: auto;
+                padding: 2px;
+                resize: both;
+                width: 400px;
+            }   
+         .editor
+            {
+               position: fixed;
+               top: 0rem;
+               left: 0rem;
+               bottom: 4rem;
+               background-color: #cccccc;
+               width: 10rem;
+            } 
+         .editor select
+            {
+               width: 100%;
+            } 
+         .code-wrapper.code-off + .editor
+            {
+               bottom: 0rem;
+            }   
+		   #spacing
+				{
+					background-color: red;
+				} 
+		   #spacing .content-box-wrapper
+				{
+					background-color: yellow;
+					width: 100%;
+					height: 100%;
+				}
+		   #spacing .content-box
+				{
+					background-color: orange;
+					width: 100%;
+					height: 100%;
+				}
+      </style>
+   </head>
+   <body>
+      <div class="bp-container">
+         <p class="box-class"></p>
+         <div id="spacing"><div class="content-box-wrapper"><div class="content-box"></div></div></div>         
+      </div>
+      <div class="code-wrapper p-15">
+         <code class="textarea" contenteditable></code>
+      </div>
+      <div class="editor p-15">
+         <form>
+            <label for="form-demo-code">Code</label><br>
+            <select id="form-demo-code">
+               <option value="code-on">An</option>
+               <option value="code-off">Aus</option>
+            </select><br><br>
+            <label for="form-demo-container">Demo Container</label><br>
+            <select id="form-demo-container">
+               <option value="">-</option>
+               <option value="demo-container-800x600">800x600</option>
+               <option value="demo-container-600x600">600x600</option>
+               <option value="demo-container-400x400">400x400</option>
+               <option value="demo-container-200x200">200x200</option>
+               <option value="demo-container-400xauto">400xAuto</option>
+               <option value="demo-container-200xauto">200xAuto</option>
+            </select><br><br>
+            <label for="form-margin">margin</label><br>
+            <select id="form-margin">
+               <option value="">-</option>
+               <option value="m-5">5px</option>
+               <option value="m-10">10px</option>
+               <option value="m-15">15px</option>
+               <option value="m-20">20px</option>
+               <option value="m-25">25px</option>
+               <option value="m-30">30px</option>
+               <option value="m-35">35px</option>
+               <option value="m-40">40px</option>
+               <option value="m-35">35px</option>
+               <option value="m-50">50px</option>
+            </select><br><br>
+            <label for="form-padding">padding</label><br>
+            <select id="form-padding">
+               <option value="">-</option>
+               <option value="p-5">5px</option>
+               <option value="p-10">10px</option>
+               <option value="p-15">15px</option>
+               <option value="p-20">20px</option>
+               <option value="p-25">25px</option>
+               <option value="p-30">30px</option>
+               <option value="p-35">35px</option>
+               <option value="p-40">40px</option>
+               <option value="p-35">35px</option>
+               <option value="p-50">50px</option>
+            </select><br><br>
+         </form>
+      </div>
+   </body>
+</html>

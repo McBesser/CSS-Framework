@@ -1,0 +1,108 @@
+/*
+ * Breakpoint (bp)
+*/
+/* preset */
+:root
+   {
+      /*
+          360×640 – 21.54%
+          1366×768 – 12.85%
+          1920×1080 – 7.76%
+          375×667 – 4.94%
+          1440×900 – 3.32%
+          1280×800 – 2.67%
+      */
+      /* 
+      2018 - 2019 h
+      #  Android  / Chrome Mobile   / 360x640 	   186.473
+      #  iOS      / Mobile Safari   / 375x667 	   66.513
+      #  Android  / Samsung Browser / 360x640 	   64.814
+      #  iOS      / Mobile Safari   / 320x568 	   34.399
+      #  iOS      / Mobile Safari   / 768x1024 	   22.765
+      #  Windows  / Firefox         / 1920x1080 	15.246
+         Android  / Chrome Mobile   / 360x740 	   13.901
+         Android  / Samsung Browser / 360x740 	   13.374
+         Windows  / Firefox         / 1366x768 	   12.103
+      #  Windows  / Chrome          / 1920x1080 	11.834
+      */
+      /*
+      2018 - 2019 m
+      #  Android  / Chrome Mobile      / 360x640 	   54.183
+      #  iOS      / Mobile Safari      / 375x667 	   22.367
+      #  Android  / Samsung Browser    / 360x640 	   20.964
+      #  iOS      / Mobile Safari      / 320x568 	   11.888
+      #  Windows  / Firefox            / 1920x1080 	11.610
+      #  iOS      / Mobile Safari      / 768x1024 	   9.901
+      #  Windows  / Internet Explorer  / 1920x1080 	8.204
+      #  Windows  / Chrome             / 1920x1080 	7.497
+         Windows  / Firefox            / 1366x768 	   6.307
+         Windows  / Firefox            / 1680x1050 	5.994
+      */
+      /*
+      2018 - 2019 z
+      #  Android  / Chrome Mobile      / 360x640 	   29.377
+      #  Android  / Samsung Browser    / 360x640 	   10.293
+      #  Windows  / Firefox            / 1920x1080 	8.111
+      #  iOS      / Mobile Safari      / 375x667 	   6.926
+      #  Windows  / Internet Explorer  / 1920x1080 	6.141
+      #  Windows  / Chrome             / 1920x1080 	6.007
+         Android  / Chrome             / 1280x800 	   5.025
+         Windows  / Chrome             / 1366x768 	   5.024
+      #  iOS      / Mobile Safari      / 320x568 	   4.897
+      #  iOS      / Mobile Safari      / 768x1024 	   4.847
+      */
+      /*
+      2018 - 2019 s
+      #  Android  / Chrome Mobile      / 360x640 	   14.409
+      #  iOS      / Mobile Safari      / 375x667 	   6.103
+      #  Android  / Samsung Browser    / 360x640 	   5.495
+      #  iOS      / Mobile Safari      / 320x568 	   2.980
+      #  Android  / unbekannt          / 360x640 	   2.625
+      #  Windows  / Firefox            / 1920x1080 	2.543
+      #  Windows  / Chrome             / 1920x1080 	2.492
+      #  iOS      / Mobile Safari      / 768x1024 	   2.067
+         Windows  / Firefox            / 1366x768 	   1.577
+         Windows  / Internet Explorer  / 1024x768 	   1.558
+      */
+      /*
+      2018 - 2019 vk
+      #  Android  / Chrome Mobile      / 360x640 	   16.060
+      #  Android  / Samsung Browser    / 360x640 	   6.244
+      #  iOS      / Mobile Safari      / 375x667 	   5.239
+      #  iOS      / Mobile Safari      / 320x568 	   3.123
+      #  iOS      / Mobile Safari      / 768x1024 	   2.397
+      #  Windows  / Firefox            / 1920x1080 	1.537
+         Windows  / Firefox            / 1366x768 	   1.348
+      #  Windows  / Internet Explorer  / 1920x1080 	1.104
+         Android  / Samsung Browser    / 360x740 	   1.060
+      #  Windows  / Chrome             / 1920x1080 	1.045
+      */
+      /*
+      2018 - 2019 hh
+      #  Android  / Chrome Mobile   / 360x640 	   5.331
+      #  iOS      / Mobile Safari   / 375x667 	   2.315
+      #  iOS      / Mobile Safari   / 768x1024 	   2.112
+      #  Windows  / Firefox         / 1920x1080 	1.806
+      #  Android  / Samsung Browser / 360x640 	   1.641
+         iOS      / Mobile Safari   / 320x568 	   1.583
+      #  Windows  / Chrome          / 1920x1080 	1.560
+         Windows  / Chrome          / 1366x768 	   1.489
+         Windows  / Firefox         / 1366x768 	   1.423
+         Windows  / Firefox         / 1920x1200 	1.415
+      */
+      /*
+      --breakpoint-sm: 576px;
+      --breakpoint-md: 768px;
+      --breakpoint-lg: 992px;
+      --breakpoint-xl: 1200px;
+      */
+      /* mobile Android: 360x640 / IOS: 375x667 / IOS: 320x568 */
+      --bp-m-360: 360px;
+      --bp-m-640: 640px;
+      
+      /* tablet IOS: 768x1024 /  */
+   
+      
+      /* desktop Win: 1920x1080 /  */
+   }
+/* container */

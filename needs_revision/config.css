@@ -1,0 +1,22 @@
+/*
+ * config
+ */
+:root
+	{
+		/* link style */
+		--a-color: blue;
+		--a-color-hover: red;
+		--a-text-decoration: underline;
+		--a-text-decoration-hover: underline;
+	}
+	
+a
+	{
+		color: var(--a-color);
+		text-decoration: var(--a-text-decoration);
+	}
+a:hover
+	{
+		color: var(--a-color-hover);
+		text-decoration: var(--a-text-decoration-hover);
+	}

@@ -1,0 +1,54 @@
+/* var preset */
+:root
+	{
+		--bp: 0;
+	}
+	
+/* media query */
+@media (min-width: 576px)
+   {
+		:root
+			{
+				--bp: 576;
+			}
+	}	
+@media (min-width: 768px)
+   {
+		:root
+			{
+				--bp: 768;
+			}
+	}	
+@media (min-width: 992px)
+   {
+		:root
+			{
+				--bp: 992;
+			}
+	}	
+@media (min-width: 1200px)
+   {
+		:root
+			{
+				--bp: 1200;
+			}
+	}
+	
+.bp-var(--bp)-container
+	{
+		width: var(--bp)px;
+	}
+*
+	{
+		box-sizing: border-box;
+	}	
+body 
+   {
+		margin: 0rem;
+		padding: 2rem;
+	}
+.bp-container
+	{
+		outline: solid 1px red;
+		min-height: 10rem;
+	}
