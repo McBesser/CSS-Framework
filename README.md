@@ -1,5 +1,8 @@
 # CSS-Framework
+Hi Guys,
 
+This is my first version (if you can call it that) of my CSS framework and the first project I'm implementing with GitHub. I am from Germany and not so fit in English, so corrections are very welcome. Of course, suggestions, bug reports, etc. I hope you find the framework as useful as me. I was inspired by Bootstrap and created a framework on this basis that better meets my needs.
+## Insert in the HTML Head 
 An example to insert the CSS framework in the HTML head:
 
 ```
