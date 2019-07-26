@@ -1,0 +1,748 @@
+/*
+ * border
+*/
+.bp-0-br-width-0 {border-width: 0rem !important;}
+.bp-0-br-width-1 {border-width: 0.0625rem !important;}
+.bp-0-br-width-2 {border-width: 0.125rem !important;}
+.bp-0-br-width-3 {border-width: 0.1875rem !important;}
+.bp-0-br-width-4 {border-width: 0.25rem !important;}
+.bp-0-br-width-5 {border-width: 0.3125rem !important;}
+.bp-0-br-width-6 {border-width: 0.375rem !important;}
+.bp-0-br-width-7 {border-width: 0.4375rem !important;}
+.bp-0-br-width-8 {border-width: 0.5rem !important;}
+.bp-0-br-width-9 {border-width: 0.5625rem !important;}
+.bp-0-br-width-10 {border-width: 0.625rem !important;}
+
+.bp-0-br-t-width-0 {border-top-width: 0rem !important;}
+.bp-0-br-t-width-1 {border-top-width: 0.0625rem !important;}
+.bp-0-br-t-width-2 {border-top-width: 0.125rem !important;}
+.bp-0-br-t-width-3 {border-top-width: 0.1875rem !important;}
+.bp-0-br-t-width-4 {border-top-width: 0.25rem !important;}
+.bp-0-br-t-width-5 {border-top-width: 0.3125rem !important;}
+.bp-0-br-t-width-6 {border-top-width: 0.375rem !important;}
+.bp-0-br-t-width-7 {border-top-width: 0.4375rem !important;}
+.bp-0-br-t-width-8 {border-top-width: 0.5rem !important;}
+.bp-0-br-t-width-9 {border-top-width: 0.5625rem !important;}
+.bp-0-br-t-width-10 {border-top-width: 0.625rem !important;}
+
+.bp-0-br-l-width-0 {border-left-width: 0rem !important;}
+.bp-0-br-l-width-1 {border-left-width: 0.0625rem !important;}
+.bp-0-br-l-width-2 {border-left-width: 0.125rem !important;}
+.bp-0-br-l-width-3 {border-left-width: 0.1875rem !important;}
+.bp-0-br-l-width-4 {border-left-width: 0.25rem !important;}
+.bp-0-br-l-width-5 {border-left-width: 0.3125rem !important;}
+.bp-0-br-l-width-6 {border-left-width: 0.375rem !important;}
+.bp-0-br-l-width-7 {border-left-width: 0.4375rem !important;}
+.bp-0-br-l-width-8 {border-left-width: 0.5rem !important;}
+.bp-0-br-l-width-9 {border-left-width: 0.5625rem !important;}
+.bp-0-br-l-width-10 {border-left-width: 0.625rem !important;}
+
+.bp-0-br-r-width-0 {border-right-width: 0rem !important;}
+.bp-0-br-r-width-1 {border-right-width: 0.0625rem !important;}
+.bp-0-br-r-width-2 {border-right-width: 0.125rem !important;}
+.bp-0-br-r-width-3 {border-right-width: 0.1875rem !important;}
+.bp-0-br-r-width-4 {border-right-width: 0.25rem !important;}
+.bp-0-br-r-width-5 {border-right-width: 0.3125rem !important;}
+.bp-0-br-r-width-6 {border-right-width: 0.375rem !important;}
+.bp-0-br-r-width-7 {border-right-width: 0.4375rem !important;}
+.bp-0-br-r-width-8 {border-right-width: 0.5rem !important;}
+.bp-0-br-r-width-9 {border-right-width: 0.5625rem !important;}
+.bp-0-br-r-width-10 {border-right-width: 0.625rem !important;}
+
+.bp-0-br-b-width-0 {border-bottom-width: 0rem !important;}
+.bp-0-br-b-width-1 {border-bottom-width: 0.0625rem !important;}
+.bp-0-br-b-width-2 {border-bottom-width: 0.125rem !important;}
+.bp-0-br-b-width-3 {border-bottom-width: 0.1875rem !important;}
+.bp-0-br-b-width-4 {border-bottom-width: 0.25rem !important;}
+.bp-0-br-b-width-5 {border-bottom-width: 0.3125rem !important;}
+.bp-0-br-b-width-6 {border-bottom-width: 0.375rem !important;}
+.bp-0-br-b-width-7 {border-bottom-width: 0.4375rem !important;}
+.bp-0-br-b-width-8 {border-bottom-width: 0.5rem !important;}
+.bp-0-br-b-width-9 {border-bottom-width: 0.5625rem !important;}
+.bp-0-br-b-width-10 {border-bottom-width: 0.625rem !important;}
+
+.bp-0-br-radius-0p {border-radius: 0% !important}
+.bp-0-br-radius-5p {border-radius: 5% !important}
+.bp-0-br-radius-10p {border-radius: 10% !important}
+.bp-0-br-radius-15p {border-radius: 15% !important}
+.bp-0-br-radius-20p {border-radius: 20% !important}
+.bp-0-br-radius-25p {border-radius: 25% !important}
+.bp-0-br-radius-30p {border-radius: 30% !important}
+.bp-0-br-radius-35p {border-radius: 35% !important}
+.bp-0-br-radius-40p {border-radius: 40% !important}
+.bp-0-br-radius-50p {border-radius: 45% !important}
+.bp-0-br-radius-55p {border-radius: 50% !important}
+.bp-0-br-radius-60p {border-radius: 55% !important}
+.bp-0-br-radius-65p {border-radius: 60% !important}
+.bp-0-br-radius-70p {border-radius: 65% !important}
+.bp-0-br-radius-75p {border-radius: 70% !important}
+.bp-0-br-radius-80p {border-radius: 75% !important}
+.bp-0-br-radius-85p {border-radius: 80% !important}
+.bp-0-br-radius-90p {border-radius: 85% !important}
+.bp-0-br-radius-95p {border-radius: 90% !important}
+.bp-0-br-radius-100p {border-radius: 100% !important}
+
+.bp-0-br-radius-tl-0p,
+.bp-0-br-radius-t-0p,
+.bp-0-br-radius-l-0p {border-top-left-radius: 0% !important}
+.bp-0-br-radius-tl-5p,
+.bp-0-br-radius-t-5p,
+.bp-0-br-radius-l-5p {border-top-left-radius: 5% !important}
+.bp-0-br-radius-tl-10p,
+.bp-0-br-radius-t-10p,
+.bp-0-br-radius-l-10p {border-top-left-radius: 10% !important}
+.bp-0-br-radius-tl-15p,
+.bp-0-br-radius-t-15p,
+.bp-0-br-radius-l-15p {border-top-left-radius: 15% !important}
+.bp-0-br-radius-tl-20p,
+.bp-0-br-radius-t-20p,
+.bp-0-br-radius-l-20p {border-top-left-radius: 20% !important}
+.bp-0-br-radius-tl-25p,
+.bp-0-br-radius-t-25p,
+.bp-0-br-radius-l-25p {border-top-left-radius: 25% !important}
+.bp-0-br-radius-tl-30p,
+.bp-0-br-radius-t-30p,
+.bp-0-br-radius-l-30p {border-top-left-radius: 30% !important}
+.bp-0-br-radius-tl-35p,
+.bp-0-br-radius-t-35p,
+.bp-0-br-radius-l-35p {border-top-left-radius: 35% !important}
+.bp-0-br-radius-tl-40p,
+.bp-0-br-radius-t-40p,
+.bp-0-br-radius-l-40p {border-top-left-radius: 40% !important}
+.bp-0-br-radius-tl-50p,
+.bp-0-br-radius-t-50p,
+.bp-0-br-radius-l-50p {border-top-left-radius: 45% !important}
+.bp-0-br-radius-tl-55p,
+.bp-0-br-radius-t-55p,
+.bp-0-br-radius-l-55p {border-top-left-radius: 50% !important}
+.bp-0-br-radius-tl-60p,
+.bp-0-br-radius-t-60p,
+.bp-0-br-radius-l-60p {border-top-left-radius: 55% !important}
+.bp-0-br-radius-tl-65p,
+.bp-0-br-radius-t-65p,
+.bp-0-br-radius-l-65p {border-top-left-radius: 60% !important}
+.bp-0-br-radius-tl-70p,
+.bp-0-br-radius-t-70p,
+.bp-0-br-radius-l-70p {border-top-left-radius: 65% !important}
+.bp-0-br-radius-tl-75p,
+.bp-0-br-radius-t-75p,
+.bp-0-br-radius-l-75p {border-top-left-radius: 70% !important}
+.bp-0-br-radius-tl-80p,
+.bp-0-br-radius-t-80p,
+.bp-0-br-radius-l-80p {border-top-left-radius: 75% !important}
+.bp-0-br-radius-tl-85p,
+.bp-0-br-radius-t-85p,
+.bp-0-br-radius-l-85p {border-top-left-radius: 80% !important}
+.bp-0-br-radius-tl-90p,
+.bp-0-br-radius-t-90p,
+.bp-0-br-radius-l-90p {border-top-left-radius: 85% !important}
+.bp-0-br-radius-tl-95p,
+.bp-0-br-radius-t-95p,
+.bp-0-br-radius-l-95p {border-top-left-radius: 90% !important}
+.bp-0-br-radius-tl-100p,
+.bp-0-br-radius-t-100p,
+.bp-0-br-radius-l-100p {border-top-left-radius: 100% !important}
+
+.bp-0-br-radius-tr-0p,
+.bp-0-br-radius-t-0p,
+.bp-0-br-radius-r-0p {border-top-right-radius: 0% !important}
+.bp-0-br-radius-tr-5p,
+.bp-0-br-radius-t-5p,
+.bp-0-br-radius-r-5p {border-top-right-radius: 5% !important}
+.bp-0-br-radius-tr-10p,
+.bp-0-br-radius-t-10p,
+.bp-0-br-radius-r-10p {border-top-right-radius: 10% !important}
+.bp-0-br-radius-tr-15p,
+.bp-0-br-radius-t-15p,
+.bp-0-br-radius-r-15p {border-top-right-radius: 15% !important}
+.bp-0-br-radius-tr-20p,
+.bp-0-br-radius-t-20p,
+.bp-0-br-radius-r-20p {border-top-right-radius: 20% !important}
+.bp-0-br-radius-tr-25p,
+.bp-0-br-radius-t-25p,
+.bp-0-br-radius-r-25p {border-top-right-radius: 25% !important}
+.bp-0-br-radius-tr-30p,
+.bp-0-br-radius-t-30p,
+.bp-0-br-radius-r-30p {border-top-right-radius: 30% !important}
+.bp-0-br-radius-tr-35p,
+.bp-0-br-radius-t-35p,
+.bp-0-br-radius-r-35p {border-top-right-radius: 35% !important}
+.bp-0-br-radius-tr-40p,
+.bp-0-br-radius-t-40p,
+.bp-0-br-radius-r-40p {border-top-right-radius: 40% !important}
+.bp-0-br-radius-tr-50p,
+.bp-0-br-radius-t-50p,
+.bp-0-br-radius-r-50p {border-top-right-radius: 45% !important}
+.bp-0-br-radius-tr-55p,
+.bp-0-br-radius-t-55p,
+.bp-0-br-radius-r-55p {border-top-right-radius: 50% !important}
+.bp-0-br-radius-tr-60p,
+.bp-0-br-radius-t-60p,
+.bp-0-br-radius-r-60p {border-top-right-radius: 55% !important}
+.bp-0-br-radius-tr-65p,
+.bp-0-br-radius-t-65p,
+.bp-0-br-radius-r-65p {border-top-right-radius: 60% !important}
+.bp-0-br-radius-tr-70p,
+.bp-0-br-radius-t-70p,
+.bp-0-br-radius-r-70p {border-top-right-radius: 65% !important}
+.bp-0-br-radius-tr-75p,
+.bp-0-br-radius-t-75p,
+.bp-0-br-radius-r-75p {border-top-right-radius: 70% !important}
+.bp-0-br-radius-tr-80p,
+.bp-0-br-radius-t-80p,
+.bp-0-br-radius-r-80p {border-top-right-radius: 75% !important}
+.bp-0-br-radius-tr-85p,
+.bp-0-br-radius-t-85p,
+.bp-0-br-radius-r-85p {border-top-right-radius: 80% !important}
+.bp-0-br-radius-tr-90p,
+.bp-0-br-radius-t-90p,
+.bp-0-br-radius-r-90p {border-top-right-radius: 85% !important}
+.bp-0-br-radius-tr-95p,
+.bp-0-br-radius-t-95p,
+.bp-0-br-radius-r-95p {border-top-right-radius: 90% !important}
+.bp-0-br-radius-tr-100p,
+.bp-0-br-radius-t-100p,
+.bp-0-br-radius-r-100p {border-top-right-radius: 100% !important}
+
+.bp-0-br-radius-bl-0p,
+.bp-0-br-radius-b-0p,
+.bp-0-br-radius-l-0p {border-bottom-left-radius: 0% !important}
+.bp-0-br-radius-bl-5p,
+.bp-0-br-radius-b-5p,
+.bp-0-br-radius-l-5p {border-bottom-left-radius: 5% !important}
+.bp-0-br-radius-bl-10p,
+.bp-0-br-radius-b-10p,
+.bp-0-br-radius-l-10p {border-bottom-left-radius: 10% !important}
+.bp-0-br-radius-bl-15p,
+.bp-0-br-radius-b-15p,
+.bp-0-br-radius-l-15p {border-bottom-left-radius: 15% !important}
+.bp-0-br-radius-bl-20p,
+.bp-0-br-radius-b-20p,
+.bp-0-br-radius-l-20p {border-bottom-left-radius: 20% !important}
+.bp-0-br-radius-bl-25p,
+.bp-0-br-radius-b-25p,
+.bp-0-br-radius-l-25p {border-bottom-left-radius: 25% !important}
+.bp-0-br-radius-bl-30p,
+.bp-0-br-radius-b-30p,
+.bp-0-br-radius-l-30p {border-bottom-left-radius: 30% !important}
+.bp-0-br-radius-bl-35p,
+.bp-0-br-radius-b-35p,
+.bp-0-br-radius-l-35p {border-bottom-left-radius: 35% !important}
+.bp-0-br-radius-bl-40p,
+.bp-0-br-radius-b-40p,
+.bp-0-br-radius-l-40p {border-bottom-left-radius: 40% !important}
+.bp-0-br-radius-bl-50p,
+.bp-0-br-radius-b-50p,
+.bp-0-br-radius-l-50p {border-bottom-left-radius: 45% !important}
+.bp-0-br-radius-bl-55p,
+.bp-0-br-radius-b-55p,
+.bp-0-br-radius-l-55p {border-bottom-left-radius: 50% !important}
+.bp-0-br-radius-bl-60p,
+.bp-0-br-radius-b-60p,
+.bp-0-br-radius-l-60p {border-bottom-left-radius: 55% !important}
+.bp-0-br-radius-bl-65p,
+.bp-0-br-radius-b-65p,
+.bp-0-br-radius-l-65p {border-bottom-left-radius: 60% !important}
+.bp-0-br-radius-bl-70p,
+.bp-0-br-radius-b-70p,
+.bp-0-br-radius-l-70p {border-bottom-left-radius: 65% !important}
+.bp-0-br-radius-bl-75p,
+.bp-0-br-radius-b-75p,
+.bp-0-br-radius-l-75p {border-bottom-left-radius: 70% !important}
+.bp-0-br-radius-bl-80p,
+.bp-0-br-radius-b-80p,
+.bp-0-br-radius-l-80p {border-bottom-left-radius: 75% !important}
+.bp-0-br-radius-bl-85p,
+.bp-0-br-radius-b-85p,
+.bp-0-br-radius-l-85p {border-bottom-left-radius: 80% !important}
+.bp-0-br-radius-bl-90p,
+.bp-0-br-radius-b-90p,
+.bp-0-br-radius-l-90p {border-bottom-left-radius: 85% !important}
+.bp-0-br-radius-bl-95p,
+.bp-0-br-radius-b-95p,
+.bp-0-br-radius-l-95p {border-bottom-left-radius: 90% !important}
+.bp-0-br-radius-bl-100p,
+.bp-0-br-radius-b-100p,
+.bp-0-br-radius-l-100p {border-bottom-left-radius: 100% !important}
+
+.bp-0-br-radius-br-0p,
+.bp-0-br-radius-b-0p,
+.bp-0-br-radius-r-0p {border-bottom-right-radius: 0% !important}
+.bp-0-br-radius-br-5p,
+.bp-0-br-radius-b-5p,
+.bp-0-br-radius-r-5p {border-bottom-right-radius: 5% !important}
+.bp-0-br-radius-br-10p,
+.bp-0-br-radius-b-10p,
+.bp-0-br-radius-r-10p {border-bottom-right-radius: 10% !important}
+.bp-0-br-radius-br-15p,
+.bp-0-br-radius-b-15p,
+.bp-0-br-radius-r-15p {border-bottom-right-radius: 15% !important}
+.bp-0-br-radius-br-20p,
+.bp-0-br-radius-b-20p,
+.bp-0-br-radius-r-20p {border-bottom-right-radius: 20% !important}
+.bp-0-br-radius-br-25p,
+.bp-0-br-radius-b-25p,
+.bp-0-br-radius-r-25p {border-bottom-right-radius: 25% !important}
+.bp-0-br-radius-br-30p,
+.bp-0-br-radius-b-30p,
+.bp-0-br-radius-r-30p {border-bottom-right-radius: 30% !important}
+.bp-0-br-radius-br-35p,
+.bp-0-br-radius-b-35p,
+.bp-0-br-radius-r-35p {border-bottom-right-radius: 35% !important}
+.bp-0-br-radius-br-40p,
+.bp-0-br-radius-b-40p,
+.bp-0-br-radius-r-40p {border-bottom-right-radius: 40% !important}
+.bp-0-br-radius-br-50p,
+.bp-0-br-radius-b-50p,
+.bp-0-br-radius-r-50p {border-bottom-right-radius: 45% !important}
+.bp-0-br-radius-br-55p,
+.bp-0-br-radius-b-55p,
+.bp-0-br-radius-r-55p {border-bottom-right-radius: 50% !important}
+.bp-0-br-radius-br-60p,
+.bp-0-br-radius-b-60p,
+.bp-0-br-radius-r-60p {border-bottom-right-radius: 55% !important}
+.bp-0-br-radius-br-65p,
+.bp-0-br-radius-b-65p,
+.bp-0-br-radius-r-65p {border-bottom-right-radius: 60% !important}
+.bp-0-br-radius-br-70p,
+.bp-0-br-radius-b-70p,
+.bp-0-br-radius-r-70p {border-bottom-right-radius: 65% !important}
+.bp-0-br-radius-br-75p,
+.bp-0-br-radius-b-75p,
+.bp-0-br-radius-r-75p {border-bottom-right-radius: 70% !important}
+.bp-0-br-radius-br-80p,
+.bp-0-br-radius-b-80p,
+.bp-0-br-radius-r-80p {border-bottom-right-radius: 75% !important}
+.bp-0-br-radius-br-85p,
+.bp-0-br-radius-b-85p,
+.bp-0-br-radius-r-85p {border-bottom-right-radius: 80% !important}
+.bp-0-br-radius-br-90p,
+.bp-0-br-radius-b-90p,
+.bp-0-br-radius-r-90p {border-bottom-right-radius: 85% !important}
+.bp-0-br-radius-br-95p,
+.bp-0-br-radius-b-95p,
+.bp-0-br-radius-r-95p {border-bottom-right-radius: 90% !important}
+.bp-0-br-radius-br-100p,
+.bp-0-br-radius-b-100p,
+.bp-0-br-radius-r-100p {border-bottom-right-radius: 100% !important}
+
+.bp-0-br-radius-0 {border-radius: 0rem !important;}
+.bp-0-br-radius-1 {border-radius: 0.0625rem !important;}
+.bp-0-br-radius-2 {border-radius: 0.125rem !important;}
+.bp-0-br-radius-3 {border-radius: 0.1875rem !important;}
+.bp-0-br-radius-4 {border-radius: 0.25rem !important;}
+.bp-0-br-radius-5 {border-radius: 0.3125rem !important;}
+.bp-0-br-radius-6 {border-radius: 0.375rem !important;}
+.bp-0-br-radius-7 {border-radius: 0.4375rem !important;}
+.bp-0-br-radius-8 {border-radius: 0.5rem !important;}
+.bp-0-br-radius-9 {border-radius: 0.5625rem !important;}
+.bp-0-br-radius-10 {border-radius: 0.625rem !important;}
+.bp-0-br-radius-12 {border-radius: 0.75rem !important;}
+.bp-0-br-radius-15 {border-radius: 0.9375rem !important;}
+.bp-0-br-radius-16 {border-radius: 1rem !important;}
+.bp-0-br-radius-20 {border-radius: 1.25rem !important;}
+.bp-0-br-radius-24 {border-radius: 1.5rem !important;}
+.bp-0-br-radius-25 {border-radius: 1.5625rem !important;}
+.bp-0-br-radius-28 {border-radius: 1.75rem !important;}
+.bp-0-br-radius-30 {border-radius: 1.875rem !important;}
+.bp-0-br-radius-32 {border-radius: 2rem !important;}
+.bp-0-br-radius-35 {border-radius: 2.1875rem !important;}
+.bp-0-br-radius-36 {border-radius: 2.25rem !important;}
+.bp-0-br-radius-40 {border-radius: 2.5rem !important;}
+.bp-0-br-radius-44 {border-radius: 2.75rem !important;}
+.bp-0-br-radius-45 {border-radius: 2.8125rem !important;}
+.bp-0-br-radius-48 {border-radius: 3rem !important;}
+.bp-0-br-radius-50 {border-radius: 3.125rem !important;}
+
+.bp-0-br-radius-tl-0,
+.bp-0-br-radius-t-0,
+.bp-0-br-radius-l-0 {border-top-left-radius: 0rem !important;}
+.bp-0-br-radius-tl-1,
+.bp-0-br-radius-t-1,
+.bp-0-br-radius-l-1 {border-top-left-radius: 0.0625rem !important;}
+.bp-0-br-radius-tl-2,
+.bp-0-br-radius-t-2,
+.bp-0-br-radius-l-2 {border-top-left-radius: 0.125rem !important;}
+.bp-0-br-radius-tl-3,
+.bp-0-br-radius-t-3,
+.bp-0-br-radius-l-3 {border-top-left-radius: 0.1875rem !important;}
+.bp-0-br-radius-tl-4,
+.bp-0-br-radius-t-4,
+.bp-0-br-radius-l-4 {border-top-left-radius: 0.25rem !important;}
+.bp-0-br-radius-tl-5,
+.bp-0-br-radius-t-5,
+.bp-0-br-radius-l-5 {border-top-left-radius: 0.3125rem !important;}
+.bp-0-br-radius-tl-6,
+.bp-0-br-radius-t-6,
+.bp-0-br-radius-l-6 {border-top-left-radius: 0.375rem !important;}
+.bp-0-br-radius-tl-7,
+.bp-0-br-radius-t-7,
+.bp-0-br-radius-l-7 {border-top-left-radius: 0.4375rem !important;}
+.bp-0-br-radius-tl-8,
+.bp-0-br-radius-t-8,
+.bp-0-br-radius-l-8 {border-top-left-radius: 0.5rem !important;}
+.bp-0-br-radius-tl-9,
+.bp-0-br-radius-t-9,
+.bp-0-br-radius-l-9 {border-top-left-radius: 0.5625rem !important;}
+.bp-0-br-radius-tl-10,
+.bp-0-br-radius-t-10,
+.bp-0-br-radius-l-10 {border-top-left-radius: 0.625rem !important;}
+.bp-0-br-radius-tl-12,
+.bp-0-br-radius-t-12,
+.bp-0-br-radius-l-12 {border-top-left-radius: 0.75rem !important;}
+.bp-0-br-radius-tl-15,
+.bp-0-br-radius-t-15,
+.bp-0-br-radius-l-15 {border-top-left-radius: 0.9375rem !important;}
+.bp-0-br-radius-tl-16,
+.bp-0-br-radius-t-16,
+.bp-0-br-radius-l-16 {border-top-left-radius: 1rem !important;}
+.bp-0-br-radius-tl-20,
+.bp-0-br-radius-t-20,
+.bp-0-br-radius-l-20 {border-top-left-radius: 1.25rem !important;}
+.bp-0-br-radius-tl-24,
+.bp-0-br-radius-t-24,
+.bp-0-br-radius-l-24 {border-top-left-radius: 1.5rem !important;}
+.bp-0-br-radius-tl-25,
+.bp-0-br-radius-t-25,
+.bp-0-br-radius-l-25 {border-top-left-radius: 1.5625rem !important;}
+.bp-0-br-radius-tl-28,
+.bp-0-br-radius-t-28,
+.bp-0-br-radius-l-28 {border-top-left-radius: 1.75rem !important;}
+.bp-0-br-radius-tl-30,
+.bp-0-br-radius-t-30,
+.bp-0-br-radius-l-30 {border-top-left-radius: 1.875rem !important;}
+.bp-0-br-radius-tl-32,
+.bp-0-br-radius-t-32,
+.bp-0-br-radius-l-32 {border-top-left-radius: 2rem !important;}
+.bp-0-br-radius-tl-35,
+.bp-0-br-radius-t-35,
+.bp-0-br-radius-l-35 {border-top-left-radius: 2.1875rem !important;}
+.bp-0-br-radius-tl-36,
+.bp-0-br-radius-t-36,
+.bp-0-br-radius-l-36 {border-top-left-radius: 2.25rem !important;}
+.bp-0-br-radius-tl-40,
+.bp-0-br-radius-t-40,
+.bp-0-br-radius-l-40 {border-top-left-radius: 2.5rem !important;}
+.bp-0-br-radius-tl-44,
+.bp-0-br-radius-t-44,
+.bp-0-br-radius-l-44 {border-top-left-radius: 2.75rem !important;}
+.bp-0-br-radius-tl-45,
+.bp-0-br-radius-t-45,
+.bp-0-br-radius-l-45 {border-top-left-radius: 2.8125rem !important;}
+.bp-0-br-radius-tl-48,
+.bp-0-br-radius-t-48,
+.bp-0-br-radius-l-48 {border-top-left-radius: 3rem !important;}
+.bp-0-br-radius-tl-50,
+.bp-0-br-radius-t-50,
+.bp-0-br-radius-l-50 {border-top-left-radius: 3.125rem !important;}
+
+.bp-0-br-radius-tr-0,
+.bp-0-br-radius-t-0,
+.bp-0-br-radius-r-0 {border-top-right-radius: 0rem !important;}
+.bp-0-br-radius-tr-1,
+.bp-0-br-radius-t-1,
+.bp-0-br-radius-r-1 {border-top-right-radius: 0.0625rem !important;}
+.bp-0-br-radius-tr-2,
+.bp-0-br-radius-t-2,
+.bp-0-br-radius-r-2 {border-top-right-radius: 0.125rem !important;}
+.bp-0-br-radius-tr-3,
+.bp-0-br-radius-t-3,
+.bp-0-br-radius-r-3 {border-top-right-radius: 0.1875rem !important;}
+.bp-0-br-radius-tr-4,
+.bp-0-br-radius-t-4,
+.bp-0-br-radius-r-4 {border-top-right-radius: 0.25rem !important;}
+.bp-0-br-radius-tr-5,
+.bp-0-br-radius-t-5,
+.bp-0-br-radius-r-5 {border-top-right-radius: 0.3125rem !important;}
+.bp-0-br-radius-tr-6,
+.bp-0-br-radius-t-6,
+.bp-0-br-radius-r-6 {border-top-right-radius: 0.375rem !important;}
+.bp-0-br-radius-tr-7,
+.bp-0-br-radius-t-7,
+.bp-0-br-radius-r-7 {border-top-right-radius: 0.4375rem !important;}
+.bp-0-br-radius-tr-8,
+.bp-0-br-radius-t-8,
+.bp-0-br-radius-r-8 {border-top-right-radius: 0.5rem !important;}
+.bp-0-br-radius-tr-9,
+.bp-0-br-radius-t-9,
+.bp-0-br-radius-r-9 {border-top-right-radius: 0.5625rem !important;}
+.bp-0-br-radius-tr-10,
+.bp-0-br-radius-t-10,
+.bp-0-br-radius-r-10 {border-top-right-radius: 0.625rem !important;}
+.bp-0-br-radius-tr-12,
+.bp-0-br-radius-t-12,
+.bp-0-br-radius-r-12 {border-top-right-radius: 0.75rem !important;}
+.bp-0-br-radius-tr-15,
+.bp-0-br-radius-t-15,
+.bp-0-br-radius-r-15 {border-top-right-radius: 0.9375rem !important;}
+.bp-0-br-radius-tr-16,
+.bp-0-br-radius-t-16,
+.bp-0-br-radius-r-16 {border-top-right-radius: 1rem !important;}
+.bp-0-br-radius-tr-20,
+.bp-0-br-radius-t-20,
+.bp-0-br-radius-r-20 {border-top-right-radius: 1.25rem !important;}
+.bp-0-br-radius-tr-24,
+.bp-0-br-radius-t-24,
+.bp-0-br-radius-r-24 {border-top-right-radius: 1.5rem !important;}
+.bp-0-br-radius-tr-25,
+.bp-0-br-radius-t-25,
+.bp-0-br-radius-r-25 {border-top-right-radius: 1.5625rem !important;}
+.bp-0-br-radius-tr-28,
+.bp-0-br-radius-t-28,
+.bp-0-br-radius-r-28 {border-top-right-radius: 1.75rem !important;}
+.bp-0-br-radius-tr-30,
+.bp-0-br-radius-t-30,
+.bp-0-br-radius-r-30 {border-top-right-radius: 1.875rem !important;}
+.bp-0-br-radius-tr-32,
+.bp-0-br-radius-t-32,
+.bp-0-br-radius-r-32 {border-top-right-radius: 2rem !important;}
+.bp-0-br-radius-tr-35,
+.bp-0-br-radius-t-35,
+.bp-0-br-radius-r-35 {border-top-right-radius: 2.1875rem !important;}
+.bp-0-br-radius-tr-36,
+.bp-0-br-radius-t-36,
+.bp-0-br-radius-r-36 {border-top-right-radius: 2.25rem !important;}
+.bp-0-br-radius-tr-40,
+.bp-0-br-radius-t-40,
+.bp-0-br-radius-r-40 {border-top-right-radius: 2.5rem !important;}
+.bp-0-br-radius-tr-44,
+.bp-0-br-radius-t-44,
+.bp-0-br-radius-r-44 {border-top-right-radius: 2.75rem !important;}
+.bp-0-br-radius-tr-45,
+.bp-0-br-radius-t-45,
+.bp-0-br-radius-r-45 {border-top-right-radius: 2.8125rem !important;}
+.bp-0-br-radius-tr-48,
+.bp-0-br-radius-t-48,
+.bp-0-br-radius-r-48 {border-top-right-radius: 3rem !important;}
+.bp-0-br-radius-tr-50,
+.bp-0-br-radius-t-50,
+.bp-0-br-radius-r-50 {border-top-right-radius: 3.125rem !important;}
+
+.bp-0-br-radius-bl-0,
+.bp-0-br-radius-b-0,
+.bp-0-br-radius-l-0 {border-bottom-left-radius: 0rem !important;}
+.bp-0-br-radius-bl-1,
+.bp-0-br-radius-b-1,
+.bp-0-br-radius-l-1 {border-bottom-left-radius: 0.0625rem !important;}
+.bp-0-br-radius-bl-2,
+.bp-0-br-radius-b-2,
+.bp-0-br-radius-l-2 {border-bottom-left-radius: 0.125rem !important;}
+.bp-0-br-radius-bl-3,
+.bp-0-br-radius-b-3,
+.bp-0-br-radius-l-3 {border-bottom-left-radius: 0.1875rem !important;}
+.bp-0-br-radius-bl-4,
+.bp-0-br-radius-b-4,
+.bp-0-br-radius-l-4 {border-bottom-left-radius: 0.25rem !important;}
+.bp-0-br-radius-bl-5,
+.bp-0-br-radius-b-5,
+.bp-0-br-radius-l-5 {border-bottom-left-radius: 0.3125rem !important;}
+.bp-0-br-radius-bl-6,
+.bp-0-br-radius-b-6,
+.bp-0-br-radius-l-6 {border-bottom-left-radius: 0.375rem !important;}
+.bp-0-br-radius-bl-7,
+.bp-0-br-radius-b-7,
+.bp-0-br-radius-l-7 {border-bottom-left-radius: 0.4375rem !important;}
+.bp-0-br-radius-bl-8,
+.bp-0-br-radius-b-8,
+.bp-0-br-radius-l-8 {border-bottom-left-radius: 0.5rem !important;}
+.bp-0-br-radius-bl-9,
+.bp-0-br-radius-b-9,
+.bp-0-br-radius-l-9 {border-bottom-left-radius: 0.5625rem !important;}
+.bp-0-br-radius-bl-10,
+.bp-0-br-radius-b-10,
+.bp-0-br-radius-l-10 {border-bottom-left-radius: 0.625rem !important;}
+.bp-0-br-radius-bl-12,
+.bp-0-br-radius-b-12,
+.bp-0-br-radius-l-12 {border-bottom-left-radius: 0.75rem !important;}
+.bp-0-br-radius-bl-15,
+.bp-0-br-radius-b-15,
+.bp-0-br-radius-l-15 {border-bottom-left-radius: 0.9375rem !important;}
+.bp-0-br-radius-bl-16,
+.bp-0-br-radius-b-16,
+.bp-0-br-radius-l-16 {border-bottom-left-radius: 1rem !important;}
+.bp-0-br-radius-bl-20,
+.bp-0-br-radius-b-20,
+.bp-0-br-radius-l-20 {border-bottom-left-radius: 1.25rem !important;}
+.bp-0-br-radius-bl-24,
+.bp-0-br-radius-b-24,
+.bp-0-br-radius-l-24 {border-bottom-left-radius: 1.5rem !important;}
+.bp-0-br-radius-bl-25,
+.bp-0-br-radius-b-25,
+.bp-0-br-radius-l-25 {border-bottom-left-radius: 1.5625rem !important;}
+.bp-0-br-radius-bl-28,
+.bp-0-br-radius-b-28,
+.bp-0-br-radius-l-28 {border-bottom-left-radius: 1.75rem !important;}
+.bp-0-br-radius-bl-30,
+.bp-0-br-radius-b-30,
+.bp-0-br-radius-l-30 {border-bottom-left-radius: 1.875rem !important;}
+.bp-0-br-radius-bl-32,
+.bp-0-br-radius-b-32,
+.bp-0-br-radius-l-32 {border-bottom-left-radius: 2rem !important;}
+.bp-0-br-radius-bl-35,
+.bp-0-br-radius-b-35,
+.bp-0-br-radius-l-35 {border-bottom-left-radius: 2.1875rem !important;}
+.bp-0-br-radius-bl-36,
+.bp-0-br-radius-b-36,
+.bp-0-br-radius-l-36 {border-bottom-left-radius: 2.25rem !important;}
+.bp-0-br-radius-bl-40,
+.bp-0-br-radius-b-40,
+.bp-0-br-radius-l-40 {border-bottom-left-radius: 2.5rem !important;}
+.bp-0-br-radius-bl-44,
+.bp-0-br-radius-b-44,
+.bp-0-br-radius-l-44 {border-bottom-left-radius: 2.75rem !important;}
+.bp-0-br-radius-bl-45,
+.bp-0-br-radius-b-45,
+.bp-0-br-radius-l-45 {border-bottom-left-radius: 2.8125rem !important;}
+.bp-0-br-radius-bl-48,
+.bp-0-br-radius-b-48,
+.bp-0-br-radius-l-48 {border-bottom-left-radius: 3rem !important;}
+.bp-0-br-radius-bl-50,
+.bp-0-br-radius-b-50,
+.bp-0-br-radius-l-50 {border-bottom-left-radius: 3.125rem !important;}
+
+.bp-0-br-radius-br-0,
+.bp-0-br-radius-b-0,
+.bp-0-br-radius-r-0 {border-bottom-right-radius: 0rem !important;}
+.bp-0-br-radius-br-1,
+.bp-0-br-radius-b-1,
+.bp-0-br-radius-r-1 {border-bottom-right-radius: 0.0625rem !important;}
+.bp-0-br-radius-br-2,
+.bp-0-br-radius-b-2,
+.bp-0-br-radius-r-2 {border-bottom-right-radius: 0.125rem !important;}
+.bp-0-br-radius-br-3,
+.bp-0-br-radius-b-3,
+.bp-0-br-radius-r-3 {border-bottom-right-radius: 0.1875rem !important;}
+.bp-0-br-radius-br-4,
+.bp-0-br-radius-b-4,
+.bp-0-br-radius-r-4 {border-bottom-right-radius: 0.25rem !important;}
+.bp-0-br-radius-br-5,
+.bp-0-br-radius-b-5,
+.bp-0-br-radius-r-5 {border-bottom-right-radius: 0.3125rem !important;}
+.bp-0-br-radius-br-6,
+.bp-0-br-radius-b-6,
+.bp-0-br-radius-r-6 {border-bottom-right-radius: 0.375rem !important;}
+.bp-0-br-radius-br-7,
+.bp-0-br-radius-b-7,
+.bp-0-br-radius-r-7 {border-bottom-right-radius: 0.4375rem !important;}
+.bp-0-br-radius-br-8,
+.bp-0-br-radius-b-8,
+.bp-0-br-radius-r-8 {border-bottom-right-radius: 0.5rem !important;}
+.bp-0-br-radius-br-9,
+.bp-0-br-radius-b-9,
+.bp-0-br-radius-r-9 {border-bottom-right-radius: 0.5625rem !important;}
+.bp-0-br-radius-br-10,
+.bp-0-br-radius-b-10,
+.bp-0-br-radius-r-10 {border-bottom-right-radius: 0.625rem !important;}
+.bp-0-br-radius-br-12,
+.bp-0-br-radius-b-12,
+.bp-0-br-radius-r-12 {border-bottom-right-radius: 0.75rem !important;}
+.bp-0-br-radius-br-15,
+.bp-0-br-radius-b-15,
+.bp-0-br-radius-r-15 {border-bottom-right-radius: 0.9375rem !important;}
+.bp-0-br-radius-br-16,
+.bp-0-br-radius-b-16,
+.bp-0-br-radius-r-16 {border-bottom-right-radius: 1rem !important;}
+.bp-0-br-radius-br-20,
+.bp-0-br-radius-b-20,
+.bp-0-br-radius-r-20 {border-bottom-right-radius: 1.25rem !important;}
+.bp-0-br-radius-br-24,
+.bp-0-br-radius-b-24,
+.bp-0-br-radius-r-24 {border-bottom-right-radius: 1.5rem !important;}
+.bp-0-br-radius-br-25,
+.bp-0-br-radius-b-25,
+.bp-0-br-radius-r-25 {border-bottom-right-radius: 1.5625rem !important;}
+.bp-0-br-radius-br-28,
+.bp-0-br-radius-b-28,
+.bp-0-br-radius-r-28 {border-bottom-right-radius: 1.75rem !important;}
+.bp-0-br-radius-br-30,
+.bp-0-br-radius-b-30,
+.bp-0-br-radius-r-30 {border-bottom-right-radius: 1.875rem !important;}
+.bp-0-br-radius-br-32,
+.bp-0-br-radius-b-32,
+.bp-0-br-radius-r-32 {border-bottom-right-radius: 2rem !important;}
+.bp-0-br-radius-br-35,
+.bp-0-br-radius-b-35,
+.bp-0-br-radius-r-35 {border-bottom-right-radius: 2.1875rem !important;}
+.bp-0-br-radius-br-36,
+.bp-0-br-radius-b-36,
+.bp-0-br-radius-r-36 {border-bottom-right-radius: 2.25rem !important;}
+.bp-0-br-radius-br-40,
+.bp-0-br-radius-b-40,
+.bp-0-br-radius-r-40 {border-bottom-right-radius: 2.5rem !important;}
+.bp-0-br-radius-br-44,
+.bp-0-br-radius-b-44,
+.bp-0-br-radius-r-44 {border-bottom-right-radius: 2.75rem !important;}
+.bp-0-br-radius-br-45,
+.bp-0-br-radius-b-45,
+.bp-0-br-radius-r-45 {border-bottom-right-radius: 2.8125rem !important;}
+.bp-0-br-radius-br-48,
+.bp-0-br-radius-b-48,
+.bp-0-br-radius-r-48 {border-bottom-right-radius: 3rem !important;}
+.bp-0-br-radius-br-50,
+.bp-0-br-radius-b-50,
+.bp-0-br-radius-r-50 {border-bottom-right-radius: 3.125rem !important;}
+
+.bp-0-br-style-none {border-style: none !important;}
+.bp-0-br-style-hidden {border-style: hidden !important;}
+.bp-0-br-style-dotted {border-style: dotted !important;}
+.bp-0-br-style-dashed {border-style: dashed !important;}
+.bp-0-br-style-solid {border-style: solid !important;}
+.bp-0-br-style-double {border-style: double !important;}
+.bp-0-br-style-groove {border-style: groove !important;}
+.bp-0-br-style-ridge {border-style: ridge !important;}
+.bp-0-br-style-inset {border-style: inset !important;}
+.bp-0-br-style-outset {border-style: outset !important;}
+.bp-0-br-style-initial {border-style: initial !important;}
+.bp-0-br-style-inherit {border-style: inherit !important;}
+
+.bp-0-br-t-style-none {border-top-style: none !important;}
+.bp-0-br-t-style-hidden {border-top-style: hidden !important;}
+.bp-0-br-t-style-dotted {border-top-style: dotted !important;}
+.bp-0-br-t-style-dashed {border-top-style: dashed !important;}
+.bp-0-br-t-style-solid {border-top-style: solid !important;}
+.bp-0-br-t-style-double {border-top-style: double !important;}
+.bp-0-br-t-style-groove {border-top-style: groove !important;}
+.bp-0-br-t-style-ridge {border-top-style: ridge !important;}
+.bp-0-br-t-style-inset {border-top-style: inset !important;}
+.bp-0-br-t-style-outset {border-top-style: outset !important;}
+.bp-0-br-t-style-initial {border-top-style: initial !important;}
+.bp-0-br-t-style-inherit {border-top-style: inherit !important;}
+
+.bp-0-br-l-style-none {border-left-style: none !important;}
+.bp-0-br-l-style-hidden {border-left-style: hidden !important;}
+.bp-0-br-l-style-dotted {border-left-style: dotted !important;}
+.bp-0-br-l-style-dashed {border-left-style: dashed !important;}
+.bp-0-br-l-style-solid {border-left-style: solid !important;}
+.bp-0-br-l-style-double {border-left-style: double !important;}
+.bp-0-br-l-style-groove {border-left-style: groove !important;}
+.bp-0-br-l-style-ridge {border-left-style: ridge !important;}
+.bp-0-br-l-style-inset {border-left-style: inset !important;}
+.bp-0-br-l-style-outset {border-left-style: outset !important;}
+.bp-0-br-l-style-initial {border-left-style: initial !important;}
+.bp-0-br-l-style-inherit {border-left-style: inherit !important;}
+
+.bp-0-br-r-style-none {border-right-style: none !important;}
+.bp-0-br-r-style-hidden {border-right-style: hidden !important;}
+.bp-0-br-r-style-dotted {border-right-style: dotted !important;}
+.bp-0-br-r-style-dashed {border-right-style: dashed !important;}
+.bp-0-br-r-style-solid {border-right-style: solid !important;}
+.bp-0-br-r-style-double {border-right-style: double !important;}
+.bp-0-br-r-style-groove {border-right-style: groove !important;}
+.bp-0-br-r-style-ridge {border-right-style: ridge !important;}
+.bp-0-br-r-style-inset {border-right-style: inset !important;}
+.bp-0-br-r-style-outset {border-right-style: outset !important;}
+.bp-0-br-r-style-initial {border-right-style: initial !important;}
+.bp-0-br-r-style-inherit {border-right-style: inherit !important;}
+
+.bp-0-br-b-style-none {border-bottom-style: none !important;}
+.bp-0-br-b-style-hidden {border-bottom-style: hidden !important;}
+.bp-0-br-b-style-dotted {border-bottom-style: dotted !important;}
+.bp-0-br-b-style-dashed {border-bottom-style: dashed !important;}
+.bp-0-br-b-style-solid {border-bottom-style: solid !important;}
+.bp-0-br-b-style-double {border-bottom-style: double !important;}
+.bp-0-br-b-style-groove {border-bottom-style: groove !important;}
+.bp-0-br-b-style-ridge {border-bottom-style: ridge !important;}
+.bp-0-br-b-style-inset {border-bottom-style: inset !important;}
+.bp-0-br-b-style-outset {border-bottom-style: outset !important;}
+.bp-0-br-b-style-initial {border-bottom-style: initial !important;}
+.bp-0-br-b-style-inherit {border-bottom-style: inherit !important;}

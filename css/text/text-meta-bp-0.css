@@ -1,0 +1,123 @@
+/*
+ * text
+*/
+
+/* hyphens */
+.bp-0-text-hyphens
+   {
+      /* only support auto */
+      hyphens: auto !important;
+      -ms-hyphens: auto !important;
+      -moz-hyphens: auto !important;
+      -webkit-hyphens: auto !important;
+   }
+   
+/* align */
+.bp-0-text-left { text-align: left !important; }
+.bp-0-text-center { text-align: center !important; }
+.bp-0-text-right { text-align: right !important; }
+.bp-0-text-justify { text-align: justify !important; text-justify: inter-word !important; }
+.bp-0-text-top { vertical-align: top !important; }
+.bp-0-text-middle { vertical-align: middle !important; }
+.bp-0-text-bottom { vertical-align: bottom !important; }
+
+/* style */
+.bp-0-text-bold { font-weight: bold !important; }
+.bp-0-text-italic { font-style: italic !important; }
+.bp-0-text-stroke { font-weight: line-through !important; }
+.bp-0-text-underline,
+.bp-0-text-decoration-underline { text-decoration: underline !important; }
+.bp-0-text-decoration-none { text-decoration: none !important; }
+
+/* float */
+.bp-0-text-float-left { float: left !important; }
+.bp-0-text-float-right { float: right !important; }
+.bp-0-text-float-clear-left { clear: left !important; }
+.bp-0-text-float-clear-right { clear: right !important; }
+.bp-0-text-float-clear-both { clear: both !important; }
+
+/* size */
+.bp-0-text-size-0 {font-size: 0rem !important;}
+.bp-0-text-size-1 {font-size: 0.0625rem !important;}
+.bp-0-text-size-2 {font-size: 0.125rem !important;}
+.bp-0-text-size-3 {font-size: 0.1875rem !important;}
+.bp-0-text-size-4 {font-size: 0.25rem !important;}
+.bp-0-text-size-5 {font-size: 0.3125rem !important;}
+.bp-0-text-size-6 {font-size: 0.375rem !important;}
+.bp-0-text-size-7 {font-size: 0.4375rem !important;}
+.bp-0-text-size-8 {font-size: 0.5rem !important;}
+.bp-0-text-size-9 {font-size: 0.5625rem !important;}
+.bp-0-text-size-10 {font-size: 0.625rem !important;}
+.bp-0-text-size-12 {font-size: 0.75rem !important;}
+.bp-0-text-size-15 {font-size: 0.9375rem !important;}
+.bp-0-text-size-16 {font-size: 1rem !important;}
+.bp-0-text-size-20 {font-size: 1.25rem !important;}
+.bp-0-text-size-24 {font-size: 1.5rem !important;}
+.bp-0-text-size-25 {font-size: 1.5625rem !important;}
+.bp-0-text-size-28 {font-size: 1.75rem !important;}
+.bp-0-text-size-30 {font-size: 1.875rem !important;}
+.bp-0-text-size-32 {font-size: 2rem !important;}
+.bp-0-text-size-35 {font-size: 2.1875rem !important;}
+.bp-0-text-size-36 {font-size: 2.25rem !important;}
+.bp-0-text-size-40 {font-size: 2.5rem !important;}
+.bp-0-text-size-44 {font-size: 2.75rem !important;}
+.bp-0-text-size-45 {font-size: 2.8125rem !important;}
+.bp-0-text-size-48 {font-size: 3rem !important;}
+.bp-0-text-size-50 {font-size: 3.125rem !important;}
+.bp-0-text-size-52 {font-size: 3.25rem !important;}
+.bp-0-text-size-55 {font-size: 3.4375rem !important;}
+.bp-0-text-size-56 {font-size: 3.5rem !important;}
+.bp-0-text-size-60 {font-size: 3.75rem !important;}
+.bp-0-text-size-64 {font-size: 4rem !important;}
+.bp-0-text-size-65 {font-size: 4.0625rem !important;}
+.bp-0-text-size-68 {font-size: 4.25rem !important;}
+.bp-0-text-size-70 {font-size: 4.375rem !important;}
+.bp-0-text-size-72 {font-size: 4.5rem !important;}
+.bp-0-text-size-75 {font-size: 4.6875rem !important;}
+.bp-0-text-size-76 {font-size: 4.75rem !important;}
+.bp-0-text-size-80 {font-size: 5rem !important;}
+.bp-0-text-size-84 {font-size: 5.25rem !important;}
+.bp-0-text-size-85 {font-size: 5.3125rem !important;}
+.bp-0-text-size-88 {font-size: 5.5rem !important;}
+.bp-0-text-size-90 {font-size: 5.625rem !important;}
+.bp-0-text-size-92 {font-size: 5.75rem !important;}
+.bp-0-text-size-95 {font-size: 5.9375rem !important;}
+.bp-0-text-size-96 {font-size: 6rem !important;}
+.bp-0-text-size-100 {font-size: 6.25rem !important;}
+.bp-0-text-size-125 {font-size: 7.8125rem !important;}
+.bp-0-text-size-150 {font-size: 9.375rem !important;}
+.bp-0-text-size-175 {font-size: 10.9375rem !important;}
+.bp-0-text-size-200 {font-size: 12.5rem !important;}
+.bp-0-text-size-225 {font-size: 14.0625rem !important;}
+.bp-0-text-size-250 {font-size: 15.625rem !important;}
+.bp-0-text-size-275 {font-size: 17.1875rem !important;}
+.bp-0-text-size-300 {font-size: 18.75rem !important;}
+
+/* line-height */
+.bp-0-text-height-0 {line-height: 0rem !important;}
+.bp-0-text-height-1 {line-height: 0.0625rem !important;}
+.bp-0-text-height-2 {line-height: 0.125rem !important;}
+.bp-0-text-height-3 {line-height: 0.1875rem !important;}
+.bp-0-text-height-4 {line-height: 0.25rem !important;}
+.bp-0-text-height-5 {line-height: 0.3125rem !important;}
+.bp-0-text-height-6 {line-height: 0.375rem !important;}
+.bp-0-text-height-7 {line-height: 0.4375rem !important;}
+.bp-0-text-height-8 {line-height: 0.5rem !important;}
+.bp-0-text-height-9 {line-height: 0.5625rem !important;}
+.bp-0-text-height-10 {line-height: 0.625rem !important;}
+.bp-0-text-height-12 {line-height: 0.75rem !important;}
+.bp-0-text-height-15 {line-height: 0.9375rem !important;}
+.bp-0-text-height-16 {line-height: 1rem !important;}
+.bp-0-text-height-20 {line-height: 1.25rem !important;}
+.bp-0-text-height-24 {line-height: 1.5rem !important;}
+.bp-0-text-height-25 {line-height: 1.5625rem !important;}
+.bp-0-text-height-28 {line-height: 1.75rem !important;}
+.bp-0-text-height-30 {line-height: 1.875rem !important;}
+.bp-0-text-height-32 {line-height: 2rem !important;}
+.bp-0-text-height-35 {line-height: 2.1875rem !important;}
+.bp-0-text-height-36 {line-height: 2.25rem !important;}
+.bp-0-text-height-40 {line-height: 2.5rem !important;}
+.bp-0-text-height-44 {line-height: 2.75rem !important;}
+.bp-0-text-height-45 {line-height: 2.8125rem !important;}
+.bp-0-text-height-48 {line-height: 3rem !important;}
+.bp-0-text-height-50 {line-height: 3.125rem !important;}
