@@ -3,14 +3,9 @@
       /*
        * position
       */
-      .bp-576-position-absolute
-         {
-            position: absolute !important;
-         }
-      .bp-576-position-relative
-         {
-            position: relative !important;
-         }
+      .bp-576-position-relative {position: relative !important;}
+      .bp-576-position-absolute {position: absolute !important;}
+      .bp-576-position-fixed {position: fixed !important;}
       .bp-576-position-sticky
          {
             position: -webkit-sticky !important;
