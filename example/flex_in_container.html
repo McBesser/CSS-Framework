@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="de">
+   <head>
+      <title>CSS-Framework - flex in container</title>
+      <meta charset="utf-8">
+      <meta name="referrer" content="origin">
+      <meta name="format-detection" content="telephone=no">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">      
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, minimal-ui">
+                    
+      <link rel="stylesheet" media="all" href="../css/preset/preset.css" />
+
+      <link rel="stylesheet" media="all" href="../css/container/container.css" />
+      <link rel="stylesheet" media="(min-width: 0px)" href="../css/container/container-meta-bp-0.css" />
+      <link rel="stylesheet" media="(min-width: 576px)" href="../css/container/container-meta-bp-576.css" />
+      <link rel="stylesheet" media="(min-width: 768px)" href="../css/container/container-meta-bp-768.css" />
+      <link rel="stylesheet" media="(min-width: 992px)" href="../css/container/container-meta-bp-992.css" />
+      <link rel="stylesheet" media="(min-width: 1200px)" href="../css/container/container-meta-bp-1200.css" />
+
+      <link rel="stylesheet" media="all" href="../css/spacing/spacing.css" />
+      <link rel="stylesheet" media="(min-width: 0px)" href="../css/spacing/spacing-meta-bp-0.css" />
+      <link rel="stylesheet" media="(min-width: 576px)" href="../css/spacing/spacing-meta-bp-576.css" />
+      <link rel="stylesheet" media="(min-width: 768px)" href="../css/spacing/spacing-meta-bp-768.css" />
+      <link rel="stylesheet" media="(min-width: 992px)" href="../css/spacing/spacing-meta-bp-992.css" />
+      <link rel="stylesheet" media="(min-width: 1200px)" href="../css/spacing/spacing-meta-bp-1200.css" />
+
+      <link rel="stylesheet" media="all" href="../css/flex/flex.css" />
+      <link rel="stylesheet" media="(min-width: 0px)" href="../css/flex/flex-meta-bp-0.css" />
+      <link rel="stylesheet" media="(min-width: 576px)" href="../css/flex/flex-meta-bp-576.css" />
+      <link rel="stylesheet" media="(min-width: 768px)" href="../css/flex/flex-meta-bp-768.css" />
+      <link rel="stylesheet" media="(min-width: 992px)" href="../css/flex/flex-meta-bp-992.css" />
+      <link rel="stylesheet" media="(min-width: 1200px)" href="../css/flex/flex-meta-bp-1200.css" />
+
+      <link rel="stylesheet" media="all" href="../css/grid/grid.css" />
+      <link rel="stylesheet" media="(min-width: 0px)" href="../css/grid/grid-meta-bp-0.css" />
+      <link rel="stylesheet" media="(min-width: 576px)" href="../css/grid/grid-meta-bp-576.css" />
+      <link rel="stylesheet" media="(min-width: 768px)" href="../css/grid/grid-meta-bp-768.css" />
+      <link rel="stylesheet" media="(min-width: 992px)" href="../css/grid/grid-meta-bp-992.css" />
+      <link rel="stylesheet" media="(min-width: 1200px)" href="../css/grid/grid-meta-bp-1200.css" />
+
+      <link rel="stylesheet" media="all" href="../css/position/position.css" />
+      <link rel="stylesheet" media="(min-width: 0px)" href="../css/position/position-meta-bp-0.css" />
+      <link rel="stylesheet" media="(min-width: 576px)" href="../css/position/position-meta-bp-576.css" />
+      <link rel="stylesheet" media="(min-width: 768px)" href="../css/position/position-meta-bp-768.css" />
+      <link rel="stylesheet" media="(min-width: 992px)" href="../css/position/position-meta-bp-992.css" />
+      <link rel="stylesheet" media="(min-width: 1200px)" href="../css/position/position-meta-bp-1200.css" />
+
+      <link rel="stylesheet" media="all" href="../css/text/text.css" />
+      <link rel="stylesheet" media="(min-width: 0px)" href="../css/text/text-meta-bp-0.css" />
+      <link rel="stylesheet" media="(min-width: 576px)" href="../css/text/text-meta-bp-576.css" />
+      <link rel="stylesheet" media="(min-width: 768px)" href="../css/text/text-meta-bp-768.css" />
+      <link rel="stylesheet" media="(min-width: 992px)" href="../css/text/text-meta-bp-992.css" />
+      <link rel="stylesheet" media="(min-width: 1200px)" href="../css/text/text-meta-bp-1200.css" />
+
+      <link rel="stylesheet" media="all" href="../css/border/border.css" />
+      <link rel="stylesheet" media="(min-width: 0px)" href="../css/border/border-meta-bp-0.css" />
+      <link rel="stylesheet" media="(min-width: 576px)" href="../css/border/border-meta-bp-576.css" />
+      <link rel="stylesheet" media="(min-width: 768px)" href="../css/border/border-meta-bp-768.css" />
+      <link rel="stylesheet" media="(min-width: 992px)" href="../css/border/border-meta-bp-992.css" />
+      <link rel="stylesheet" media="(min-width: 1200px)" href="../css/border/border-meta-bp-1200.css" />
+      
+      <link rel="stylesheet" media="all" href="example.css" />
+      
+   </head>
+   <body class="px-30">
+      <h1 class="text-center">CSS-Framework: flex in container</h1>
+      <div class="container-1200 mb-15 p-15">
+         <h2 class="text-center">cheat sheet</h2>
+         <p>example for usefully use flex in container</p>
+         <ol>
+            <li>you need body padding biger or equal item gap eg. body have class <em>px-30</em> for 30px left and right</li>
+            <li>you need a container eg. a div with class <em>container-1200</em> for max width 1200px. If your device width smaler then 1200px is have you 30px spacing.</li>
+            <li>you need a row container eg. div with class <em>row</em> or <em>flex</em> it's the same</li>
+            <li>woud you like a gap so add a negative margin to row container eg. gap is 20px so use <em>m--10</em> for -10px margin</li>
+            <li>and now add cols with eg. <em>col-25</em> for 25% width (4 cols) and add gap <em>p-10</em> for 10px padding (not margin!) summary gap is 20px</li>
+            <li>done, you cann now add content.</li>
+         </ol>
+      </div>
+      <div class="container-1200">
+      <p>this text is flush with the following columns</p>
+         <div class="row m--10">
+            <div class="col-25 p-10"> 
+               <div class="p-5 example-br-color example-bg-color br-width-1 br-style-solid text-justify">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+               </div>
+            </div>
+            <div class="col-25 p-10"> 
+               <div class="p-5 example-br-color example-bg-color br-width-1 br-style-solid text-justify">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+               </div>
+            </div>
+            <div class="col-25 p-10"> 
+               <div class="p-5 example-br-color example-bg-color br-width-1 br-style-solid text-justify">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+               </div>
+            </div>
+            <div class="col-25 p-10"> 
+               <div class="p-5 example-br-color example-bg-color br-width-1 br-style-solid text-justify">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+               </div>
+            </div>
+            <div class="col-25 p-10"> 
+               <div class="p-5 example-br-color example-bg-color br-width-1 br-style-solid text-justify">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-1200">
+      <p>another eg. with gap 60px (30px padding)</p>
+         <div class="row m--30">
+            <div class="col-25 p-30"> 
+               <div class="p-5 example-br-color example-bg-color br-width-1 br-style-solid text-justify">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+               </div>
+            </div>
+            <div class="col-25 p-30"> 
+               <div class="p-5 example-br-color example-bg-color br-width-1 br-style-solid text-justify">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+               </div>
+            </div>
+            <div class="col-25 p-30"> 
+               <div class="p-5 example-br-color example-bg-color br-width-1 br-style-solid text-justify">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+               </div>
+            </div>
+            <div class="col-25 p-30"> 
+               <div class="p-5 example-br-color example-bg-color br-width-1 br-style-solid text-justify">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+               </div>
+            </div>
+            <div class="col-25 p-30"> 
+               <div class="p-5 example-br-color example-bg-color br-width-1 br-style-solid text-justify">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+               </div>
+            </div>
+         </div>
+      </div>
+      
+   </body>
+</html>
