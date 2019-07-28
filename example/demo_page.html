@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="de">
+   <head>
+      <title>CSS-Framework - border</title>
+      <meta charset="utf-8">
+      <meta name="referrer" content="origin">
+      <meta name="format-detection" content="telephone=no">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">      
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, minimal-ui">
+                    
+      <link rel="stylesheet" media="all" href="../css/preset/preset.css" />
+
+      <link rel="stylesheet" media="all" href="../css/container/container.css" />
+      <link rel="stylesheet" media="(min-width: 0px)" href="../css/container/container-meta-bp-0.css" />
+      <link rel="stylesheet" media="(min-width: 576px)" href="../css/container/container-meta-bp-576.css" />
+      <link rel="stylesheet" media="(min-width: 768px)" href="../css/container/container-meta-bp-768.css" />
+      <link rel="stylesheet" media="(min-width: 992px)" href="../css/container/container-meta-bp-992.css" />
+      <link rel="stylesheet" media="(min-width: 1200px)" href="../css/container/container-meta-bp-1200.css" />
+
+      <link rel="stylesheet" media="all" href="../css/spacing/spacing.css" />
+      <link rel="stylesheet" media="(min-width: 0px)" href="../css/spacing/spacing-meta-bp-0.css" />
+      <link rel="stylesheet" media="(min-width: 576px)" href="../css/spacing/spacing-meta-bp-576.css" />
+      <link rel="stylesheet" media="(min-width: 768px)" href="../css/spacing/spacing-meta-bp-768.css" />
+      <link rel="stylesheet" media="(min-width: 992px)" href="../css/spacing/spacing-meta-bp-992.css" />
+      <link rel="stylesheet" media="(min-width: 1200px)" href="../css/spacing/spacing-meta-bp-1200.css" />
+
+      <link rel="stylesheet" media="all" href="../css/flex/flex.css" />
+      <link rel="stylesheet" media="(min-width: 0px)" href="../css/flex/flex-meta-bp-0.css" />
+      <link rel="stylesheet" media="(min-width: 576px)" href="../css/flex/flex-meta-bp-576.css" />
+      <link rel="stylesheet" media="(min-width: 768px)" href="../css/flex/flex-meta-bp-768.css" />
+      <link rel="stylesheet" media="(min-width: 992px)" href="../css/flex/flex-meta-bp-992.css" />
+      <link rel="stylesheet" media="(min-width: 1200px)" href="../css/flex/flex-meta-bp-1200.css" />
+
+      <link rel="stylesheet" media="all" href="../css/grid/grid.css" />
+      <link rel="stylesheet" media="(min-width: 0px)" href="../css/grid/grid-meta-bp-0.css" />
+      <link rel="stylesheet" media="(min-width: 576px)" href="../css/grid/grid-meta-bp-576.css" />
+      <link rel="stylesheet" media="(min-width: 768px)" href="../css/grid/grid-meta-bp-768.css" />
+      <link rel="stylesheet" media="(min-width: 992px)" href="../css/grid/grid-meta-bp-992.css" />
+      <link rel="stylesheet" media="(min-width: 1200px)" href="../css/grid/grid-meta-bp-1200.css" />
+
+      <link rel="stylesheet" media="all" href="../css/position/position.css" />
+      <link rel="stylesheet" media="(min-width: 0px)" href="../css/position/position-meta-bp-0.css" />
+      <link rel="stylesheet" media="(min-width: 576px)" href="../css/position/position-meta-bp-576.css" />
+      <link rel="stylesheet" media="(min-width: 768px)" href="../css/position/position-meta-bp-768.css" />
+      <link rel="stylesheet" media="(min-width: 992px)" href="../css/position/position-meta-bp-992.css" />
+      <link rel="stylesheet" media="(min-width: 1200px)" href="../css/position/position-meta-bp-1200.css" />
+
+      <link rel="stylesheet" media="all" href="../css/text/text.css" />
+      <link rel="stylesheet" media="(min-width: 0px)" href="../css/text/text-meta-bp-0.css" />
+      <link rel="stylesheet" media="(min-width: 576px)" href="../css/text/text-meta-bp-576.css" />
+      <link rel="stylesheet" media="(min-width: 768px)" href="../css/text/text-meta-bp-768.css" />
+      <link rel="stylesheet" media="(min-width: 992px)" href="../css/text/text-meta-bp-992.css" />
+      <link rel="stylesheet" media="(min-width: 1200px)" href="../css/text/text-meta-bp-1200.css" />
+
+      <link rel="stylesheet" media="all" href="../css/border/border.css" />
+      <link rel="stylesheet" media="(min-width: 0px)" href="../css/border/border-meta-bp-0.css" />
+      <link rel="stylesheet" media="(min-width: 576px)" href="../css/border/border-meta-bp-576.css" />
+      <link rel="stylesheet" media="(min-width: 768px)" href="../css/border/border-meta-bp-768.css" />
+      <link rel="stylesheet" media="(min-width: 992px)" href="../css/border/border-meta-bp-992.css" />
+      <link rel="stylesheet" media="(min-width: 1200px)" href="../css/border/border-meta-bp-1200.css" />
+      
+      <link rel="stylesheet" media="all" href="example.css" />
+      
+      <style>
+         .demo-page-bg-white {background-color: #ffffff;}
+         .demo-page-bg-orange {background-color: #ffddaa33;}
+         .demo-page-bg-yellow {background-color: #ffffaa;}
+         .demo-page-br-gray {border-color: #333333;}
+         .demo-page-c-gray {color: #333333;}
+         
+         .demo-page nav li {list-style: none;}
+         .demo-page nav a:hover {background-color: #ffaaaa;}
+         .demo-page *:target {padding-top: 50px; margin-top: -50px;}
+      </style>
+   </head>
+   <body class="px-16 pt-100 demo-page-bg-orange demo-page">
+      <header class="position-fixed position-t-0 position-l-0 position-r-0 br-width-0 br-b-width-2 br-style-solid demo-page-bg-white demo-page-br-gray">
+         <div class="container-1200">
+            <nav class="flex flex-jc-end min-height-50">
+               <ul class="row m-0 p-0" >
+                  <li class="flex"><a href="#test1" class="demo-page-c-gray text-decoration-none px-15 py-5 flex flex-ac-center">Test 1</a></li>
+                  <li class="flex"><a href="#test2" class="demo-page-c-gray text-decoration-none px-15 py-5 flex flex-ac-center">Test 2</a></li>
+                  <li class="flex"><a href="#test3" class="demo-page-c-gray text-decoration-none px-15 py-5 flex flex-ac-center">Test 3</a></li>
+               </ul>               
+            </nav>
+         </div>         
+      </header>
+      <main>         
+         <article>              
+            <header id="test1" class="mx--15 demo-page-bg-yellow">
+               <div class="container-1200">
+                  <h1>Test 1</h1>
+               </div>
+            </header>
+            <div class="container-1200">
+               <div class="row m--10">
+                  <div class="col-66 p-10">               
+                     <section class="demo-page-bg-white p-10">
+                        <header id="test2">
+                           <h2>Test 2</h2>
+                        </header>
+                        <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+                        </p><p>
+                        </p><p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                        </p><p>
+                        </p><p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. 
+                        </p><p>
+                        </p><p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+                        </p><p>
+                        </p><p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.
+                        </p> 
+                     </section>
+                     <section class="demo-page-bg-white p-10">
+                        <header id="test3">
+                           <h2>Test 3</h2>
+                        </header>
+                        <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+                        </p><p>
+                        </p><p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                        </p><p>
+                        </p><p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. 
+                        </p><p>
+                        </p><p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+                        </p><p>
+                        </p><p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.
+                        </p> 
+                     </section>
+                  </div>
+                  <aside class="col-34 p-10">
+                     <section class="demo-page-bg-white p-10">
+                        <header><h6>Hallo</h6></header>
+                        <p>Text</p>                  
+                     </section>            
+                  </aside>
+               </div>
+            </div>
+         </article>         
+      </main>
+   </body>
+</html>
