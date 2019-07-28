@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="de">
+   <head>
+      <title>CSS-Framework - border</title>
+      <meta charset="utf-8">
+      <meta name="referrer" content="origin">
+      <meta name="format-detection" content="telephone=no">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">      
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, minimal-ui">
+                    
+      <link rel="stylesheet" media="all" href="../css/preset/preset.css" />
+
+      <link rel="stylesheet" media="all" href="../css/container/container.css" />
+      <link rel="stylesheet" media="(min-width: 0px)" href="../css/container/container-meta-bp-0.css" />
+      <link rel="stylesheet" media="(min-width: 576px)" href="../css/container/container-meta-bp-576.css" />
+      <link rel="stylesheet" media="(min-width: 768px)" href="../css/container/container-meta-bp-768.css" />
+      <link rel="stylesheet" media="(min-width: 992px)" href="../css/container/container-meta-bp-992.css" />
+      <link rel="stylesheet" media="(min-width: 1200px)" href="../css/container/container-meta-bp-1200.css" />
+
+      <link rel="stylesheet" media="all" href="../css/spacing/spacing.css" />
+      <link rel="stylesheet" media="(min-width: 0px)" href="../css/spacing/spacing-meta-bp-0.css" />
+      <link rel="stylesheet" media="(min-width: 576px)" href="../css/spacing/spacing-meta-bp-576.css" />
+      <link rel="stylesheet" media="(min-width: 768px)" href="../css/spacing/spacing-meta-bp-768.css" />
+      <link rel="stylesheet" media="(min-width: 992px)" href="../css/spacing/spacing-meta-bp-992.css" />
+      <link rel="stylesheet" media="(min-width: 1200px)" href="../css/spacing/spacing-meta-bp-1200.css" />
+
+      <link rel="stylesheet" media="all" href="../css/flex/flex.css" />
+      <link rel="stylesheet" media="(min-width: 0px)" href="../css/flex/flex-meta-bp-0.css" />
+      <link rel="stylesheet" media="(min-width: 576px)" href="../css/flex/flex-meta-bp-576.css" />
+      <link rel="stylesheet" media="(min-width: 768px)" href="../css/flex/flex-meta-bp-768.css" />
+      <link rel="stylesheet" media="(min-width: 992px)" href="../css/flex/flex-meta-bp-992.css" />
+      <link rel="stylesheet" media="(min-width: 1200px)" href="../css/flex/flex-meta-bp-1200.css" />
+
+      <link rel="stylesheet" media="all" href="../css/grid/grid.css" />
+      <link rel="stylesheet" media="(min-width: 0px)" href="../css/grid/grid-meta-bp-0.css" />
+      <link rel="stylesheet" media="(min-width: 576px)" href="../css/grid/grid-meta-bp-576.css" />
+      <link rel="stylesheet" media="(min-width: 768px)" href="../css/grid/grid-meta-bp-768.css" />
+      <link rel="stylesheet" media="(min-width: 992px)" href="../css/grid/grid-meta-bp-992.css" />
+      <link rel="stylesheet" media="(min-width: 1200px)" href="../css/grid/grid-meta-bp-1200.css" />
+
+      <link rel="stylesheet" media="all" href="../css/position/position.css" />
+      <link rel="stylesheet" media="(min-width: 0px)" href="../css/position/position-meta-bp-0.css" />
+      <link rel="stylesheet" media="(min-width: 576px)" href="../css/position/position-meta-bp-576.css" />
+      <link rel="stylesheet" media="(min-width: 768px)" href="../css/position/position-meta-bp-768.css" />
+      <link rel="stylesheet" media="(min-width: 992px)" href="../css/position/position-meta-bp-992.css" />
+      <link rel="stylesheet" media="(min-width: 1200px)" href="../css/position/position-meta-bp-1200.css" />
+
+      <link rel="stylesheet" media="all" href="../css/text/text.css" />
+      <link rel="stylesheet" media="(min-width: 0px)" href="../css/text/text-meta-bp-0.css" />
+      <link rel="stylesheet" media="(min-width: 576px)" href="../css/text/text-meta-bp-576.css" />
+      <link rel="stylesheet" media="(min-width: 768px)" href="../css/text/text-meta-bp-768.css" />
+      <link rel="stylesheet" media="(min-width: 992px)" href="../css/text/text-meta-bp-992.css" />
+      <link rel="stylesheet" media="(min-width: 1200px)" href="../css/text/text-meta-bp-1200.css" />
+
+      <link rel="stylesheet" media="all" href="../css/border/border.css" />
+      <link rel="stylesheet" media="(min-width: 0px)" href="../css/border/border-meta-bp-0.css" />
+      <link rel="stylesheet" media="(min-width: 576px)" href="../css/border/border-meta-bp-576.css" />
+      <link rel="stylesheet" media="(min-width: 768px)" href="../css/border/border-meta-bp-768.css" />
+      <link rel="stylesheet" media="(min-width: 992px)" href="../css/border/border-meta-bp-992.css" />
+      <link rel="stylesheet" media="(min-width: 1200px)" href="../css/border/border-meta-bp-1200.css" />
+      
+      <link rel="stylesheet" media="all" href="example.css" />
+      
+   </head>
+   <body class="px-30">
+      <h1 class="text-center">CSS-Framework: border</h1>
+      <div class="container-1200 mb-15 p-15">
+         <h2 class="text-center">cheat sheet</h2>
+         <p></p>
+         <div class="row">
+            <div class="col-b4">
+               <h3>border width (0 to 10)</h3>
+               <ul>
+                  <li>br-width-? = border: left, right, top, bottom</li>
+                  <li>br-l-width-? = border width: left</li>
+                  <li>br-r-width-? = border width: right</li>
+                  <li>br-t-width-? = border width: top</li>
+                  <li>br-b-width-? = border width: bottom</li>
+               </ul>
+            </div>
+            <div class="col-b4">
+               <h3>border style</h3>
+               <p>you can use: none, hidden, dotted, dashed, solid, double, groove, ridge, inset, outset, initial, inherit</p>
+               <ul>
+                  <li>br-style-? = border style (left, right, top, bottom)</li>
+                  <li>br-l-style-? = border left style</li>
+                  <li>br-r-style-? = border right style</li>
+                  <li>br-t-style-?: border top style</li>
+                  <li>br-b-style-?: border bottom style</li>
+               </ul>
+            </div>
+            <div class="col-b4">
+               <h3>border radius</h3>
+               <p>Percent: 0 to 100 in 5th Steps, eg. 5p, 10p, 95p<br>
+               Pixel: 0 to 50 in 4 Steps (eg. 0, 4, 8...); 0 to 50 in 5th Steps (eg. 5, 10, 15...); and 1 to 10</p>
+               <ul>
+                  <li>br-radius-? =  top left, top right, bottom left, bottom right</li>
+                  <li>br-radius-tl-? = top left</li>
+                  <li>br-radius-tr-? = top right</li>
+                  <li>br-radius-bl-? = bottom left</li>
+                  <li>br-radius-br-? = bottom right</li>
+                  <li>br-radius-l-? = top left, bottom left</li>
+                  <li>br-radius-r-? = top right, bottom right</li>
+                  <li>br-radius-t-? = top left, top right</li>
+                  <li>br-radius-b-? = bottom left, bottom right</li>
+               </ul>
+            </div>
+            <div class="col-b4">
+               <h3>breakpoints</h3>
+               <p>eg. bp-1200-br-radius-15</p>
+               <ul>
+                  <li>? = eg. br-radius-15 = media: all</li>
+                  <li>bp-0-? = eg. bp-0-br-radius-15 = min-width: 0px</li>
+                  <li>bp-576-? = eg. bp-576-br-radius-15 = min-width: 576px</li>
+                  <li>bp-768-? = eg. bp-768-br-radius-15 = min-width: 768px</li>
+                  <li>bp-992-? = eg. bp-992-br-radius-15 = min-width: 992px</li>
+                  <li>bp-1200-? = eg. bp-1200-br-radius-15 = min-width: 1200px</li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="container-1200">
+      <h2>Border Radius</h2>
+         <div class="row m--10">
+            <div class="col-25 p-10"> 
+               <div class="br-radius-15 br-width-1 br-style-solid p-5 example-br-color example-bg-color text-center">
+                  br-radius-15
+               </div>
+            </div>
+            <div class="col-25 p-10"> 
+               <div class="br-radius-tl-15 br-width-1 br-style-solid p-5 example-br-color example-bg-color text-center">
+                  br-radius-tl-15
+               </div>
+            </div>
+            <div class="col-25 p-10"> 
+               <div class="br-radius-tr-15 br-width-1 br-style-solid p-5 example-br-color example-bg-color text-center">
+                  br-radius-tr-15
+               </div>
+            </div>
+            <div class="col-25 p-10"> 
+               <div class="br-radius-bl-15 br-width-1 br-style-solid p-5 example-br-color example-bg-color text-center">
+                  br-radius-bl-15
+               </div>
+            </div>
+            <div class="col-25 p-10"> 
+               <div class="br-radius-br-15 br-width-1 br-style-solid p-5 example-br-color example-bg-color text-center">
+                  br-radius-br-15
+               </div>
+            </div>
+            <div class="col-25 p-10"> 
+               <div class="br-radius-l-15 br-width-1 br-style-solid p-5 example-br-color example-bg-color text-center">
+                  br-radius-l-15
+               </div>
+            </div>
+            <div class="col-25 p-10"> 
+               <div class="br-radius-r-15 br-width-1 br-style-solid p-5 example-br-color example-bg-color text-center">
+                  br-radius-r-15
+               </div>
+            </div>
+            <div class="col-25 p-10"> 
+               <div class="br-radius-15 br-width-1 br-style-solid p-5 example-br-color example-bg-color text-center">
+                  br-radius-15
+               </div>
+            </div>
+            <div class="col-25 p-10"> 
+               <div class="br-radius-t-15 br-width-1 br-style-solid p-5 example-br-color example-bg-color text-center">
+                  br-radius-t-15
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-1200">
+         <h2>Border Width</h2>
+         <div class="row m--10">
+            <div class="col-25 p-10"> 
+               <div class="br-width-1 br-style-solid p-5 example-br-color example-bg-color text-center">
+                  br-width-1
+               </div>
+            </div>
+            <div class="col-25 p-10"> 
+               <div class="br-width-3 br-style-solid p-5 example-br-color example-bg-color text-center">
+                  br-width-3
+               </div>
+            </div>
+            <div class="col-25 p-10"> 
+               <div class="br-width-10 br-style-solid p-5 example-br-color example-bg-color text-center">
+                  br-width-10
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-1200">
+         <h2>Border Style</h2>
+         <div class="row m--10">
+            <div class="col-25 p-10"> 
+               <div class="br-width-5 br-style-none p-5 example-br-color example-bg-color text-center">
+                  br-style-none
+               </div>
+            </div>
+            <div class="col-25 p-10"> 
+               <div class="br-width-5 br-style-hidden p-5 example-br-color example-bg-color text-center">
+                  br-style-hidden
+               </div>
+            </div>
+            <div class="col-25 p-10"> 
+               <div class="br-width-5 br-style-dotted p-5 example-br-color example-bg-color text-center">
+                  br-style-dotted
+               </div>
+            </div>
+            <div class="col-25 p-10"> 
+               <div class="br-width-5 br-style-dashed p-5 example-br-color example-bg-color text-center">
+                  br-style-dashed
+               </div>
+            </div>
+            <div class="col-25 p-10"> 
+               <div class="br-width-5 br-style-solid p-5 example-br-color example-bg-color text-center">
+                  br-style-solid
+               </div>
+            </div>
+            <div class="col-25 p-10"> 
+               <div class="br-width-5 br-style-double p-5 example-br-color example-bg-color text-center">
+                  br-style-double
+               </div>
+            </div>
+            <div class="col-25 p-10"> 
+               <div class="br-width-5 br-style-groove p-5 example-br-color example-bg-color text-center">
+                  br-style-groove
+               </div>
+            </div>
+            <div class="col-25 p-10"> 
+               <div class="br-width-5 br-style-ridge p-5 example-br-color example-bg-color text-center">
+                  br-style-ridge
+               </div>
+            </div>
+            <div class="col-25 p-10"> 
+               <div class="br-width-5 br-style-inset p-5 example-br-color example-bg-color text-center">
+                  br-style-inset
+               </div>
+            </div>
+            <div class="col-25 p-10"> 
+               <div class="br-width-5 br-style-outset p-5 example-br-color example-bg-color text-center">
+                  br-style-outset
+               </div>
+            </div>
+            <div class="col-25 p-10"> 
+               <div class="br-width-5 br-style-initial p-5 example-br-color example-bg-color text-center">
+                  br-style-initial
+               </div>
+            </div>
+            <div class="col-25 p-10"> 
+               <div class="br-width-5 br-style-inherit p-5 example-br-color example-bg-color text-center">
+                  br-style-inherit
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
