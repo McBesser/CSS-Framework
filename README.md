@@ -84,15 +84,52 @@ eg.
 .bp-576-container
 ```
 
-**legend:**
-- d = display
+## legend
+### dfault (for all things same)
 - bp = breakpoint
+### border
 - br = border
+### container
+- d = display
+- w = width
+- h = height
+### flex
+- col = column
+- jc = justify content
+- ai = align-items
+- ac = align content
+- as = align self
+- b = bootstrap schema
+- o = order
+### grid
+- tpl = template
+- col = column
+- a = area
+- ga = grid area
+### position
+- t = top
+- l = left
+- r = right
+- b = bottom
+- p = percent
+### spacing
 - m = margin
+- ml = margin left
+- mr = margin right
+- mt = margin top
+- mb = margin bottom
 - mx = margin horizontal (left and right)
 - my = margin vertical (top and bottom)
 - p = padding (eg. spacing padding) or percent (eg. border-radius)
+- pl = padding left
+- pr = padding right
+- pt = padding top
+- pb = padding bottom
 - px = padding horizontal (left and right)
 - py = padding vertical (top and bottom)
-- ...
+### text
+- c = count
+- g = gap
+- w = width
+- col = column
 
