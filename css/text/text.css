@@ -13,28 +13,28 @@
    }
    
 /* align */
-.text-left { text-align: left !important; }
-.text-center { text-align: center !important; }
-.text-right { text-align: right !important; }
-.text-justify { text-align: justify !important; text-justify: inter-word !important; }
-.text-top { vertical-align: top !important; }
-.text-middle { vertical-align: middle !important; }
-.text-bottom { vertical-align: bottom !important; }
+.text-left {text-align: left !important;}
+.text-center {text-align: center !important;}
+.text-right {text-align: right !important;}
+.text-justify {text-align: justify !important; text-justify: inter-word !important;}
+.text-top {vertical-align: top !important;}
+.text-middle {vertical-align: middle !important;}
+.text-bottom {vertical-align: bottom !important;}
 
 /* style */
-.text-bold { font-weight: bold !important; }
-.text-italic { font-style: italic !important; }
-.text-stroke { font-weight: line-through !important; }
+.text-bold {font-weight: bold !important;}
+.text-italic {font-style: italic !important;}
+.text-stroke {font-weight: line-through !important;}
 .text-underline,
-.text-decoration-underline { text-decoration: underline !important; }
-.text-decoration-none { text-decoration: none !important; }
+.text-decoration-underline {text-decoration: underline !important;}
+.text-decoration-none {text-decoration: none !important;}
 
 /* float */
-.text-float-left { float: left !important; }
-.text-float-right { float: right !important; }
-.text-float-clear-left { clear: left !important; }
-.text-float-clear-right { clear: right !important; }
-.text-float-clear-both { clear: both !important; }
+.text-float-left {float: left !important;}
+.text-float-right {float: right !important;}
+.text-float-clear-left {clear: left !important;}
+.text-float-clear-right {clear: right !important;}
+.text-float-clear-both {clear: both !important;}
 
 /* size */
 .text-size-0 {font-size: 0rem !important;}
@@ -121,3 +121,84 @@
 .text-height-45 {line-height: 2.8125rem !important;}
 .text-height-48 {line-height: 3rem !important;}
 .text-height-50 {line-height: 3.125rem !important;}
+
+/* columns */
+.text-col-c0 {column-count: 0 !important;}
+.text-col-c1 {column-count: 1 !important;}
+.text-col-c2 {column-count: 2 !important;}
+.text-col-c3 {column-count: 3 !important;}
+.text-col-c4 {column-count: 4 !important;}
+.text-col-c5 {column-count: 5 !important;}
+.text-col-c6 {column-count: 6 !important;}
+
+.text-col-g0 {column-gap: 0rem !important;}
+.text-col-g4 {column-gap: 0.25rem !important;}
+.text-col-g5 {column-gap: 0.3125rem !important;}
+.text-col-g8 {column-gap: 0.5rem !important;}
+.text-col-g10 {column-gap: 0.625rem !important;}
+.text-col-g12 {column-gap: 0.75rem !important;}
+.text-col-g15 {column-gap: 0.9375rem !important;}
+.text-col-g16 {column-gap: 1rem !important;}
+.text-col-g20 {column-gap: 1.25rem !important;}
+.text-col-g24 {column-gap: 1.5rem !important;}
+.text-col-g25 {column-gap: 1.5625rem !important;}
+.text-col-g28 {column-gap: 1.75rem !important;}
+.text-col-g30 {column-gap: 1.875rem !important;}
+.text-col-g32 {column-gap: 2rem !important;}
+.text-col-g35 {column-gap: 2.1875rem !important;}
+.text-col-g36 {column-gap: 2.25rem !important;}
+.text-col-g40 {column-gap: 2.5rem !important;}
+.text-col-g44 {column-gap: 2.75rem !important;}
+.text-col-g45 {column-gap: 2.8125rem !important;}
+.text-col-g48 {column-gap: 3rem !important;}
+.text-col-g50 {column-gap: 3.125rem !important;}
+
+.text-col-rule-none {column-rule-style: none !important;}
+.text-col-rule-hidden {column-rule-style: hidden !important;}
+.text-col-rule-dotted {column-rule-style: dotted !important;}
+.text-col-rule-dashed {column-rule-style: dashed !important;}
+.text-col-rule-solid {column-rule-style: solid !important;}
+.text-col-rule-double {column-rule-style: double !important;}
+.text-col-rule-groove {column-rule-style: groove !important;}
+.text-col-rule-ridge {column-rule-style: ridge !important;}
+.text-col-rule-inset {column-rule-style: inset !important;}
+.text-col-rule-outset {column-rule-style: outset !important;}
+.text-col-rule-initial {column-rule-style: initial !important;}
+.text-col-rule-inherit {column-rule-style: inherit !important;}
+
+.text-col-rule-0 {column-rule-width: 0rem !important;}
+.text-col-rule-1 {column-rule-width: 0.0625rem !important;}
+.text-col-rule-2 {column-rule-width: 0.125rem !important;}
+.text-col-rule-3 {column-rule-width: 0.1875rem !important;}
+.text-col-rule-4 {column-rule-width: 0.25rem !important;}
+.text-col-rule-5 {column-rule-width: 0.3125rem !important;}
+.text-col-rule-6 {column-rule-width: 0.375rem !important;}
+.text-col-rule-7 {column-rule-width: 0.4375rem !important;}
+.text-col-rule-8 {column-rule-width: 0.5rem !important;}
+.text-col-rule-9 {column-rule-width: 0.5625rem !important;}
+.text-col-rule-10 {column-rule-width: 0.625rem !important;}
+
+.text-col-rule-color {column-rule-color: #000000 !important;}
+.text-col-rule-color {column-rule-color: var(--text-col-rule-color, #000000) !important;}
+
+.text-col-w0 {column-width: 0rem !important;}
+.text-col-w25 {column-width: 1.5625rem !important;}
+.text-col-w50 {column-width: 3.125rem !important;}
+.text-col-w75 {column-width: 4.6875rem !important;}
+.text-col-w100 {column-width: 6.25rem !important;}
+.text-col-w125 {column-width: 7.8125rem !important;}
+.text-col-w150 {column-width: 9.375rem !important;}
+.text-col-w175 {column-width: 10.9375rem !important;}
+.text-col-w200 {column-width: 12.5rem !important;}
+.text-col-w225 {column-width: 14.0625rem !important;}
+.text-col-w250 {column-width: 15.625rem !important;}
+.text-col-w275 {column-width: 17.1875rem !important;}
+.text-col-w300 {column-width: 18.75rem !important;}
+.text-col-w325 {column-width: 20.3125rem !important;}
+.text-col-w350 {column-width: 21.875rem !important;}
+.text-col-w375 {column-width: 23.4375rem !important;}
+.text-col-w400 {column-width: 25rem !important;}
+.text-col-w425 {column-width: 26.5625rem !important;}
+.text-col-w450 {column-width: 28.125rem !important;}
+.text-col-w475 {column-width: 29.6875rem !important;}
+.text-col-w500 {column-width: 31.25rem !important;}
