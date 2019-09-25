@@ -132,56 +132,62 @@
 .bp-576-flex-o-9 { order: 9 !important; }
   
 /* (container) flex gap */
-.container.bp-576-flex-gap-5 { padding-left: 0.3125rem !important; padding-right: 0.3125rem !important; }
-.container.bp-576-flex-gap-5 *[class*="flex"],
-.container.bp-576-flex-gap-5 *[class*="row"],
-*[class*="flex"].bp-576-flex-gap-5,
-*[class*="row"].bp-576-flex-gap-5 { padding: 0.15625rem; margin-left: -0.3125rem !important; margin-right: -0.3125rem !important; }
-.container.bp-576-flex-gap-5 *[class*="col-"],
-*[class*="flex"].bp-576-flex-gap-5 *[class*="col-"],
-*[class*="row"].bp-576-flex-gap-5 *[class*="col-"] { padding: 0.15625rem !important; }
+.bp-576-flex-gap-5:not(.flex):not(.row) { padding-left: 0.3125rem !important; padding-right: 0.3125rem !important; }
+.bp-576-flex-gap-5 .flex,
+.bp-576-flex-gap-5.flex,
+.bp-576-flex-gap-5 .row,
+.bp-576-flex-gap-5.row { padding: 0.15625rem !important; margin-left: -0.3125rem !important; margin-right: -0.3125rem !important; }
+.bp-576-flex-gap-5 .flex > *,
+.bp-576-flex-gap-5.flex > *,
+.bp-576-flex-gap-5 .row > *,
+.bp-576-flex-gap-5.row > * { padding: 0.15625rem !important; }
 
-.container.bp-576-flex-gap-8 { padding-left: 0.5rem !important; padding-right: 0.5rem !important; }
-.container.bp-576-flex-gap-8 *[class*="flex"],
-.container.bp-576-flex-gap-8 *[class*="row"],
-*[class*="flex"].bp-576-flex-gap-8,
-*[class*="row"].bp-576-flex-gap-8 { padding: 0.25rem; margin-left: -0.5rem !important; margin-right: -0.5rem !important; }
-.container.bp-576-flex-gap-8 *[class*="col-"],
-*[class*="flex"].bp-576-flex-gap-8 *[class*="col-"],
-*[class*="row"].bp-576-flex-gap-8 *[class*="col-"] { padding: 0.25rem !important; }
+.bp-576-flex-gap-8:not(.flex):not(.row) { padding-left: 0.5rem !important; padding-right: 0.5rem !important; }
+.bp-576-flex-gap-8 .flex,
+.bp-576-flex-gap-8.flex,
+.bp-576-flex-gap-8 .row,
+.bp-576-flex-gap-8.row { padding: 0.25rem !important; margin-left: -0.5rem !important; margin-right: -0.5rem !important; }
+.bp-576-flex-gap-8 .flex > *,
+.bp-576-flex-gap-8.flex > *,
+.bp-576-flex-gap-8 .row > *,
+.bp-576-flex-gap-8.row > * { padding: 0.25rem !important; }
 
-.container.bp-576-flex-gap-10 { padding-left: 0.625rem !important; padding-right: 0.625rem !important; }
-.container.bp-576-flex-gap-10 *[class*="flex"],
-.container.bp-576-flex-gap-10 *[class*="row"],
-*[class*="flex"].bp-576-flex-gap-10,
-*[class*="row"].bp-576-flex-gap-10 { padding: 0.3125rem; margin-left: -0.625rem !important; margin-right: -0.625rem !important; }
-.container.bp-576-flex-gap-10 *[class*="col-"],
-*[class*="flex"].bp-576-flex-gap-10 *[class*="col-"],
-*[class*="row"].bp-576-flex-gap-10 *[class*="col-"] { padding: 0.3125rem !important; }
+.bp-576-flex-gap-10:not(.flex):not(.row) { padding-left: 0.625rem !important; padding-right: 0.625rem !important; }
+.bp-576-flex-gap-10 .flex,
+.bp-576-flex-gap-10.flex,
+.bp-576-flex-gap-10 .row,
+.bp-576-flex-gap-10.row { padding: 0.3125rem !important; margin-left: -0.625rem !important; margin-right: -0.625rem !important; }
+.bp-576-flex-gap-10 .flex > *,
+.bp-576-flex-gap-10.flex > *,
+.bp-576-flex-gap-10 .row > *,
+.bp-576-flex-gap-10.row > * { padding: 0.3125rem !important; }
 
-.container.bp-576-flex-gap-15 { padding-left: 0.9375rem !important; padding-right: 0.9375rem !important; }
-.container.bp-576-flex-gap-15 *[class*="flex"],
-.container.bp-576-flex-gap-15 *[class*="row"],
-*[class*="flex"].bp-576-flex-gap-15,
-*[class*="row"].bp-576-flex-gap-15 { padding: 0.46875rem; margin-left: -0.9375rem !important; margin-right: -0.9375rem !important; }
-.container.bp-576-flex-gap-15 *[class*="col-"],
-*[class*="flex"].bp-576-flex-gap-15 *[class*="col-"],
-*[class*="row"].bp-576-flex-gap-15 *[class*="col-"] { padding: 0.46875rem !important; }
+.bp-576-flex-gap-15:not(.flex):not(.row) { padding-left: 0.9375rem !important; padding-right: 0.9375rem !important; }
+.bp-576-flex-gap-15 .flex,
+.bp-576-flex-gap-15.flex,
+.bp-576-flex-gap-15 .row,
+.bp-576-flex-gap-15.row { padding: 0.46875rem !important; margin-left: -0.9375rem !important; margin-right: -0.9375rem !important; }
+.bp-576-flex-gap-15 .flex > *,
+.bp-576-flex-gap-15.flex > *,
+.bp-576-flex-gap-15 .row > *,
+.bp-576-flex-gap-15.row > * { padding: 0.46875rem !important; }
 
-.container.bp-576-flex-gap-16 { padding-left: 1rem !important; padding-right: 1rem !important; }
-.container.bp-576-flex-gap-16 *[class*="flex"],
-.container.bp-576-flex-gap-16 *[class*="row"],
-*[class*="flex"].bp-576-flex-gap-16,
-*[class*="row"].bp-576-flex-gap-16 { padding: 0.5rem; margin-left: -1rem !important; margin-right: -1rem !important; }
-.container.bp-576-flex-gap-16 *[class*="col-"],
-*[class*="flex"].bp-576-flex-gap-16 *[class*="col-"],
-*[class*="row"].bp-576-flex-gap-16 *[class*="col-"] { padding: 0.5rem !important; }
+.bp-576-flex-gap-16:not(.flex):not(.row) { padding-left: 1rem !important; padding-right: 1rem !important; }
+.bp-576-flex-gap-16 .flex,
+.bp-576-flex-gap-16.flex,
+.bp-576-flex-gap-16 .row,
+.bp-576-flex-gap-16.row { padding: 0.5rem !important; margin-left: -1rem !important; margin-right: -1rem !important; }
+.bp-576-flex-gap-16 .flex > *,
+.bp-576-flex-gap-16.flex > *,
+.bp-576-flex-gap-16 .row > *,
+.bp-576-flex-gap-16.row > * { padding: 0.5rem !important; }
 
-.container.bp-576-flex-gap-20 { padding-left: 1.25rem !important; padding-right: 1.25rem !important; }
-.container.bp-576-flex-gap-20 *[class*="flex"],
-.container.bp-576-flex-gap-20 *[class*="row"],
-*[class*="flex"].bp-576-flex-gap-20,
-*[class*="row"].bp-576-flex-gap-20 { padding: 0.625rem; margin-left: -1.25rem !important; margin-right: -1.25rem !important; }
-.container.bp-576-flex-gap-20 *[class*="col-"],
-*[class*="flex"].bp-576-flex-gap-20 *[class*="col-"],
-*[class*="row"].bp-576-flex-gap-20 *[class*="col-"] { padding: 0.625rem !important; }
+.bp-576-flex-gap-20:not(.flex):not(.row) { padding-left: 1.25rem !important; padding-right: 1.25rem !important; }
+.bp-576-flex-gap-20 .flex,
+.bp-576-flex-gap-20.flex,
+.bp-576-flex-gap-20 .row,
+.bp-576-flex-gap-20.row { padding: 0.625rem !important; margin-left: -1.25rem !important; margin-right: -1.25rem !important; }
+.bp-576-flex-gap-20 .flex > *,
+.bp-576-flex-gap-20.flex > *,
+.bp-576-flex-gap-20 .row > *,
+.bp-576-flex-gap-20.row > * { padding: 0.625rem !important; }
