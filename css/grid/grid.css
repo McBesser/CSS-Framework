@@ -196,6 +196,28 @@
 .grid-col-11 { -ms-grid-columns: (1fr)[11] !important; grid-template-columns: repeat(11, 1fr) !important; }
 .grid-col-12 { -ms-grid-columns: (1fr)[12] !important; grid-template-columns: repeat(12, 1fr) !important; }
 
+.grid-col-auto-fit-50 { grid-template-columns: repeat(auto-fit, minmax(3.125rem, 1fr)) !important; }
+.grid-col-auto-fit-100 { grid-template-columns: repeat(auto-fit, minmax(6.25rem, 1fr)) !important; }
+.grid-col-auto-fit-150 { grid-template-columns: repeat(auto-fit, minmax(9.375rem, 1fr)) !important; }
+.grid-col-auto-fit-200 { grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr)) !important; }
+.grid-col-auto-fit-250 { grid-template-columns: repeat(auto-fit, minmax(15.625rem, 1fr)) !important; }
+.grid-col-auto-fit-300 { grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr)) !important; }
+.grid-col-auto-fit-350 { grid-template-columns: repeat(auto-fit, minmax(21.875rem, 1fr)) !important; }
+.grid-col-auto-fit-400 { grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)) !important; }
+.grid-col-auto-fit-450 { grid-template-columns: repeat(auto-fit, minmax(28.125rem, 1fr)) !important; }
+.grid-col-auto-fit-500 { grid-template-columns: repeat(auto-fit, minmax(31.25rem, 1fr)) !important; }
+
+.grid-col-auto-fill-50 { grid-template-columns: repeat(auto-fill, minmax(3.125rem, 1fr)) !important; }
+.grid-col-auto-fill-100 { grid-template-columns: repeat(auto-fill, minmax(6.25rem, 1fr)) !important; }
+.grid-col-auto-fill-150 { grid-template-columns: repeat(auto-fill, minmax(9.375rem, 1fr)) !important; }
+.grid-col-auto-fill-200 { grid-template-columns: repeat(auto-fill, minmax(12.5rem, 1fr)) !important; }
+.grid-col-auto-fill-250 { grid-template-columns: repeat(auto-fill, minmax(15.625rem, 1fr)) !important; }
+.grid-col-auto-fill-300 { grid-template-columns: repeat(auto-fill, minmax(18.75rem, 1fr)) !important; }
+.grid-col-auto-fill-350 { grid-template-columns: repeat(auto-fill, minmax(21.875rem, 1fr)) !important; }
+.grid-col-auto-fill-400 { grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr)) !important; }
+.grid-col-auto-fill-450 { grid-template-columns: repeat(auto-fill, minmax(28.125rem, 1fr)) !important; }
+.grid-col-auto-fill-500 { grid-template-columns: repeat(auto-fill, minmax(31.25rem, 1fr)) !important; }
+
 /*
  * grid-row (parent)
 */
