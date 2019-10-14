@@ -32,6 +32,23 @@
       .bp-992-text-decoration-underline { text-decoration: underline !important; }
       .bp-992-text-decoration-none { text-decoration: none !important; }
 
+      /* weight */
+      .bp-992-text-weight-normal {font-weight: normal !important;}
+      .bp-992-text-weight-bold {font-weight: bold !important;}
+      .bp-992-text-weight-bolder {font-weight: bolder !important;}
+      .bp-992-text-weight-lighter {font-weight: lighter !important;}
+      .bp-992-text-weight-100 {font-weight: 100 !important;}
+      .bp-992-text-weight-200 {font-weight: 200 !important;}
+      .bp-992-text-weight-300 {font-weight: 300 !important;}
+      .bp-992-text-weight-400 {font-weight: 400 !important;} /* normal */
+      .bp-992-text-weight-500 {font-weight: 500 !important;}
+      .bp-992-text-weight-600 {font-weight: 600 !important;}
+      .bp-992-text-weight-700 {font-weight: 700 !important;} /* bold */
+      .bp-992-text-weight-800 {font-weight: 800 !important;}
+      .bp-992-text-weight-900 {font-weight: 900 !important;}
+      .bp-992-text-weight-initial {font-weight: initial !important;}
+      .bp-992-text-weight-inherit {font-weight: inherit !important;}
+
       /* float */
       .bp-992-text-float-left { float: left !important; }
       .bp-992-text-float-right { float: right !important; }
