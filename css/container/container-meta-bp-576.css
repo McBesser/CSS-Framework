@@ -22,6 +22,7 @@
    .bp-576-container-1920 { max-width: 120rem !important; }
    
 /* width */ 
+.bp-576-w-auto { width: auto !important; }
 .bp-576-w-0 { width: 0% !important; }
 .bp-576-w-25 { width: 25% !important; }
 .bp-576-w-50 { width: 50% !important; }

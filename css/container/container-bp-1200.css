@@ -25,6 +25,7 @@
          .bp-1200-container-1920 { max-width: 120rem !important; }
 
       /* width */ 
+      .bp-1200-w-auto { width: auto !important; }
       .bp-1200-w-0 { width: 0% !important; }
       .bp-1200-w-25 { width: 25% !important; }
       .bp-1200-w-50 { width: 50% !important; }
