@@ -2,14 +2,21 @@
  * container
 */
 .bp-576-container,
-*[class*="bp-576-container-"]
-	{
+.bp-576-container-576,
+.bp-576-container-768,
+.bp-576-container-1024,
+.bp-576-container-1366,
+.bp-576-container-992,
+.bp-576-container-1200,
+.bp-576-container-1920
+   {
       display: block !important;
-		margin: 0 auto !important;
+      margin: 0 auto !important;
       width: 100% !important;
       
-		max-width: 100% !important;
-	}
+      max-width: 100% !important;
+   }
+
 .bp-576-container-576 { max-width: 36rem !important; }
 
 .bp-576-container-768 { max-width: 48rem !important; }

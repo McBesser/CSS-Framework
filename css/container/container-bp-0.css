@@ -5,7 +5,13 @@
        * container
       */
       .bp-0-container,
-      *[class*="bp-0-container-"]
+      .bp-0-container-576,
+      .bp-0-container-768,
+      .bp-0-container-1024,
+      .bp-0-container-1366,
+      .bp-0-container-992,
+      .bp-0-container-1200,
+      .bp-0-container-1920
          {
             display: block !important;
             margin: 0 auto !important;
