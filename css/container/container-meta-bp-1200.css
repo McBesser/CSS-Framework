@@ -10,9 +10,9 @@
 .bp-1200-container-1200,
 .bp-1200-container-1920
    {
-      margin: 0 auto !important;
-      width: 100% !important;
-      
+      margin-left: auto !important;
+      margin-right: auto !important;
+      width: 100% !important;      
       max-width: 100% !important;
    }
 .bp-1200-container-576 { max-width: 36rem !important; }
