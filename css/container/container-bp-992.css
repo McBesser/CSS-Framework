@@ -13,7 +13,6 @@
       .bp-992-container-1200,
       .bp-992-container-1920
          {
-            display: block !important;
             margin: 0 auto !important;
             width: 100% !important;
             
