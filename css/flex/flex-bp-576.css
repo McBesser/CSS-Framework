@@ -48,8 +48,6 @@
       .bp-576-flex-ac-stretch { align-content: stretch !important; }
 
       /* children */
-      *[class*="bp-576-col-"] { order: 0 !important; align-self: stretch !important; }
-
       .bp-576-col-auto { flex: 1 1 auto !important; }
       .bp-576-col-5 { flex: 0 1 5% !important; }
       .bp-576-col-b1 { flex: 0 1 8.3333% !important; } /* b1 */

@@ -45,8 +45,6 @@
 .flex-ac-stretch { align-content: stretch !important; }
 
 /* children */
-*[class*="col-"] { order: 0 !important; align-self: stretch !important; }
-
 .col-auto { flex: 1 1 auto !important; }
 .col-5 { flex: 0 1 5% !important; }
 .col-b1 { flex: 0 1 8.3333% !important; } /* b1 */
