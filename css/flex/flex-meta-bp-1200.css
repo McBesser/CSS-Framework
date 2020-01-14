@@ -130,11 +130,25 @@
 .bp-1200-flex-o-9 { order: 9 !important; }
   
 /* (container) flex gap */
+.bp-1200-flex-gap-0:not(.flex):not(.row) { padding-left: 0rem !important; padding-right: 0rem !important; }
+.bp-1200-flex-gap-0.flex,
+.bp-1200-flex-gap-0.row,
+.bp-1200-flex-gap-0:not(.flex):not(.row) > .flex,
+.bp-1200-flex-gap-0:not(.flex):not(.row) > .row { margin-left: 0rem !important; margin-right: 0rem !important; }
+.bp-1200-flex-gap-0.flex,
+.bp-1200-flex-gap-0.row { padding: 0rem !important; }
+.bp-1200-flex-gap-0.flex > *,
+.bp-1200-flex-gap-0.row > *,
+.bp-1200-flex-gap-0:not(.flex):not(.row) > .flex > *,
+.bp-1200-flex-gap-0:not(.flex):not(.row) > .row > * { padding: 0rem !important; }
+
 .bp-1200-flex-gap-5:not(.flex):not(.row) { padding-left: 0.3125rem !important; padding-right: 0.3125rem !important; }
 .bp-1200-flex-gap-5.flex,
 .bp-1200-flex-gap-5.row,
 .bp-1200-flex-gap-5:not(.flex):not(.row) > .flex,
-.bp-1200-flex-gap-5:not(.flex):not(.row) > .row { padding: 0.15625rem !important; margin-left: -0.3125rem !important; margin-right: -0.3125rem !important; }
+.bp-1200-flex-gap-5:not(.flex):not(.row) > .row { margin-left: -0.3125rem !important; margin-right: -0.3125rem !important; }
+.bp-1200-flex-gap-5.flex,
+.bp-1200-flex-gap-5.row { padding: 0.15625rem !important; }
 .bp-1200-flex-gap-5.flex > *,
 .bp-1200-flex-gap-5.row > *,
 .bp-1200-flex-gap-5:not(.flex):not(.row) > .flex > *,
@@ -144,7 +158,9 @@
 .bp-1200-flex-gap-8.flex,
 .bp-1200-flex-gap-8.row,
 .bp-1200-flex-gap-8:not(.flex):not(.row) > .flex,
-.bp-1200-flex-gap-8:not(.flex):not(.row) > .row { padding: 0.25rem !important; margin-left: -0.5rem !important; margin-right: -0.5rem !important; }
+.bp-1200-flex-gap-8:not(.flex):not(.row) > .row { margin-left: -0.5rem !important; margin-right: -0.5rem !important; }
+.bp-1200-flex-gap-8.flex,
+.bp-1200-flex-gap-8.row { padding: 0.25rem !important; }
 .bp-1200-flex-gap-8.flex > *,
 .bp-1200-flex-gap-8.row > *,
 .bp-1200-flex-gap-8:not(.flex):not(.row) > .flex > *,
@@ -154,7 +170,9 @@
 .bp-1200-flex-gap-10.flex,
 .bp-1200-flex-gap-10.row,
 .bp-1200-flex-gap-10:not(.flex):not(.row) > .flex,
-.bp-1200-flex-gap-10:not(.flex):not(.row) > .row { padding: 0.3125rem !important; margin-left: -0.625rem !important; margin-right: -0.625rem !important; }
+.bp-1200-flex-gap-10:not(.flex):not(.row) > .row { margin-left: -0.625rem !important; margin-right: -0.625rem !important; }
+.bp-1200-flex-gap-10.flex,
+.bp-1200-flex-gap-10.row { padding: 0.3125rem !important; }
 .bp-1200-flex-gap-10.flex > *,
 .bp-1200-flex-gap-10.row > *,
 .bp-1200-flex-gap-10:not(.flex):not(.row) > .flex > *,
@@ -164,7 +182,9 @@
 .bp-1200-flex-gap-15.flex,
 .bp-1200-flex-gap-15.row,
 .bp-1200-flex-gap-15:not(.flex):not(.row) > .flex,
-.bp-1200-flex-gap-15:not(.flex):not(.row) > .row { padding: 0.46875rem !important; margin-left: -0.9375rem !important; margin-right: -0.9375rem !important; }
+.bp-1200-flex-gap-15:not(.flex):not(.row) > .row { margin-left: -0.9375rem !important; margin-right: -0.9375rem !important; }
+.bp-1200-flex-gap-15.flex,
+.bp-1200-flex-gap-15.row { padding: 0.46875rem !important; }
 .bp-1200-flex-gap-15.flex > *,
 .bp-1200-flex-gap-15.row > *,
 .bp-1200-flex-gap-15:not(.flex):not(.row) > .flex > *,
@@ -174,7 +194,9 @@
 .bp-1200-flex-gap-16.flex,
 .bp-1200-flex-gap-16.row,
 .bp-1200-flex-gap-16:not(.flex):not(.row) > .flex,
-.bp-1200-flex-gap-16:not(.flex):not(.row) > .row { padding: 0.5rem !important; margin-left: -1rem !important; margin-right: -1rem !important; }
+.bp-1200-flex-gap-16:not(.flex):not(.row) > .row { margin-left: -1rem !important; margin-right: -1rem !important; }
+.bp-1200-flex-gap-16.flex,
+.bp-1200-flex-gap-16.row { padding: 0.5rem !important; }
 .bp-1200-flex-gap-16.flex > *,
 .bp-1200-flex-gap-16.row > *,
 .bp-1200-flex-gap-16:not(.flex):not(.row) > .flex > *,
@@ -184,7 +206,9 @@
 .bp-1200-flex-gap-20.flex,
 .bp-1200-flex-gap-20.row,
 .bp-1200-flex-gap-20:not(.flex):not(.row) > .flex,
-.bp-1200-flex-gap-20:not(.flex):not(.row) > .row { padding: 0.625rem !important; margin-left: -1.25rem !important; margin-right: -1.25rem !important; }
+.bp-1200-flex-gap-20:not(.flex):not(.row) > .row { margin-left: -1.25rem !important; margin-right: -1.25rem !important; }
+.bp-1200-flex-gap-20.flex,
+.bp-1200-flex-gap-20.row { padding: 0.625rem !important; }
 .bp-1200-flex-gap-20.flex > *,
 .bp-1200-flex-gap-20.row > *,
 .bp-1200-flex-gap-20:not(.flex):not(.row) > .flex > *,
@@ -194,7 +218,9 @@
 .bp-1200-flex-gap-25.flex,
 .bp-1200-flex-gap-25.row,
 .bp-1200-flex-gap-25:not(.flex):not(.row) > .flex,
-.bp-1200-flex-gap-25:not(.flex):not(.row) > .row { padding: 0.78125rem !important; margin-left: -1.5625rem !important; margin-right: -1.5625rem !important; }
+.bp-1200-flex-gap-25:not(.flex):not(.row) > .row { margin-left: -1.5625rem !important; margin-right: -1.5625rem !important; }
+.bp-1200-flex-gap-25.flex,
+.bp-1200-flex-gap-25.row { padding: 0.78125rem !important; }
 .bp-1200-flex-gap-25.flex > *,
 .bp-1200-flex-gap-25.row > *,
 .bp-1200-flex-gap-25:not(.flex):not(.row) > .flex > *,
@@ -204,7 +230,9 @@
 .bp-1200-flex-gap-24.flex,
 .bp-1200-flex-gap-24.row,
 .bp-1200-flex-gap-24:not(.flex):not(.row) > .flex,
-.bp-1200-flex-gap-24:not(.flex):not(.row) > .row { padding: 0.75rem !important; margin-left: -1.5rem !important; margin-right: -1.5rem !important; }
+.bp-1200-flex-gap-24:not(.flex):not(.row) > .row { margin-left: -1.5rem !important; margin-right: -1.5rem !important; }
+.bp-1200-flex-gap-24.flex,
+.bp-1200-flex-gap-24.row { padding: 0.75rem !important; }
 .bp-1200-flex-gap-24.flex > *,
 .bp-1200-flex-gap-24.row > *,
 .bp-1200-flex-gap-24:not(.flex):not(.row) > .flex > *,
@@ -214,7 +242,9 @@
 .bp-1200-flex-gap-30.flex,
 .bp-1200-flex-gap-30.row,
 .bp-1200-flex-gap-30:not(.flex):not(.row) > .flex,
-.bp-1200-flex-gap-30:not(.flex):not(.row) > .row { padding: 0.9375rem !important; margin-left: -1.875rem !important; margin-right: -1.875rem !important; }
+.bp-1200-flex-gap-30:not(.flex):not(.row) > .row { margin-left: -1.875rem !important; margin-right: -1.875rem !important; }
+.bp-1200-flex-gap-30.flex,
+.bp-1200-flex-gap-30.row { padding: 0.9375rem !important; }
 .bp-1200-flex-gap-30.flex > *,
 .bp-1200-flex-gap-30.row > *,
 .bp-1200-flex-gap-30:not(.flex):not(.row) > .flex > *,
