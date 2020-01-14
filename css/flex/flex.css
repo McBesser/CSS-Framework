@@ -132,54 +132,90 @@
 /* (container) flex gap */
 .flex-gap-5:not(.flex):not(.row) { padding-left: 0.3125rem !important; padding-right: 0.3125rem !important; }
 .flex-gap-5.flex,
-.flex-gap-5.row { padding: 0.15625rem !important; margin-left: -0.3125rem !important; margin-right: -0.3125rem !important; }
+.flex-gap-5.row,
+.flex-gap-5:not(.flex):not(.row) > .flex,
+.flex-gap-5:not(.flex):not(.row) > .row { padding: 0.15625rem !important; margin-left: -0.3125rem !important; margin-right: -0.3125rem !important; }
 .flex-gap-5.flex > *,
-.flex-gap-5.row > * { padding: 0.15625rem !important; }
+.flex-gap-5.row > *,
+.flex-gap-5:not(.flex):not(.row) > .flex > *,
+.flex-gap-5:not(.flex):not(.row) > .row > * { padding: 0.15625rem !important; }
 
 .flex-gap-8:not(.flex):not(.row) { padding-left: 0.5rem !important; padding-right: 0.5rem !important; }
 .flex-gap-8.flex,
-.flex-gap-8.row { padding: 0.25rem !important; margin-left: -0.5rem !important; margin-right: -0.5rem !important; }
+.flex-gap-8.row,
+.flex-gap-8:not(.flex):not(.row) > .flex,
+.flex-gap-8:not(.flex):not(.row) > .row { padding: 0.25rem !important; margin-left: -0.5rem !important; margin-right: -0.5rem !important; }
 .flex-gap-8.flex > *,
-.flex-gap-8.row > * { padding: 0.25rem !important; }
+.flex-gap-8.row > *,
+.flex-gap-8:not(.flex):not(.row) > .flex > *,
+.flex-gap-8:not(.flex):not(.row) > .row > * { padding: 0.25rem !important; }
 
 .flex-gap-10:not(.flex):not(.row) { padding-left: 0.625rem !important; padding-right: 0.625rem !important; }
 .flex-gap-10.flex,
-.flex-gap-10.row { padding: 0.3125rem !important; margin-left: -0.625rem !important; margin-right: -0.625rem !important; }
+.flex-gap-10.row,
+.flex-gap-10:not(.flex):not(.row) > .flex,
+.flex-gap-10:not(.flex):not(.row) > .row { padding: 0.3125rem !important; margin-left: -0.625rem !important; margin-right: -0.625rem !important; }
 .flex-gap-10.flex > *,
-.flex-gap-10.row > * { padding: 0.3125rem !important; }
+.flex-gap-10.row > *,
+.flex-gap-10:not(.flex):not(.row) > .flex > *,
+.flex-gap-10:not(.flex):not(.row) > .row > * { padding: 0.3125rem !important; }
 
 .flex-gap-15:not(.flex):not(.row) { padding-left: 0.9375rem !important; padding-right: 0.9375rem !important; }
 .flex-gap-15.flex,
-.flex-gap-15.row { padding: 0.46875rem !important; margin-left: -0.9375rem !important; margin-right: -0.9375rem !important; }
+.flex-gap-15.row,
+.flex-gap-15:not(.flex):not(.row) > .flex,
+.flex-gap-15:not(.flex):not(.row) > .row { padding: 0.46875rem !important; margin-left: -0.9375rem !important; margin-right: -0.9375rem !important; }
 .flex-gap-15.flex > *,
-.flex-gap-15.row > * { padding: 0.46875rem !important; }
+.flex-gap-15.row > *,
+.flex-gap-15:not(.flex):not(.row) > .flex > *,
+.flex-gap-15:not(.flex):not(.row) > .row > * { padding: 0.46875rem !important; }
 
 .flex-gap-16:not(.flex):not(.row) { padding-left: 1rem !important; padding-right: 1rem !important; }
 .flex-gap-16.flex,
-.flex-gap-16.row { padding: 0.5rem !important; margin-left: -1rem !important; margin-right: -1rem !important; }
+.flex-gap-16.row,
+.flex-gap-16:not(.flex):not(.row) > .flex,
+.flex-gap-16:not(.flex):not(.row) > .row { padding: 0.5rem !important; margin-left: -1rem !important; margin-right: -1rem !important; }
 .flex-gap-16.flex > *,
-.flex-gap-16.row > * { padding: 0.5rem !important; }
+.flex-gap-16.row > *,
+.flex-gap-16:not(.flex):not(.row) > .flex > *,
+.flex-gap-16:not(.flex):not(.row) > .row > * { padding: 0.5rem !important; }
 
 .flex-gap-20:not(.flex):not(.row) { padding-left: 1.25rem !important; padding-right: 1.25rem !important; }
 .flex-gap-20.flex,
-.flex-gap-20.row { padding: 0.625rem !important; margin-left: -1.25rem !important; margin-right: -1.25rem !important; }
+.flex-gap-20.row,
+.flex-gap-20:not(.flex):not(.row) > .flex,
+.flex-gap-20:not(.flex):not(.row) > .row { padding: 0.625rem !important; margin-left: -1.25rem !important; margin-right: -1.25rem !important; }
 .flex-gap-20.flex > *,
-.flex-gap-20.row > * { padding: 0.625rem !important; }
+.flex-gap-20.row > *,
+.flex-gap-20:not(.flex):not(.row) > .flex > *,
+.flex-gap-20:not(.flex):not(.row) > .row > * { padding: 0.625rem !important; }
 
 .flex-gap-25:not(.flex):not(.row) { padding-left: 1.5625rem !important; padding-right: 1.5625rem !important; }
 .flex-gap-25.flex,
-.flex-gap-25.row { padding: 0.78125rem !important; margin-left: -1.5625rem !important; margin-right: -1.5625rem !important; }
+.flex-gap-25.row,
+.flex-gap-25:not(.flex):not(.row) > .flex,
+.flex-gap-25:not(.flex):not(.row) > .row { padding: 0.78125rem !important; margin-left: -1.5625rem !important; margin-right: -1.5625rem !important; }
 .flex-gap-25.flex > *,
-.flex-gap-25.row > * { padding: 0.78125rem !important; }
+.flex-gap-25.row > *,
+.flex-gap-25:not(.flex):not(.row) > .flex > *,
+.flex-gap-25:not(.flex):not(.row) > .row > * { padding: 0.78125rem !important; }
 
 .flex-gap-24:not(.flex):not(.row) { padding-left: 1.5rem !important; padding-right: 1.5rem !important; }
 .flex-gap-24.flex,
-.flex-gap-24.row { padding: 0.75rem !important; margin-left: -1.5rem !important; margin-right: -1.5rem !important; }
+.flex-gap-24.row,
+.flex-gap-24:not(.flex):not(.row) > .flex,
+.flex-gap-24:not(.flex):not(.row) > .row { padding: 0.75rem !important; margin-left: -1.5rem !important; margin-right: -1.5rem !important; }
 .flex-gap-24.flex > *,
-.flex-gap-24.row > * { padding: 0.75rem !important; }
+.flex-gap-24.row > *,
+.flex-gap-24:not(.flex):not(.row) > .flex > *,
+.flex-gap-24:not(.flex):not(.row) > .row > * { padding: 0.75rem !important; }
 
 .flex-gap-30:not(.flex):not(.row) { padding-left: 1.875rem !important; padding-right: 1.875rem !important; }
 .flex-gap-30.flex,
-.flex-gap-30.row { padding: 0.9375rem !important; margin-left: -1.875rem !important; margin-right: -1.875rem !important; }
+.flex-gap-30.row,
+.flex-gap-30:not(.flex):not(.row) > .flex,
+.flex-gap-30:not(.flex):not(.row) > .row { padding: 0.9375rem !important; margin-left: -1.875rem !important; margin-right: -1.875rem !important; }
 .flex-gap-30.flex > *,
-.flex-gap-30.row > * { padding: 0.9375rem !important; }
+.flex-gap-30.row > *,
+.flex-gap-30:not(.flex):not(.row) > .flex > *,
+.flex-gap-30:not(.flex):not(.row) > .row > * { padding: 0.9375rem !important; }
