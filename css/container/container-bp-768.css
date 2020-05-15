@@ -33,9 +33,18 @@
       .bp-768-w-auto { width: auto !important; }
       .bp-768-w-0 { width: 0% !important; }
       .bp-768-w-25 { width: 25% !important; }
+      .bp-768-w-33 { width: 33% !important; }
       .bp-768-w-50 { width: 50% !important; }
+      .bp-768-w-66 { width: 66% !important; }
       .bp-768-w-75 { width: 75% !important; }
       .bp-768-w-100 { width: 100% !important; }
+
+      .bp-768-vw-25 { width: 25vw !important; }
+      .bp-768-vw-33 { width: 33vw !important; }
+      .bp-768-vw-50 { width: 50vw !important; }
+      .bp-768-vw-66 { width: 66vw !important; }
+      .bp-768-vw-75 { width: 75vw !important; }
+      .bp-768-vw-100 { width: 100vw !important; }
 
       .bp-768-min-width-0  { min-width: 0rem !important; }
       .bp-768-min-width-50  { min-width: 3.125rem !important; }
@@ -83,11 +92,21 @@
       .bp-768-max-width-1000  { max-width: 62.5rem !important; }
          
       /* height */
+      .bp-768-h-auto { height: auto !important; }
       .bp-768-h-0 { height: 0% !important; }
       .bp-768-h-25 { height: 25% !important; }
+      .bp-768-h-33 { height: 33% !important; }
       .bp-768-h-50 { height: 50% !important; }
+      .bp-768-h-66 { height: 66% !important; }
       .bp-768-h-75 { height: 75% !important; }
       .bp-768-h-100 { height: 100% !important; }
+
+      .bp-768-vh-25 { height: 25vh !important; }
+      .bp-768-vh-33 { height: 33vh !important; }
+      .bp-768-vh-50 { height: 50vh !important; }
+      .bp-768-vh-66 { height: 66vh !important; }
+      .bp-768-vh-75 { height: 75vh !important; }
+      .bp-768-vh-100 { height: 100vh !important; }
 
       .bp-768-min-height-0  { min-height: 0rem !important; }
       .bp-768-min-height-50  { min-height: 3.125rem !important; }
