@@ -144,3 +144,8 @@
 .d-list-item { display: list-item !important; }
 .d-run-in { display: run-in !important; }
    
+/* overflow */
+.overflow-hidden { overflow: hidden !important; }
+.overflow-scroll { overflow: scroll !important; }
+.overflow-auto { overflow: auto !important; }
+.overflow-visible { overflow: visible !important; }

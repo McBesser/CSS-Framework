@@ -144,5 +144,11 @@
       .bp-576-d-contents { display: contents !important; }
       .bp-576-d-list-item { display: list-item !important; }
       .bp-576-d-run-in { display: run-in !important; }
+   
+      /* overflow */
+      .bp-576-overflow-hidden { overflow: hidden !important; }
+      .bp-576-overflow-scroll { overflow: scroll !important; }
+      .bp-576-overflow-auto { overflow: auto !important; }
+      .bp-576-overflow-visible { overflow: visible !important; }
       
    }

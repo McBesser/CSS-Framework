@@ -141,3 +141,9 @@
 .bp-768-d-contents { display: contents !important; }
 .bp-768-d-list-item { display: list-item !important; }
 .bp-768-d-run-in { display: run-in !important; }
+   
+/* overflow */
+.bp-768-overflow-hidden { overflow: hidden !important; }
+.bp-768-overflow-scroll { overflow: scroll !important; }
+.bp-768-overflow-auto { overflow: auto !important; }
+.bp-768-overflow-visible { overflow: visible !important; }
