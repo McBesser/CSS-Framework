@@ -252,5 +252,17 @@
       .bp-768-flex-gap-30.row > *,
       .bp-768-flex-gap-30:not(.flex):not(.row) > .flex > *,
       .bp-768-flex-gap-30:not(.flex):not(.row) > .row > * { padding: 0.9375rem !important; }
+
+      .bp-768-flex-gap-40:not(.flex):not(.row) { padding-left: 2.5rem !important; padding-right: 2.5rem !important; }
+      .bp-768-flex-gap-40.flex,
+      .bp-768-flex-gap-40.row,
+      .bp-768-flex-gap-40:not(.flex):not(.row) > .flex,
+      .bp-768-flex-gap-40:not(.flex):not(.row) > .row { margin-left: -2.5rem !important; margin-right: -2.5rem !important; }
+      .bp-768-flex-gap-40.flex,
+      .bp-768-flex-gap-40.row { padding: 1.25rem !important; }
+      .bp-768-flex-gap-40.flex > *,
+      .bp-768-flex-gap-40.row > *,
+      .bp-768-flex-gap-40:not(.flex):not(.row) > .flex > *,
+      .bp-768-flex-gap-40:not(.flex):not(.row) > .row > * { padding: 1.25rem !important; }
       
    }

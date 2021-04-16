@@ -249,3 +249,15 @@
 .flex-gap-30.row > *,
 .flex-gap-30:not(.flex):not(.row) > .flex > *,
 .flex-gap-30:not(.flex):not(.row) > .row > * { padding: 0.9375rem !important; }
+
+.flex-gap-40:not(.flex):not(.row) { padding-left: 2.5rem !important; padding-right: 2.5rem !important; }
+.flex-gap-40.flex,
+.flex-gap-40.row,
+.flex-gap-40:not(.flex):not(.row) > .flex,
+.flex-gap-40:not(.flex):not(.row) > .row { margin-left: -2.5rem !important; margin-right: -2.5rem !important; }
+.flex-gap-40.flex,
+.flex-gap-40.row { padding: 1.25rem !important; }
+.flex-gap-40.flex > *,
+.flex-gap-40.row > *,
+.flex-gap-40:not(.flex):not(.row) > .flex > *,
+.flex-gap-40:not(.flex):not(.row) > .row > * { padding: 1.25rem !important; }
