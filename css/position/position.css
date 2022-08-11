@@ -1,9 +1,6 @@
 /*
  * position
 */
-.position-relative {position: relative !important;}
-.position-absolute {position: absolute !important;}
-.position-fixed {position: fixed !important;}
 .position-sticky
    {
       position: -webkit-sticky !important;
@@ -26,6 +23,19 @@
       -ms-transform: translateX(-50%) !important;
       transform: translateX(-50%) !important;
    }
+.position-center-middle
+   {
+      position: absolute !important;
+      top: 50% !important;
+      left: 50% !important;
+      -webkit-transform: translate(-50%, -50%) !important;
+      -ms-transform: translate(-50%, -50%) !important;
+      transform: translate(-50%, -50%) !important;
+   }
+   
+.position-relative {position: relative !important;}
+.position-absolute {position: absolute !important;}
+.position-fixed {position: fixed !important;}
    
 .position-t-0p {top: 0% !important;}
 .position-t-5p {top: 5% !important;}

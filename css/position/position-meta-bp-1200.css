@@ -1,9 +1,6 @@
 /*
  * position
 */
-.bp-1200-position-relative {position: relative !important;}
-.bp-1200-position-absolute {position: absolute !important;}
-.bp-1200-position-fixed {position: fixed !important;}
 .bp-1200-position-sticky
    {
       position: -webkit-sticky !important;
@@ -26,6 +23,19 @@
       -ms-transform: translateX(-50%) !important;
       transform: translateX(-50%) !important;
    }
+.bp-1200-position-center-middle
+   {
+      position: absolute !important;
+      top: 50% !important;
+      left: 50% !important;
+      -webkit-transform: translate(-50%, -50%) !important;
+      -ms-transform: translate(-50%, -50%) !important;
+      transform: translate(-50%, -50%) !important;
+   }
+   
+.bp-1200-position-relative {position: relative !important;}
+.bp-1200-position-absolute {position: absolute !important;}
+.bp-1200-position-fixed {position: fixed !important;}
    
 .bp-1200-position-t-0p {top: 0% !important;}
 .bp-1200-position-t-5p {top: 5% !important;}
