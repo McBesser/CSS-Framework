@@ -8,6 +8,7 @@
 .container-1366,
 .container-992,
 .container-1200,
+.container-1400,
 .container-1920
 	{
       margin-left: auto !important;
@@ -26,6 +27,7 @@
 .container-992 { max-width: 62rem !important; }
 
 .container-1200 { max-width: 75rem !important; }
+.container-1400 { max-width: 87.5rem !important; }
    .container-1920 { max-width: 120rem !important; }
  
 /* width */ 

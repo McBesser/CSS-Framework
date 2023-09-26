@@ -8,6 +8,7 @@
 .bp-1200-container-1366,
 .bp-1200-container-992,
 .bp-1200-container-1200,
+.bp-1200-container-1400,
 .bp-1200-container-1920
    {
       margin-left: auto !important;
@@ -24,6 +25,7 @@
 .bp-1200-container-992 { max-width: 62rem !important; }
 
 .bp-1200-container-1200 { max-width: 75rem !important; }
+.bp-1200-container-1400 { max-width: 87.5rem !important; }
    .bp-1200-container-1920 { max-width: 120rem !important; }
 
 /* width */ 
