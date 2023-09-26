@@ -1,0 +1,472 @@
+/*
+ * text
+*/
+
+/* hyphens */
+.bp-1400-text-hyphens
+   {
+      /* only support auto */
+      hyphens: auto !important;
+      -ms-hyphens: auto !important;
+      -moz-hyphens: auto !important;
+      -webkit-hyphens: auto !important;
+   }
+   
+/* align */
+.bp-1400-text-left { text-align: left !important; }
+.bp-1400-text-center { text-align: center !important; }
+.bp-1400-text-right { text-align: right !important; }
+.bp-1400-text-justify { text-align: justify !important; text-justify: inter-word !important; }
+.bp-1400-text-top { vertical-align: top !important; }
+.bp-1400-text-middle { vertical-align: middle !important; }
+.bp-1400-text-bottom { vertical-align: bottom !important; }
+
+/* style */
+.bp-1400-text-bold { font-weight: bold !important; }
+.bp-1400-text-italic { font-style: italic !important; }
+.bp-1400-text-stroke { font-weight: line-through !important; }
+.bp-1400-text-underline,
+.bp-1400-text-decoration-underline { text-decoration: underline !important; }
+.bp-1400-text-decoration-none { text-decoration: none !important; }
+
+/* weight */
+.bp-1400-text-weight-normal {font-weight: normal !important;}
+.bp-1400-text-weight-bold {font-weight: bold !important;}
+.bp-1400-text-weight-bolder {font-weight: bolder !important;}
+.bp-1400-text-weight-lighter {font-weight: lighter !important;}
+.bp-1400-text-weight-100 {font-weight: 100 !important;}
+.bp-1400-text-weight-200 {font-weight: 200 !important;}
+.bp-1400-text-weight-300 {font-weight: 300 !important;}
+.bp-1400-text-weight-400 {font-weight: 400 !important;} /* normal */
+.bp-1400-text-weight-500 {font-weight: 500 !important;}
+.bp-1400-text-weight-600 {font-weight: 600 !important;}
+.bp-1400-text-weight-700 {font-weight: 700 !important;} /* bold */
+.bp-1400-text-weight-800 {font-weight: 800 !important;}
+.bp-1400-text-weight-900 {font-weight: 900 !important;}
+.bp-1400-text-weight-initial {font-weight: initial !important;}
+.bp-1400-text-weight-inherit {font-weight: inherit !important;}
+
+/* float */
+.bp-1400-text-float-left { float: left !important; }
+.bp-1400-text-float-right { float: right !important; }
+.bp-1400-text-float-clear-left { clear: left !important; }
+.bp-1400-text-float-clear-right { clear: right !important; }
+.bp-1400-text-float-clear-both { clear: both !important; }
+
+/* size */
+.bp-1400-text-size-0 {font-size: 0rem !important;}
+.bp-1400-text-size-1 {font-size: 0.0625rem !important;}
+.bp-1400-text-size-2 {font-size: 0.125rem !important;}
+.bp-1400-text-size-3 {font-size: 0.1875rem !important;}
+.bp-1400-text-size-4 {font-size: 0.25rem !important;}
+.bp-1400-text-size-5 {font-size: 0.3125rem !important;}
+.bp-1400-text-size-6 {font-size: 0.375rem !important;}
+.bp-1400-text-size-7 {font-size: 0.4375rem !important;}
+.bp-1400-text-size-8 {font-size: 0.5rem !important;}
+.bp-1400-text-size-9 {font-size: 0.5625rem !important;}
+.bp-1400-text-size-10 {font-size: 0.625rem !important;}
+.bp-1400-text-size-12 {font-size: 0.75rem !important;}
+.bp-1400-text-size-15 {font-size: 0.9375rem !important;}
+.bp-1400-text-size-16 {font-size: 1rem !important;}
+.bp-1400-text-size-20 {font-size: 1.25rem !important;}
+.bp-1400-text-size-24 {font-size: 1.5rem !important;}
+.bp-1400-text-size-25 {font-size: 1.5625rem !important;}
+.bp-1400-text-size-28 {font-size: 1.75rem !important;}
+.bp-1400-text-size-30 {font-size: 1.875rem !important;}
+.bp-1400-text-size-32 {font-size: 2rem !important;}
+.bp-1400-text-size-35 {font-size: 2.1875rem !important;}
+.bp-1400-text-size-36 {font-size: 2.25rem !important;}
+.bp-1400-text-size-40 {font-size: 2.5rem !important;}
+.bp-1400-text-size-44 {font-size: 2.75rem !important;}
+.bp-1400-text-size-45 {font-size: 2.8125rem !important;}
+.bp-1400-text-size-48 {font-size: 3rem !important;}
+.bp-1400-text-size-50 {font-size: 3.125rem !important;}
+.bp-1400-text-size-52 {font-size: 3.25rem !important;}
+.bp-1400-text-size-55 {font-size: 3.4375rem !important;}
+.bp-1400-text-size-56 {font-size: 3.5rem !important;}
+.bp-1400-text-size-60 {font-size: 3.75rem !important;}
+.bp-1400-text-size-64 {font-size: 4rem !important;}
+.bp-1400-text-size-65 {font-size: 4.0625rem !important;}
+.bp-1400-text-size-68 {font-size: 4.25rem !important;}
+.bp-1400-text-size-70 {font-size: 4.375rem !important;}
+.bp-1400-text-size-72 {font-size: 4.5rem !important;}
+.bp-1400-text-size-75 {font-size: 4.6875rem !important;}
+.bp-1400-text-size-76 {font-size: 4.75rem !important;}
+.bp-1400-text-size-80 {font-size: 5rem !important;}
+.bp-1400-text-size-84 {font-size: 5.25rem !important;}
+.bp-1400-text-size-85 {font-size: 5.3125rem !important;}
+.bp-1400-text-size-88 {font-size: 5.5rem !important;}
+.bp-1400-text-size-90 {font-size: 5.625rem !important;}
+.bp-1400-text-size-92 {font-size: 5.75rem !important;}
+.bp-1400-text-size-95 {font-size: 5.9375rem !important;}
+.bp-1400-text-size-96 {font-size: 6rem !important;}
+.bp-1400-text-size-100 {font-size: 6.25rem !important;}
+.bp-1400-text-size-125 {font-size: 7.8125rem !important;}
+.bp-1400-text-size-150 {font-size: 9.375rem !important;}
+.bp-1400-text-size-175 {font-size: 10.9375rem !important;}
+.bp-1400-text-size-200 {font-size: 12.5rem !important;}
+.bp-1400-text-size-225 {font-size: 14.0625rem !important;}
+.bp-1400-text-size-250 {font-size: 15.625rem !important;}
+.bp-1400-text-size-275 {font-size: 17.1875rem !important;}
+.bp-1400-text-size-300 {font-size: 18.75rem !important;}
+
+/* line-height */
+.bp-1400-text-height-0 {line-height: 0rem !important;}
+.bp-1400-text-height-1 {line-height: 0.0625rem !important;}
+.bp-1400-text-height-2 {line-height: 0.125rem !important;}
+.bp-1400-text-height-3 {line-height: 0.1875rem !important;}
+.bp-1400-text-height-4 {line-height: 0.25rem !important;}
+.bp-1400-text-height-5 {line-height: 0.3125rem !important;}
+.bp-1400-text-height-6 {line-height: 0.375rem !important;}
+.bp-1400-text-height-7 {line-height: 0.4375rem !important;}
+.bp-1400-text-height-8 {line-height: 0.5rem !important;}
+.bp-1400-text-height-9 {line-height: 0.5625rem !important;}
+.bp-1400-text-height-10 {line-height: 0.625rem !important;}
+.bp-1400-text-height-12 {line-height: 0.75rem !important;}
+.bp-1400-text-height-15 {line-height: 0.9375rem !important;}
+.bp-1400-text-height-16 {line-height: 1rem !important;}
+.bp-1400-text-height-20 {line-height: 1.25rem !important;}
+.bp-1400-text-height-24 {line-height: 1.5rem !important;}
+.bp-1400-text-height-25 {line-height: 1.5625rem !important;}
+.bp-1400-text-height-28 {line-height: 1.75rem !important;}
+.bp-1400-text-height-30 {line-height: 1.875rem !important;}
+.bp-1400-text-height-32 {line-height: 2rem !important;}
+.bp-1400-text-height-35 {line-height: 2.1875rem !important;}
+.bp-1400-text-height-36 {line-height: 2.25rem !important;}
+.bp-1400-text-height-40 {line-height: 2.5rem !important;}
+.bp-1400-text-height-44 {line-height: 2.75rem !important;}
+.bp-1400-text-height-45 {line-height: 2.8125rem !important;}
+.bp-1400-text-height-48 {line-height: 3rem !important;}
+.bp-1400-text-height-50 {line-height: 3.125rem !important;}
+
+/* columns */
+.bp-1400-text-col-c0 {column-count: 0 !important;}
+.bp-1400-text-col-c1 {column-count: 1 !important;}
+.bp-1400-text-col-c2 {column-count: 2 !important;}
+.bp-1400-text-col-c3 {column-count: 3 !important;}
+.bp-1400-text-col-c4 {column-count: 4 !important;}
+.bp-1400-text-col-c5 {column-count: 5 !important;}
+.bp-1400-text-col-c6 {column-count: 6 !important;}
+
+.bp-1400-text-col-g0 {column-gap: 0rem !important;}
+.bp-1400-text-col-g4 {column-gap: 0.25rem !important;}
+.bp-1400-text-col-g5 {column-gap: 0.3125rem !important;}
+.bp-1400-text-col-g8 {column-gap: 0.5rem !important;}
+.bp-1400-text-col-g10 {column-gap: 0.625rem !important;}
+.bp-1400-text-col-g12 {column-gap: 0.75rem !important;}
+.bp-1400-text-col-g15 {column-gap: 0.9375rem !important;}
+.bp-1400-text-col-g16 {column-gap: 1rem !important;}
+.bp-1400-text-col-g20 {column-gap: 1.25rem !important;}
+.bp-1400-text-col-g24 {column-gap: 1.5rem !important;}
+.bp-1400-text-col-g25 {column-gap: 1.5625rem !important;}
+.bp-1400-text-col-g28 {column-gap: 1.75rem !important;}
+.bp-1400-text-col-g30 {column-gap: 1.875rem !important;}
+.bp-1400-text-col-g32 {column-gap: 2rem !important;}
+.bp-1400-text-col-g35 {column-gap: 2.1875rem !important;}
+.bp-1400-text-col-g36 {column-gap: 2.25rem !important;}
+.bp-1400-text-col-g40 {column-gap: 2.5rem !important;}
+.bp-1400-text-col-g44 {column-gap: 2.75rem !important;}
+.bp-1400-text-col-g45 {column-gap: 2.8125rem !important;}
+.bp-1400-text-col-g48 {column-gap: 3rem !important;}
+.bp-1400-text-col-g50 {column-gap: 3.125rem !important;}
+
+.bp-1400-text-col-rule-none {column-rule-style: none !important;}
+.bp-1400-text-col-rule-hidden {column-rule-style: hidden !important;}
+.bp-1400-text-col-rule-dotted {column-rule-style: dotted !important;}
+.bp-1400-text-col-rule-dashed {column-rule-style: dashed !important;}
+.bp-1400-text-col-rule-solid {column-rule-style: solid !important;}
+.bp-1400-text-col-rule-double {column-rule-style: double !important;}
+.bp-1400-text-col-rule-groove {column-rule-style: groove !important;}
+.bp-1400-text-col-rule-ridge {column-rule-style: ridge !important;}
+.bp-1400-text-col-rule-inset {column-rule-style: inset !important;}
+.bp-1400-text-col-rule-outset {column-rule-style: outset !important;}
+.bp-1400-text-col-rule-initial {column-rule-style: initial !important;}
+.bp-1400-text-col-rule-inherit {column-rule-style: inherit !important;}
+
+.bp-1400-text-col-rule-0 {column-rule-width: 0rem !important;}
+.bp-1400-text-col-rule-1 {column-rule-width: 0.0625rem !important;}
+.bp-1400-text-col-rule-2 {column-rule-width: 0.125rem !important;}
+.bp-1400-text-col-rule-3 {column-rule-width: 0.1875rem !important;}
+.bp-1400-text-col-rule-4 {column-rule-width: 0.25rem !important;}
+.bp-1400-text-col-rule-5 {column-rule-width: 0.3125rem !important;}
+.bp-1400-text-col-rule-6 {column-rule-width: 0.375rem !important;}
+.bp-1400-text-col-rule-7 {column-rule-width: 0.4375rem !important;}
+.bp-1400-text-col-rule-8 {column-rule-width: 0.5rem !important;}
+.bp-1400-text-col-rule-9 {column-rule-width: 0.5625rem !important;}
+.bp-1400-text-col-rule-10 {column-rule-width: 0.625rem !important;}
+
+.bp-1400-text-col-rule-color {column-rule-color: #000000 !important;}
+.bp-1400-text-col-rule-color {column-rule-color: var(--bp-1400-text-col-rule-color, #000000) !important;}
+
+.bp-1400-text-col-w0 {column-width: 0rem !important;}
+.bp-1400-text-col-w25 {column-width: 1.5625rem !important;}
+.bp-1400-text-col-w50 {column-width: 3.125rem !important;}
+.bp-1400-text-col-w75 {column-width: 4.6875rem !important;}
+.bp-1400-text-col-w100 {column-width: 6.25rem !important;}
+.bp-1400-text-col-w125 {column-width: 7.8125rem !important;}
+.bp-1400-text-col-w150 {column-width: 9.375rem !important;}
+.bp-1400-text-col-w175 {column-width: 10.9375rem !important;}
+.bp-1400-text-col-w200 {column-width: 12.5rem !important;}
+.bp-1400-text-col-w225 {column-width: 14.0625rem !important;}
+.bp-1400-text-col-w250 {column-width: 15.625rem !important;}
+.bp-1400-text-col-w275 {column-width: 17.1875rem !important;}
+.bp-1400-text-col-w300 {column-width: 18.75rem !important;}
+.bp-1400-text-col-w325 {column-width: 20.3125rem !important;}
+.bp-1400-text-col-w350 {column-width: 21.875rem !important;}
+.bp-1400-text-col-w375 {column-width: 23.4375rem !important;}
+.bp-1400-text-col-w400 {column-width: 25rem !important;}
+.bp-1400-text-col-w425 {column-width: 26.5625rem !important;}
+.bp-1400-text-col-w450 {column-width: 28.125rem !important;}
+.bp-1400-text-col-w475 {column-width: 29.6875rem !important;}
+.bp-1400-text-col-w500 {column-width: 31.25rem !important;}
+
+/* max lines */  
+[class*="bp-1400-text-lines-"]
+   {
+      overflow: hidden !important;
+      text-overflow: ellipsis !important;
+      display: -webkit-box !important;
+      -webkit-box-orient: vertical !important;
+   }
+.bp-1400-text-lines-1-height-1 {-webkit-line-clamp: 1 !important; line-height: 0.0625rem !important; max-height: 0.0625rem !important;}
+.bp-1400-text-lines-1-height-2 {-webkit-line-clamp: 1 !important; line-height: 0.125rem !important; max-height: 0.125rem !important;}
+.bp-1400-text-lines-1-height-3 {-webkit-line-clamp: 1 !important; line-height: 0.1875rem !important; max-height: 0.1875rem !important;}
+.bp-1400-text-lines-1-height-4 {-webkit-line-clamp: 1 !important; line-height: 0.25rem !important; max-height: 0.25rem !important;}
+.bp-1400-text-lines-1-height-5 {-webkit-line-clamp: 1 !important; line-height: 0.3125rem !important; max-height: 0.3125rem !important;}
+.bp-1400-text-lines-1-height-6 {-webkit-line-clamp: 1 !important; line-height: 0.375rem !important; max-height: 0.375rem !important;}
+.bp-1400-text-lines-1-height-7 {-webkit-line-clamp: 1 !important; line-height: 0.4375rem !important; max-height: 0.4375rem !important;}
+.bp-1400-text-lines-1-height-8 {-webkit-line-clamp: 1 !important; line-height: 0.5rem !important; max-height: 0.5rem !important;}
+.bp-1400-text-lines-1-height-9 {-webkit-line-clamp: 1 !important; line-height: 0.5625rem !important; max-height: 0.5625rem !important;}
+.bp-1400-text-lines-1-height-10 {-webkit-line-clamp: 1 !important; line-height: 0.625rem !important; max-height: 0.625rem !important;}
+.bp-1400-text-lines-1-height-12 {-webkit-line-clamp: 1 !important; line-height: 0.75rem !important; max-height: 0.75rem !important;}
+.bp-1400-text-lines-1-height-15 {-webkit-line-clamp: 1 !important; line-height: 0.9375rem !important; max-height: 0.9375rem !important;}
+.bp-1400-text-lines-1-height-16 {-webkit-line-clamp: 1 !important; line-height: 1rem !important; max-height: 1rem !important;}
+.bp-1400-text-lines-1-height-20 {-webkit-line-clamp: 1 !important; line-height: 1.25rem !important; max-height: 1.25rem !important;}
+.bp-1400-text-lines-1-height-24 {-webkit-line-clamp: 1 !important; line-height: 1.5rem !important; max-height: 1.5rem !important;}
+.bp-1400-text-lines-1-height-25 {-webkit-line-clamp: 1 !important; line-height: 1.5625rem !important; max-height: 1.5625rem !important;}
+.bp-1400-text-lines-1-height-28 {-webkit-line-clamp: 1 !important; line-height: 1.75rem !important; max-height: 1.75rem !important;}
+.bp-1400-text-lines-1-height-30 {-webkit-line-clamp: 1 !important; line-height: 1.875rem !important; max-height: 1.875rem !important;}
+.bp-1400-text-lines-1-height-32 {-webkit-line-clamp: 1 !important; line-height: 2rem !important; max-height: 2rem !important;}
+.bp-1400-text-lines-1-height-35 {-webkit-line-clamp: 1 !important; line-height: 2.1875rem !important; max-height: 2.1875rem !important;}
+.bp-1400-text-lines-1-height-36 {-webkit-line-clamp: 1 !important; line-height: 2.25rem !important; max-height: 2.25rem !important;}
+.bp-1400-text-lines-1-height-40 {-webkit-line-clamp: 1 !important; line-height: 2.5rem !important; max-height: 2.5rem !important;}
+.bp-1400-text-lines-1-height-44 {-webkit-line-clamp: 1 !important; line-height: 2.75rem !important; max-height: 2.75rem !important;}
+.bp-1400-text-lines-1-height-45 {-webkit-line-clamp: 1 !important; line-height: 2.8125rem !important; max-height: 2.8125rem !important;}
+.bp-1400-text-lines-1-height-48 {-webkit-line-clamp: 1 !important; line-height: 3rem !important; max-height: 3rem !important;}
+.bp-1400-text-lines-1-height-50 {-webkit-line-clamp: 1 !important; line-height: 3.125rem !important; max-height: 3.125rem !important;}
+
+.bp-1400-text-lines-2-height-1 {-webkit-line-clamp: 2 !important; line-height: 0.0625rem !important; max-height: calc(2 * 0.0625rem) !important;}
+.bp-1400-text-lines-2-height-2 {-webkit-line-clamp: 2 !important; line-height: 0.125rem !important; max-height: calc(2 * 0.125rem) !important;}
+.bp-1400-text-lines-2-height-3 {-webkit-line-clamp: 2 !important; line-height: 0.1875rem !important; max-height: calc(2 * 0.1875rem) !important;}
+.bp-1400-text-lines-2-height-4 {-webkit-line-clamp: 2 !important; line-height: 0.25rem !important; max-height: calc(2 * 0.25rem) !important;}
+.bp-1400-text-lines-2-height-5 {-webkit-line-clamp: 2 !important; line-height: 0.3125rem !important; max-height: calc(2 * 0.3125rem) !important;}
+.bp-1400-text-lines-2-height-6 {-webkit-line-clamp: 2 !important; line-height: 0.375rem !important; max-height: calc(2 * 0.375rem) !important;}
+.bp-1400-text-lines-2-height-7 {-webkit-line-clamp: 2 !important; line-height: 0.4375rem !important; max-height: calc(2 * 0.4375rem) !important;}
+.bp-1400-text-lines-2-height-8 {-webkit-line-clamp: 2 !important; line-height: 0.5rem !important; max-height: calc(2 * 0.5rem) !important;}
+.bp-1400-text-lines-2-height-9 {-webkit-line-clamp: 2 !important; line-height: 0.5625rem !important; max-height: calc(2 * 0.5625rem) !important;}
+.bp-1400-text-lines-2-height-10 {-webkit-line-clamp: 2 !important; line-height: 0.625rem !important; max-height: calc(2 * 0.625rem) !important;}
+.bp-1400-text-lines-2-height-12 {-webkit-line-clamp: 2 !important; line-height: 0.75rem !important; max-height: calc(2 * 0.75rem) !important;}
+.bp-1400-text-lines-2-height-15 {-webkit-line-clamp: 2 !important; line-height: 0.9375rem !important; max-height: calc(2 * 0.9375rem) !important;}
+.bp-1400-text-lines-2-height-16 {-webkit-line-clamp: 2 !important; line-height: 1rem !important; max-height: calc(2 * 1rem) !important;}
+.bp-1400-text-lines-2-height-20 {-webkit-line-clamp: 2 !important; line-height: 1.25rem !important; max-height: calc(2 * 1.25rem) !important;}
+.bp-1400-text-lines-2-height-24 {-webkit-line-clamp: 2 !important; line-height: 1.5rem !important; max-height: calc(2 * 1.5rem) !important;}
+.bp-1400-text-lines-2-height-25 {-webkit-line-clamp: 2 !important; line-height: 1.5625rem !important; max-height: calc(2 * 1.5625rem) !important;}
+.bp-1400-text-lines-2-height-28 {-webkit-line-clamp: 2 !important; line-height: 1.75rem !important; max-height: calc(2 * 1.75rem) !important;}
+.bp-1400-text-lines-2-height-30 {-webkit-line-clamp: 2 !important; line-height: 1.875rem !important; max-height: calc(2 * 1.875rem) !important;}
+.bp-1400-text-lines-2-height-32 {-webkit-line-clamp: 2 !important; line-height: 2rem !important; max-height: calc(2 * 2rem) !important;}
+.bp-1400-text-lines-2-height-35 {-webkit-line-clamp: 2 !important; line-height: 2.1875rem !important; max-height: calc(2 * 2.1875rem) !important;}
+.bp-1400-text-lines-2-height-36 {-webkit-line-clamp: 2 !important; line-height: 2.25rem !important; max-height: calc(2 * 2.25rem) !important;}
+.bp-1400-text-lines-2-height-40 {-webkit-line-clamp: 2 !important; line-height: 2.5rem !important; max-height: calc(2 * 2.5rem) !important;}
+.bp-1400-text-lines-2-height-44 {-webkit-line-clamp: 2 !important; line-height: 2.75rem !important; max-height: calc(2 * 2.75rem) !important;}
+.bp-1400-text-lines-2-height-45 {-webkit-line-clamp: 2 !important; line-height: 2.8125rem !important; max-height: calc(2 * 2.8125rem) !important;}
+.bp-1400-text-lines-2-height-48 {-webkit-line-clamp: 2 !important; line-height: 3rem !important; max-height: calc(2 * 3rem) !important;}
+.bp-1400-text-lines-2-height-50 {-webkit-line-clamp: 2 !important; line-height: 3.125rem !important; max-height: calc(2 * 3.125rem) !important;}
+
+.bp-1400-text-lines-3-height-1 {-webkit-line-clamp: 3 !important; line-height: 0.0625rem !important; max-height: calc(3 * 0.0625rem) !important;}
+.bp-1400-text-lines-3-height-2 {-webkit-line-clamp: 3 !important; line-height: 0.125rem !important; max-height: calc(3 * 0.125rem) !important;}
+.bp-1400-text-lines-3-height-3 {-webkit-line-clamp: 3 !important; line-height: 0.1875rem !important; max-height: calc(3 * 0.1875rem) !important;}
+.bp-1400-text-lines-3-height-4 {-webkit-line-clamp: 3 !important; line-height: 0.25rem !important; max-height: calc(3 * 0.25rem) !important;}
+.bp-1400-text-lines-3-height-5 {-webkit-line-clamp: 3 !important; line-height: 0.3125rem !important; max-height: calc(3 * 0.3125rem) !important;}
+.bp-1400-text-lines-3-height-6 {-webkit-line-clamp: 3 !important; line-height: 0.375rem !important; max-height: calc(3 * 0.375rem) !important;}
+.bp-1400-text-lines-3-height-7 {-webkit-line-clamp: 3 !important; line-height: 0.4375rem !important; max-height: calc(3 * 0.4375rem) !important;}
+.bp-1400-text-lines-3-height-8 {-webkit-line-clamp: 3 !important; line-height: 0.5rem !important; max-height: calc(3 * 0.5rem) !important;}
+.bp-1400-text-lines-3-height-9 {-webkit-line-clamp: 3 !important; line-height: 0.5625rem !important; max-height: calc(3 * 0.5625rem) !important;}
+.bp-1400-text-lines-3-height-10 {-webkit-line-clamp: 3 !important; line-height: 0.625rem !important; max-height: calc(3 * 0.625rem) !important;}
+.bp-1400-text-lines-3-height-12 {-webkit-line-clamp: 3 !important; line-height: 0.75rem !important; max-height: calc(3 * 0.75rem) !important;}
+.bp-1400-text-lines-3-height-15 {-webkit-line-clamp: 3 !important; line-height: 0.9375rem !important; max-height: calc(3 * 0.9375rem) !important;}
+.bp-1400-text-lines-3-height-16 {-webkit-line-clamp: 3 !important; line-height: 1rem !important; max-height: calc(3 * 1rem) !important;}
+.bp-1400-text-lines-3-height-20 {-webkit-line-clamp: 3 !important; line-height: 1.25rem !important; max-height: calc(3 * 1.25rem) !important;}
+.bp-1400-text-lines-3-height-24 {-webkit-line-clamp: 3 !important; line-height: 1.5rem !important; max-height: calc(3 * 1.5rem) !important;}
+.bp-1400-text-lines-3-height-25 {-webkit-line-clamp: 3 !important; line-height: 1.5625rem !important; max-height: calc(3 * 1.5625rem) !important;}
+.bp-1400-text-lines-3-height-28 {-webkit-line-clamp: 3 !important; line-height: 1.75rem !important; max-height: calc(3 * 1.75rem) !important;}
+.bp-1400-text-lines-3-height-30 {-webkit-line-clamp: 3 !important; line-height: 1.875rem !important; max-height: calc(3 * 1.875rem) !important;}
+.bp-1400-text-lines-3-height-32 {-webkit-line-clamp: 3 !important; line-height: 2rem !important; max-height: calc(3 * 2rem) !important;}
+.bp-1400-text-lines-3-height-35 {-webkit-line-clamp: 3 !important; line-height: 2.1875rem !important; max-height: calc(3 * 2.1875rem) !important;}
+.bp-1400-text-lines-3-height-36 {-webkit-line-clamp: 3 !important; line-height: 2.25rem !important; max-height: calc(3 * 2.25rem) !important;}
+.bp-1400-text-lines-3-height-40 {-webkit-line-clamp: 3 !important; line-height: 2.5rem !important; max-height: calc(3 * 2.5rem) !important;}
+.bp-1400-text-lines-3-height-44 {-webkit-line-clamp: 3 !important; line-height: 2.75rem !important; max-height: calc(3 * 2.75rem) !important;}
+.bp-1400-text-lines-3-height-45 {-webkit-line-clamp: 3 !important; line-height: 2.8125rem !important; max-height: calc(3 * 2.8125rem) !important;}
+.bp-1400-text-lines-3-height-48 {-webkit-line-clamp: 3 !important; line-height: 3rem !important; max-height: calc(3 * 3rem) !important;}
+.bp-1400-text-lines-3-height-50 {-webkit-line-clamp: 3 !important; line-height: 3.125rem !important; max-height: calc(3 * 3.125rem) !important;}
+
+.bp-1400-text-lines-4-height-1 {-webkit-line-clamp: 4 !important; line-height: 0.0625rem !important; max-height: calc(4 * 0.0625rem) !important;}
+.bp-1400-text-lines-4-height-2 {-webkit-line-clamp: 4 !important; line-height: 0.125rem !important; max-height: calc(4 * 0.125rem) !important;}
+.bp-1400-text-lines-4-height-3 {-webkit-line-clamp: 4 !important; line-height: 0.1875rem !important; max-height: calc(4 * 0.1875rem) !important;}
+.bp-1400-text-lines-4-height-4 {-webkit-line-clamp: 4 !important; line-height: 0.25rem !important; max-height: calc(4 * 0.25rem) !important;}
+.bp-1400-text-lines-4-height-5 {-webkit-line-clamp: 4 !important; line-height: 0.3125rem !important; max-height: calc(4 * 0.3125rem) !important;}
+.bp-1400-text-lines-4-height-6 {-webkit-line-clamp: 4 !important; line-height: 0.375rem !important; max-height: calc(4 * 0.375rem) !important;}
+.bp-1400-text-lines-4-height-7 {-webkit-line-clamp: 4 !important; line-height: 0.4375rem !important; max-height: calc(4 * 0.4375rem) !important;}
+.bp-1400-text-lines-4-height-8 {-webkit-line-clamp: 4 !important; line-height: 0.5rem !important; max-height: calc(4 * 0.5rem) !important;}
+.bp-1400-text-lines-4-height-9 {-webkit-line-clamp: 4 !important; line-height: 0.5625rem !important; max-height: calc(4 * 0.5625rem) !important;}
+.bp-1400-text-lines-4-height-10 {-webkit-line-clamp: 4 !important; line-height: 0.625rem !important; max-height: calc(4 * 0.625rem) !important;}
+.bp-1400-text-lines-4-height-12 {-webkit-line-clamp: 4 !important; line-height: 0.75rem !important; max-height: calc(4 * 0.75rem) !important;}
+.bp-1400-text-lines-4-height-15 {-webkit-line-clamp: 4 !important; line-height: 0.9375rem !important; max-height: calc(4 * 0.9375rem) !important;}
+.bp-1400-text-lines-4-height-16 {-webkit-line-clamp: 4 !important; line-height: 1rem !important; max-height: calc(4 * 1rem) !important;}
+.bp-1400-text-lines-4-height-20 {-webkit-line-clamp: 4 !important; line-height: 1.25rem !important; max-height: calc(4 * 1.25rem) !important;}
+.bp-1400-text-lines-4-height-24 {-webkit-line-clamp: 4 !important; line-height: 1.5rem !important; max-height: calc(4 * 1.5rem) !important;}
+.bp-1400-text-lines-4-height-25 {-webkit-line-clamp: 4 !important; line-height: 1.5625rem !important; max-height: calc(4 * 1.5625rem) !important;}
+.bp-1400-text-lines-4-height-28 {-webkit-line-clamp: 4 !important; line-height: 1.75rem !important; max-height: calc(4 * 1.75rem) !important;}
+.bp-1400-text-lines-4-height-30 {-webkit-line-clamp: 4 !important; line-height: 1.875rem !important; max-height: calc(4 * 1.875rem) !important;}
+.bp-1400-text-lines-4-height-32 {-webkit-line-clamp: 4 !important; line-height: 2rem !important; max-height: calc(4 * 2rem) !important;}
+.bp-1400-text-lines-4-height-35 {-webkit-line-clamp: 4 !important; line-height: 2.1875rem !important; max-height: calc(4 * 2.1875rem) !important;}
+.bp-1400-text-lines-4-height-36 {-webkit-line-clamp: 4 !important; line-height: 2.25rem !important; max-height: calc(4 * 2.25rem) !important;}
+.bp-1400-text-lines-4-height-40 {-webkit-line-clamp: 4 !important; line-height: 2.5rem !important; max-height: calc(4 * 2.5rem) !important;}
+.bp-1400-text-lines-4-height-44 {-webkit-line-clamp: 4 !important; line-height: 2.75rem !important; max-height: calc(4 * 2.75rem) !important;}
+.bp-1400-text-lines-4-height-45 {-webkit-line-clamp: 4 !important; line-height: 2.8125rem !important; max-height: calc(4 * 2.8125rem) !important;}
+.bp-1400-text-lines-4-height-48 {-webkit-line-clamp: 4 !important; line-height: 3rem !important; max-height: calc(4 * 3rem) !important;}
+.bp-1400-text-lines-4-height-50 {-webkit-line-clamp: 4 !important; line-height: 3.125rem !important; max-height: calc(4 * 3.125rem) !important;}
+
+.bp-1400-text-lines-5-height-1 {-webkit-line-clamp: 5 !important; line-height: 0.0625rem !important; max-height: calc(5 * 0.0625rem) !important;}
+.bp-1400-text-lines-5-height-2 {-webkit-line-clamp: 5 !important; line-height: 0.125rem !important; max-height: calc(5 * 0.125rem) !important;}
+.bp-1400-text-lines-5-height-3 {-webkit-line-clamp: 5 !important; line-height: 0.1875rem !important; max-height: calc(5 * 0.1875rem) !important;}
+.bp-1400-text-lines-5-height-4 {-webkit-line-clamp: 5 !important; line-height: 0.25rem !important; max-height: calc(5 * 0.25rem) !important;}
+.bp-1400-text-lines-5-height-5 {-webkit-line-clamp: 5 !important; line-height: 0.3125rem !important; max-height: calc(5 * 0.3125rem) !important;}
+.bp-1400-text-lines-5-height-6 {-webkit-line-clamp: 5 !important; line-height: 0.375rem !important; max-height: calc(5 * 0.375rem) !important;}
+.bp-1400-text-lines-5-height-7 {-webkit-line-clamp: 5 !important; line-height: 0.4375rem !important; max-height: calc(5 * 0.4375rem) !important;}
+.bp-1400-text-lines-5-height-8 {-webkit-line-clamp: 5 !important; line-height: 0.5rem !important; max-height: calc(5 * 0.5rem) !important;}
+.bp-1400-text-lines-5-height-9 {-webkit-line-clamp: 5 !important; line-height: 0.5625rem !important; max-height: calc(5 * 0.5625rem) !important;}
+.bp-1400-text-lines-5-height-10 {-webkit-line-clamp: 5 !important; line-height: 0.625rem !important; max-height: calc(5 * 0.625rem) !important;}
+.bp-1400-text-lines-5-height-12 {-webkit-line-clamp: 5 !important; line-height: 0.75rem !important; max-height: calc(5 * 0.75rem) !important;}
+.bp-1400-text-lines-5-height-15 {-webkit-line-clamp: 5 !important; line-height: 0.9375rem !important; max-height: calc(5 * 0.9375rem) !important;}
+.bp-1400-text-lines-5-height-16 {-webkit-line-clamp: 5 !important; line-height: 1rem !important; max-height: calc(5 * 1rem) !important;}
+.bp-1400-text-lines-5-height-20 {-webkit-line-clamp: 5 !important; line-height: 1.25rem !important; max-height: calc(5 * 1.25rem) !important;}
+.bp-1400-text-lines-5-height-24 {-webkit-line-clamp: 5 !important; line-height: 1.5rem !important; max-height: calc(5 * 1.5rem) !important;}
+.bp-1400-text-lines-5-height-25 {-webkit-line-clamp: 5 !important; line-height: 1.5625rem !important; max-height: calc(5 * 1.5625rem) !important;}
+.bp-1400-text-lines-5-height-28 {-webkit-line-clamp: 5 !important; line-height: 1.75rem !important; max-height: calc(5 * 1.75rem) !important;}
+.bp-1400-text-lines-5-height-30 {-webkit-line-clamp: 5 !important; line-height: 1.875rem !important; max-height: calc(5 * 1.875rem) !important;}
+.bp-1400-text-lines-5-height-32 {-webkit-line-clamp: 5 !important; line-height: 2rem !important; max-height: calc(5 * 2rem) !important;}
+.bp-1400-text-lines-5-height-35 {-webkit-line-clamp: 5 !important; line-height: 2.1875rem !important; max-height: calc(5 * 2.1875rem) !important;}
+.bp-1400-text-lines-5-height-36 {-webkit-line-clamp: 5 !important; line-height: 2.25rem !important; max-height: calc(5 * 2.25rem) !important;}
+.bp-1400-text-lines-5-height-40 {-webkit-line-clamp: 5 !important; line-height: 2.5rem !important; max-height: calc(5 * 2.5rem) !important;}
+.bp-1400-text-lines-5-height-44 {-webkit-line-clamp: 5 !important; line-height: 2.75rem !important; max-height: calc(5 * 2.75rem) !important;}
+.bp-1400-text-lines-5-height-45 {-webkit-line-clamp: 5 !important; line-height: 2.8125rem !important; max-height: calc(5 * 2.8125rem) !important;}
+.bp-1400-text-lines-5-height-48 {-webkit-line-clamp: 5 !important; line-height: 3rem !important; max-height: calc(5 * 3rem) !important;}
+.bp-1400-text-lines-5-height-50 {-webkit-line-clamp: 5 !important; line-height: 3.125rem !important; max-height: calc(5 * 3.125rem) !important;}
+
+.bp-1400-text-lines-6-height-1 {-webkit-line-clamp: 6 !important; line-height: 0.0625rem !important; max-height: calc(6 * 0.0625rem) !important;}
+.bp-1400-text-lines-6-height-2 {-webkit-line-clamp: 6 !important; line-height: 0.125rem !important; max-height: calc(6 * 0.125rem) !important;}
+.bp-1400-text-lines-6-height-3 {-webkit-line-clamp: 6 !important; line-height: 0.1875rem !important; max-height: calc(6 * 0.1875rem) !important;}
+.bp-1400-text-lines-6-height-4 {-webkit-line-clamp: 6 !important; line-height: 0.25rem !important; max-height: calc(6 * 0.25rem) !important;}
+.bp-1400-text-lines-6-height-5 {-webkit-line-clamp: 6 !important; line-height: 0.3125rem !important; max-height: calc(6 * 0.3125rem) !important;}
+.bp-1400-text-lines-6-height-6 {-webkit-line-clamp: 6 !important; line-height: 0.375rem !important; max-height: calc(6 * 0.375rem) !important;}
+.bp-1400-text-lines-6-height-7 {-webkit-line-clamp: 6 !important; line-height: 0.4375rem !important; max-height: calc(6 * 0.4375rem) !important;}
+.bp-1400-text-lines-6-height-8 {-webkit-line-clamp: 6 !important; line-height: 0.5rem !important; max-height: calc(6 * 0.5rem) !important;}
+.bp-1400-text-lines-6-height-9 {-webkit-line-clamp: 6 !important; line-height: 0.5625rem !important; max-height: calc(6 * 0.5625rem) !important;}
+.bp-1400-text-lines-6-height-10 {-webkit-line-clamp: 6 !important; line-height: 0.625rem !important; max-height: calc(6 * 0.625rem) !important;}
+.bp-1400-text-lines-6-height-12 {-webkit-line-clamp: 6 !important; line-height: 0.75rem !important; max-height: calc(6 * 0.75rem) !important;}
+.bp-1400-text-lines-6-height-15 {-webkit-line-clamp: 6 !important; line-height: 0.9375rem !important; max-height: calc(6 * 0.9375rem) !important;}
+.bp-1400-text-lines-6-height-16 {-webkit-line-clamp: 6 !important; line-height: 1rem !important; max-height: calc(6 * 1rem) !important;}
+.bp-1400-text-lines-6-height-20 {-webkit-line-clamp: 6 !important; line-height: 1.25rem !important; max-height: calc(6 * 1.25rem) !important;}
+.bp-1400-text-lines-6-height-24 {-webkit-line-clamp: 6 !important; line-height: 1.5rem !important; max-height: calc(6 * 1.5rem) !important;}
+.bp-1400-text-lines-6-height-25 {-webkit-line-clamp: 6 !important; line-height: 1.5625rem !important; max-height: calc(6 * 1.5625rem) !important;}
+.bp-1400-text-lines-6-height-28 {-webkit-line-clamp: 6 !important; line-height: 1.75rem !important; max-height: calc(6 * 1.75rem) !important;}
+.bp-1400-text-lines-6-height-30 {-webkit-line-clamp: 6 !important; line-height: 1.875rem !important; max-height: calc(6 * 1.875rem) !important;}
+.bp-1400-text-lines-6-height-32 {-webkit-line-clamp: 6 !important; line-height: 2rem !important; max-height: calc(6 * 2rem) !important;}
+.bp-1400-text-lines-6-height-35 {-webkit-line-clamp: 6 !important; line-height: 2.1875rem !important; max-height: calc(6 * 2.1875rem) !important;}
+.bp-1400-text-lines-6-height-36 {-webkit-line-clamp: 6 !important; line-height: 2.25rem !important; max-height: calc(6 * 2.25rem) !important;}
+.bp-1400-text-lines-6-height-40 {-webkit-line-clamp: 6 !important; line-height: 2.5rem !important; max-height: calc(6 * 2.5rem) !important;}
+.bp-1400-text-lines-6-height-44 {-webkit-line-clamp: 6 !important; line-height: 2.75rem !important; max-height: calc(6 * 2.75rem) !important;}
+.bp-1400-text-lines-6-height-45 {-webkit-line-clamp: 6 !important; line-height: 2.8125rem !important; max-height: calc(6 * 2.8125rem) !important;}
+.bp-1400-text-lines-6-height-48 {-webkit-line-clamp: 6 !important; line-height: 3rem !important; max-height: calc(6 * 3rem) !important;}
+.bp-1400-text-lines-6-height-50 {-webkit-line-clamp: 6 !important; line-height: 3.125rem !important; max-height: calc(6 * 3.125rem) !important;}
+
+.bp-1400-text-lines-7-height-1 {-webkit-line-clamp: 7 !important; line-height: 0.0625rem !important; max-height: calc(7 * 0.0625rem) !important;}
+.bp-1400-text-lines-7-height-2 {-webkit-line-clamp: 7 !important; line-height: 0.125rem !important; max-height: calc(7 * 0.125rem) !important;}
+.bp-1400-text-lines-7-height-3 {-webkit-line-clamp: 7 !important; line-height: 0.1875rem !important; max-height: calc(7 * 0.1875rem) !important;}
+.bp-1400-text-lines-7-height-4 {-webkit-line-clamp: 7 !important; line-height: 0.25rem !important; max-height: calc(7 * 0.25rem) !important;}
+.bp-1400-text-lines-7-height-5 {-webkit-line-clamp: 7 !important; line-height: 0.3125rem !important; max-height: calc(7 * 0.3125rem) !important;}
+.bp-1400-text-lines-7-height-6 {-webkit-line-clamp: 7 !important; line-height: 0.375rem !important; max-height: calc(7 * 0.375rem) !important;}
+.bp-1400-text-lines-7-height-7 {-webkit-line-clamp: 7 !important; line-height: 0.4375rem !important; max-height: calc(7 * 0.4375rem) !important;}
+.bp-1400-text-lines-7-height-8 {-webkit-line-clamp: 7 !important; line-height: 0.5rem !important; max-height: calc(7 * 0.5rem) !important;}
+.bp-1400-text-lines-7-height-9 {-webkit-line-clamp: 7 !important; line-height: 0.5625rem !important; max-height: calc(7 * 0.5625rem) !important;}
+.bp-1400-text-lines-7-height-10 {-webkit-line-clamp: 7 !important; line-height: 0.625rem !important; max-height: calc(7 * 0.625rem) !important;}
+.bp-1400-text-lines-7-height-12 {-webkit-line-clamp: 7 !important; line-height: 0.75rem !important; max-height: calc(7 * 0.75rem) !important;}
+.bp-1400-text-lines-7-height-15 {-webkit-line-clamp: 7 !important; line-height: 0.9375rem !important; max-height: calc(7 * 0.9375rem) !important;}
+.bp-1400-text-lines-7-height-16 {-webkit-line-clamp: 7 !important; line-height: 1rem !important; max-height: calc(7 * 1rem) !important;}
+.bp-1400-text-lines-7-height-20 {-webkit-line-clamp: 7 !important; line-height: 1.25rem !important; max-height: calc(7 * 1.25rem) !important;}
+.bp-1400-text-lines-7-height-24 {-webkit-line-clamp: 7 !important; line-height: 1.5rem !important; max-height: calc(7 * 1.5rem) !important;}
+.bp-1400-text-lines-7-height-25 {-webkit-line-clamp: 7 !important; line-height: 1.5625rem !important; max-height: calc(7 * 1.5625rem) !important;}
+.bp-1400-text-lines-7-height-28 {-webkit-line-clamp: 7 !important; line-height: 1.75rem !important; max-height: calc(7 * 1.75rem) !important;}
+.bp-1400-text-lines-7-height-30 {-webkit-line-clamp: 7 !important; line-height: 1.875rem !important; max-height: calc(7 * 1.875rem) !important;}
+.bp-1400-text-lines-7-height-32 {-webkit-line-clamp: 7 !important; line-height: 2rem !important; max-height: calc(7 * 2rem) !important;}
+.bp-1400-text-lines-7-height-35 {-webkit-line-clamp: 7 !important; line-height: 2.1875rem !important; max-height: calc(7 * 2.1875rem) !important;}
+.bp-1400-text-lines-7-height-36 {-webkit-line-clamp: 7 !important; line-height: 2.25rem !important; max-height: calc(7 * 2.25rem) !important;}
+.bp-1400-text-lines-7-height-40 {-webkit-line-clamp: 7 !important; line-height: 2.5rem !important; max-height: calc(7 * 2.5rem) !important;}
+.bp-1400-text-lines-7-height-44 {-webkit-line-clamp: 7 !important; line-height: 2.75rem !important; max-height: calc(7 * 2.75rem) !important;}
+.bp-1400-text-lines-7-height-45 {-webkit-line-clamp: 7 !important; line-height: 2.8125rem !important; max-height: calc(7 * 2.8125rem) !important;}
+.bp-1400-text-lines-7-height-48 {-webkit-line-clamp: 7 !important; line-height: 3rem !important; max-height: calc(7 * 3rem) !important;}
+.bp-1400-text-lines-7-height-50 {-webkit-line-clamp: 7 !important; line-height: 3.125rem !important; max-height: calc(7 * 3.125rem) !important;}
+
+.bp-1400-text-lines-8-height-1 {-webkit-line-clamp: 8 !important; line-height: 0.0625rem !important; max-height: calc(8 * 0.0625rem) !important;}
+.bp-1400-text-lines-8-height-2 {-webkit-line-clamp: 8 !important; line-height: 0.125rem !important; max-height: calc(8 * 0.125rem) !important;}
+.bp-1400-text-lines-8-height-3 {-webkit-line-clamp: 8 !important; line-height: 0.1875rem !important; max-height: calc(8 * 0.1875rem) !important;}
+.bp-1400-text-lines-8-height-4 {-webkit-line-clamp: 8 !important; line-height: 0.25rem !important; max-height: calc(8 * 0.25rem) !important;}
+.bp-1400-text-lines-8-height-5 {-webkit-line-clamp: 8 !important; line-height: 0.3125rem !important; max-height: calc(8 * 0.3125rem) !important;}
+.bp-1400-text-lines-8-height-6 {-webkit-line-clamp: 8 !important; line-height: 0.375rem !important; max-height: calc(8 * 0.375rem) !important;}
+.bp-1400-text-lines-8-height-7 {-webkit-line-clamp: 8 !important; line-height: 0.4375rem !important; max-height: calc(8 * 0.4375rem) !important;}
+.bp-1400-text-lines-8-height-8 {-webkit-line-clamp: 8 !important; line-height: 0.5rem !important; max-height: calc(8 * 0.5rem) !important;}
+.bp-1400-text-lines-8-height-9 {-webkit-line-clamp: 8 !important; line-height: 0.5625rem !important; max-height: calc(8 * 0.5625rem) !important;}
+.bp-1400-text-lines-8-height-10 {-webkit-line-clamp: 8 !important; line-height: 0.625rem !important; max-height: calc(8 * 0.625rem) !important;}
+.bp-1400-text-lines-8-height-12 {-webkit-line-clamp: 8 !important; line-height: 0.75rem !important; max-height: calc(8 * 0.75rem) !important;}
+.bp-1400-text-lines-8-height-15 {-webkit-line-clamp: 8 !important; line-height: 0.9375rem !important; max-height: calc(8 * 0.9375rem) !important;}
+.bp-1400-text-lines-8-height-16 {-webkit-line-clamp: 8 !important; line-height: 1rem !important; max-height: calc(8 * 1rem) !important;}
+.bp-1400-text-lines-8-height-20 {-webkit-line-clamp: 8 !important; line-height: 1.25rem !important; max-height: calc(8 * 1.25rem) !important;}
+.bp-1400-text-lines-8-height-24 {-webkit-line-clamp: 8 !important; line-height: 1.5rem !important; max-height: calc(8 * 1.5rem) !important;}
+.bp-1400-text-lines-8-height-25 {-webkit-line-clamp: 8 !important; line-height: 1.5625rem !important; max-height: calc(8 * 1.5625rem) !important;}
+.bp-1400-text-lines-8-height-28 {-webkit-line-clamp: 8 !important; line-height: 1.75rem !important; max-height: calc(8 * 1.75rem) !important;}
+.bp-1400-text-lines-8-height-30 {-webkit-line-clamp: 8 !important; line-height: 1.875rem !important; max-height: calc(8 * 1.875rem) !important;}
+.bp-1400-text-lines-8-height-32 {-webkit-line-clamp: 8 !important; line-height: 2rem !important; max-height: calc(8 * 2rem) !important;}
+.bp-1400-text-lines-8-height-35 {-webkit-line-clamp: 8 !important; line-height: 2.1875rem !important; max-height: calc(8 * 2.1875rem) !important;}
+.bp-1400-text-lines-8-height-36 {-webkit-line-clamp: 8 !important; line-height: 2.25rem !important; max-height: calc(8 * 2.25rem) !important;}
+.bp-1400-text-lines-8-height-40 {-webkit-line-clamp: 8 !important; line-height: 2.5rem !important; max-height: calc(8 * 2.5rem) !important;}
+.bp-1400-text-lines-8-height-44 {-webkit-line-clamp: 8 !important; line-height: 2.75rem !important; max-height: calc(8 * 2.75rem) !important;}
+.bp-1400-text-lines-8-height-45 {-webkit-line-clamp: 8 !important; line-height: 2.8125rem !important; max-height: calc(8 * 2.8125rem) !important;}
+.bp-1400-text-lines-8-height-48 {-webkit-line-clamp: 8 !important; line-height: 3rem !important; max-height: calc(8 * 3rem) !important;}
+.bp-1400-text-lines-8-height-50 {-webkit-line-clamp: 8 !important; line-height: 3.125rem !important; max-height: calc(8 * 3.125rem) !important;}
+
+.bp-1400-text-lines-9-height-1 {-webkit-line-clamp: 9 !important; line-height: 0.0625rem !important; max-height: calc(9 * 0.0625rem) !important;}
+.bp-1400-text-lines-9-height-2 {-webkit-line-clamp: 9 !important; line-height: 0.125rem !important; max-height: calc(9 * 0.125rem) !important;}
+.bp-1400-text-lines-9-height-3 {-webkit-line-clamp: 9 !important; line-height: 0.1875rem !important; max-height: calc(9 * 0.1875rem) !important;}
+.bp-1400-text-lines-9-height-4 {-webkit-line-clamp: 9 !important; line-height: 0.25rem !important; max-height: calc(9 * 0.25rem) !important;}
+.bp-1400-text-lines-9-height-5 {-webkit-line-clamp: 9 !important; line-height: 0.3125rem !important; max-height: calc(9 * 0.3125rem) !important;}
+.bp-1400-text-lines-9-height-6 {-webkit-line-clamp: 9 !important; line-height: 0.375rem !important; max-height: calc(9 * 0.375rem) !important;}
+.bp-1400-text-lines-9-height-7 {-webkit-line-clamp: 9 !important; line-height: 0.4375rem !important; max-height: calc(9 * 0.4375rem) !important;}
+.bp-1400-text-lines-9-height-8 {-webkit-line-clamp: 9 !important; line-height: 0.5rem !important; max-height: calc(9 * 0.5rem) !important;}
+.bp-1400-text-lines-9-height-9 {-webkit-line-clamp: 9 !important; line-height: 0.5625rem !important; max-height: calc(9 * 0.5625rem) !important;}
+.bp-1400-text-lines-9-height-10 {-webkit-line-clamp: 9 !important; line-height: 0.625rem !important; max-height: calc(9 * 0.625rem) !important;}
+.bp-1400-text-lines-9-height-12 {-webkit-line-clamp: 9 !important; line-height: 0.75rem !important; max-height: calc(9 * 0.75rem) !important;}
+.bp-1400-text-lines-9-height-15 {-webkit-line-clamp: 9 !important; line-height: 0.9375rem !important; max-height: calc(9 * 0.9375rem) !important;}
+.bp-1400-text-lines-9-height-16 {-webkit-line-clamp: 9 !important; line-height: 1rem !important; max-height: calc(9 * 1rem) !important;}
+.bp-1400-text-lines-9-height-20 {-webkit-line-clamp: 9 !important; line-height: 1.25rem !important; max-height: calc(9 * 1.25rem) !important;}
+.bp-1400-text-lines-9-height-24 {-webkit-line-clamp: 9 !important; line-height: 1.5rem !important; max-height: calc(9 * 1.5rem) !important;}
+.bp-1400-text-lines-9-height-25 {-webkit-line-clamp: 9 !important; line-height: 1.5625rem !important; max-height: calc(9 * 1.5625rem) !important;}
+.bp-1400-text-lines-9-height-28 {-webkit-line-clamp: 9 !important; line-height: 1.75rem !important; max-height: calc(9 * 1.75rem) !important;}
+.bp-1400-text-lines-9-height-30 {-webkit-line-clamp: 9 !important; line-height: 1.875rem !important; max-height: calc(9 * 1.875rem) !important;}
+.bp-1400-text-lines-9-height-32 {-webkit-line-clamp: 9 !important; line-height: 2rem !important; max-height: calc(9 * 2rem) !important;}
+.bp-1400-text-lines-9-height-35 {-webkit-line-clamp: 9 !important; line-height: 2.1875rem !important; max-height: calc(9 * 2.1875rem) !important;}
+.bp-1400-text-lines-9-height-36 {-webkit-line-clamp: 9 !important; line-height: 2.25rem !important; max-height: calc(9 * 2.25rem) !important;}
+.bp-1400-text-lines-9-height-40 {-webkit-line-clamp: 9 !important; line-height: 2.5rem !important; max-height: calc(9 * 2.5rem) !important;}
+.bp-1400-text-lines-9-height-44 {-webkit-line-clamp: 9 !important; line-height: 2.75rem !important; max-height: calc(9 * 2.75rem) !important;}
+.bp-1400-text-lines-9-height-45 {-webkit-line-clamp: 9 !important; line-height: 2.8125rem !important; max-height: calc(9 * 2.8125rem) !important;}
+.bp-1400-text-lines-9-height-48 {-webkit-line-clamp: 9 !important; line-height: 3rem !important; max-height: calc(9 * 3rem) !important;}
+.bp-1400-text-lines-9-height-50 {-webkit-line-clamp: 9 !important; line-height: 3.125rem !important; max-height: calc(9 * 3.125rem) !important;}

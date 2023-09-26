@@ -1,0 +1,41 @@
+/*
+ * form
+ *
+*/
+       
+/* cursor */ 
+.bp-1400-cursor-alias { cursor: alias !important }
+.bp-1400-cursor-all-scroll { cursor: all-scroll !important; }
+.bp-1400-cursor-auto { cursor: auto !important; }
+.bp-1400-cursor-cell { cursor: cell !important; }
+.bp-1400-cursor-context-menu { cursor: context-menu !important; }
+.bp-1400-cursor-col-resize { cursor: col-resize !important; }
+.bp-1400-cursor-copy { cursor: copy !important; }
+.bp-1400-cursor-crosshair { cursor: crosshair !important; }
+.bp-1400-cursor-default { cursor: default !important; }
+.bp-1400-cursor-e-resize { cursor: e-resize !important; }
+.bp-1400-cursor-ew-resize { cursor: ew-resize !important; }
+.bp-1400-cursor-grab { cursor: grab !important; }
+.bp-1400-cursor-grabbing { cursor: grabbing !important; }
+.bp-1400-cursor-help { cursor: help !important; }
+.bp-1400-cursor-move { cursor: move !important; }
+.bp-1400-cursor-n-resize { cursor: n-resize !important; }
+.bp-1400-cursor-ne-resize { cursor: ne-resize !important; }
+.bp-1400-cursor-nesw-resize { cursor: nesw-resize !important; }
+.bp-1400-cursor-ns-resize { cursor: ns-resize !important; }
+.bp-1400-cursor-nw-resize { cursor: nw-resize !important; }
+.bp-1400-cursor-nwse-resize { cursor: nwse-resize !important; }
+.bp-1400-cursor-no-drop { cursor: no-drop !important; }
+.bp-1400-cursor-none { cursor: none !important; }
+.bp-1400-cursor-not-allowed { cursor: not-allowed !important; }
+.bp-1400-cursor-pointer { cursor: pointer !important; }
+.bp-1400-cursor-progress { cursor: progress !important; }
+.bp-1400-cursor-row-resize { cursor: row-resize !important; }
+.bp-1400-cursor-s-resize { cursor: s-resize !important; }
+.bp-1400-cursor-se-resize { cursor: se-resize !important; }
+.bp-1400-cursor-sw-resize { cursor: sw-resize !important; }
+.bp-1400-cursor-text { cursor: text !important; }
+.bp-1400-cursor-w-resize { cursor: w-resize !important; }
+.bp-1400-cursor-wait { cursor: wait !important; }
+.bp-1400-cursor-zoom-in { cursor: zoom-in !important; }
+.bp-1400-cursor-zoom-out { cursor: zoom-out !important; }
