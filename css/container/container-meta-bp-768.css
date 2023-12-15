@@ -28,6 +28,10 @@
 .bp-768-container-1400 { max-width: 87.5rem !important; }
    .bp-768-container-1920 { max-width: 120rem !important; }
    
+/* @container */ 
+.bp-768-container-type-is { container-type: inline-size !important; }
+.bp-768-container-type-s { container-type: size !important; }
+   
 /* width */ 
 .bp-768-w-auto { width: auto !important; }
 .bp-768-w-0 { width: 0% !important; }

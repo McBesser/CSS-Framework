@@ -29,7 +29,12 @@
 .container-1200 { max-width: 75rem !important; }
 .container-1400 { max-width: 87.5rem !important; }
    .container-1920 { max-width: 120rem !important; }
- 
+
+/* @container */ 
+.container-type-is { container-type: inline-size !important; }
+.container-type-s { container-type: size !important; }
+
+
 /* width */ 
 .w-auto { width: auto !important; }
 .w-0 { width: 0% !important; }

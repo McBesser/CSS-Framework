@@ -1,0 +1,142 @@
+
+/* 0 */
+@container (min-width: 0px) /* 100% 75% 66% 50% 33% 25% */  
+   {
+      .bpc-0 { }
+   }
+
+/* 576 */
+@container (min-width: 144px) /* 25% */
+   {
+      .bpc-144 { }
+   }
+@container (min-width: 192px) /* 33% */
+   {
+      .bpc-192 { }
+   }
+@container (min-width: 288px) /* 50% */
+   {
+      .bpc-288 { }
+   }
+@container (min-width: 384px) /* 66% */
+   {
+      .bpc-384 { }
+   }
+@container (min-width: 432px) /* 75% */
+   {
+      .bpc-432 { }
+   }
+@container (min-width: 576px) /* 100% */
+   {
+      .bpc-576 { }
+   }
+   
+/* 768 */
+@container (min-width: 192px) /* 25% */
+   {
+      .bpc-192 { }
+   }
+@container (min-width: 256px) /* 33% */
+   {
+      .bpc-256 { }
+   }
+@container (min-width: 384px) /* 50% */
+   {
+      .bpc-384 { }
+   }
+@container (min-width: 512px) /* 66% */
+   {
+      .bpc-512 { }
+   }
+@container (min-width: 576px) /* 75% */
+   {
+      .bpc-576 { }
+   }
+@container (min-width: 768px) /* 100% */
+   {
+      .bpc-768 { }
+   }
+   
+/* 992 */
+@container (min-width: 248px) /* 25% */
+   {
+      .bpc-248 { }
+   }
+@container (min-width: 331px) /* 33% */
+   {
+      .bpc-331 { }
+   }
+@container (min-width: 496px) /* 50% */
+   {
+      .bpc-496 { }
+   }
+@container (min-width: 661px) /* 66% */
+   {
+      .bpc-661 { }
+   }
+@container (min-width: 744px) /* 75% */
+   {
+      .bpc-744 { }
+   }
+@container (min-width: 992px) /* 100% */
+   {
+      .bpc-992 { }
+   }
+   
+/* 1200 */
+@container (min-width: 300px) /* 25% */
+   {
+      .bpc-300 { }
+   }
+@container (min-width: 400px) /* 33% */
+   {
+      .bpc-400 { }
+   }
+@container (min-width: 600px) /* 50% */
+   {
+      .bpc-600 { }
+   }
+@container (min-width: 800px) /* 66% */
+   {
+      .bpc-800 { }
+   }
+@container (min-width: 900px) /* 75% */
+   {
+      .bpc-900 { }
+   }
+@container (min-width: 1200px) /* 100% */
+   {
+      .bpc-1200 { }
+   }
+   
+/* 1400 */
+@container (min-width: 350px) /* 25% */
+   {
+      .bpc-350 { }
+   }
+@container (min-width: 467px) /* 33% */
+   {
+      .bpc-467 { }
+   }
+@container (min-width: 700px) /* 50% */
+   {
+      .bpc-700 { }
+   }
+@container (min-width: 933px) /* 66% */
+   {
+      .bpc-933 { }
+   }
+@container (min-width: 1050px) /* 75% */
+   {
+      .bpc-1050 { }
+   }
+@container (min-width: 1400px) /* 100% */
+   {
+      .bpc-1400 { } 
+   }
+   
+ 
+
+
+
+
